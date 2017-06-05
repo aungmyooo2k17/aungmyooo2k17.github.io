@@ -1,0 +1,270 @@
+	/* ----------------------------------
+		metroMe Theme
+	----------------------------------- */
+
+/* start metro default blue color scheme */            /* replace the color scheme below. easy and fast */
+
+  div.pp_metro_me .pp_nav,
+  div.pp_metro_me .pp_content,
+  div.pp_metro_me .pp_facebook,
+  div.pp_metro_me .pp_twitter,
+  div.pp_metro_me .pp_expand,
+  div.pp_metro_me .pp_contract,
+	div.pp_metro_me .pp_close
+  {
+    background-color: #1B4682;      /* background color */
+  }
+  div#pp_full_res img {
+    border: 4px solid  #1B4682;     /* background color */
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  div.pp_metro_me .ppt,
+  div.pp_metro_me .pp_facebook,
+  div.pp_metro_me .pp_twitter,
+	div.pp_metro_me .pp_expand,
+  div.pp_metro_me .pp_contract,
+	div.pp_metro_me .pp_close,
+  div.pp_metro_me .pp_arrow_previous,
+  div.pp_metro_me .pp_arrow_next,
+  div.pp_metro_me .currentTextHolder {
+    color: #54D2F2;                   /* icons and text color */
+  }
+  
+  div.pp_metro_me .pp_facebook:hover,
+  div.pp_metro_me .pp_twitter:hover,
+	div.pp_metro_me .pp_expand:hover,
+  div.pp_metro_me .pp_contract:hover,
+	div.pp_metro_me .pp_close:hover,
+  div.pp_metro_me .pp_arrow_previous:hover,
+  div.pp_metro_me .pp_arrow_next:hover {
+    color: #DCF1F7;                   /* icons hover color */
+  }
+  
+  div.pp_metro_me .pp_previous,
+  div.pp_metro_me .pp_next {
+    color: rgba(255,255,255,0.1);     /* arrows (on image) color */
+  }
+  div.pp_metro_me .pp_previous:hover,
+  div.pp_metro_me .pp_next:hover {
+    color: rgba(255,255,255,0.5);     /* arrows hover color */
+  }
+  
+/* end metro default blue color scheme */
+  
+  div.pp_metro_me a { text-decoration: none;}
+  div.pp_metro_me i {
+    -moz-transition: color 0.3s ease;
+    -webkit-transition: color 0.3s ease;
+    -o-transition: color 0.3s ease;
+    transition: color 0.3s ease;
+  }
+  
+  div.pp_pic_holder { background-color: transparent;}
+  
+  div.pp_metro_me .pp_top,
+  div.pp_metro_me .pp_content_container {
+    margin-bottom: 6px;
+  }
+    
+	div.pp_metro_me .pp_top,
+  div.pp_metro_me .pp_bottom
+  {
+    height: 30px;
+  }
+  div.pp_metro_me .pp_facebook,
+  div.pp_metro_me .pp_twitter,
+	div.pp_metro_me .pp_expand,
+  div.pp_metro_me .pp_contract,
+	div.pp_metro_me .pp_close {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;
+    float: right;
+    margin: 0 0 0 6px;
+  }
+  div.pp_metro_me .pp_facebook,
+  div.pp_metro_me .pp_twitter {
+    float: left;
+    margin: 0 6px 0 0;
+    font-size: 18px;
+  }
+  
+  div.pp_social {
+    display: inline-block;
+    width: 100px;
+  }
+
+	div.pp_metro_me .pp_next:hover { cursor: pointer; } /* Next button */
+	div.pp_metro_me .pp_previous:hover { cursor: pointer; } /* Previous button */
+
+	div.pp_metro_me .pp_gallery a.pp_arrow_previous,
+	div.pp_metro_me .pp_gallery a.pp_arrow_next { position: static; left: auto; }
+
+	div.pp_metro_me .pp_details { position: relative; }
+
+
+	div.pp_metro_me .pp_content_container .pp_details { margin-top: 5px; }
+	div.pp_metro_me .pp_nav {
+    height: 30px;
+    line-height: 30px;
+    width: 100px;
+    position: relative;
+    margin: 0 auto;
+  }
+  a.pp_arrow_previous,
+  a.pp_arrow_next {
+    position: absolute;
+    display: inline-block;
+    height: 30px;
+    text-align: center;
+    width: 30px;
+  }
+  a.pp_arrow_previous {left:0;}
+  a.pp_arrow_next {top:0; right:0;}
+	div.pp_metro_me .pp_nav .currentTextHolder {
+    display: block;
+    text-align: center;
+    font-size: 11px;
+  }
+
+	/* div.pp_metro_me .pp_loaderIcon { background: url('../images/prettyPhoto/metro_me/loader.png') center center no-repeat; }  Loader icon */
+  
+
+  /* ------------------------------------------------------------------------
+	DO NOT CHANGE
+------------------------------------------------------------------------- */
+
+	div.pp_pic_holder a:focus { outline:none; }
+
+	div.pp_overlay {
+		background: #000;
+		display: none;
+		left: 0;
+		position: absolute;
+		top: 0;
+		width: 100%;
+		z-index: 9500;
+	}
+	
+	div.pp_pic_holder {
+		display: none;
+		position: absolute;
+		width: 200px;
+		z-index: 10000;
+	}
+
+		.pp_content { height: 40px; min-width: 40px; }
+		* html .pp_content { width: 40px; }
+		
+		.pp_fade { display: none; }
+		
+		.pp_content_container {
+			position: relative;
+			text-align: left;
+			width: 100%;
+		}
+
+				.pp_description {
+					display: none;
+					margin: 0;
+				}
+
+		.pp_hoverContainer {
+			position: absolute;
+			top: 0;
+			width: 100%;
+			z-index: 2000;
+		}
+		
+		.pp_gallery {
+			display: none;
+		}
+		
+    a.pp_previous,
+		a.pp_next {
+			display: block;
+			height: 100%;
+			width: 25%;
+      line-height: 100px;
+      font-size: 250%;
+      position: relative;
+		}
+		a.pp_next {float: right;}
+		a.pp_previous {float: left;}
+    a.pp_previous i,
+    a.pp_next i {
+      position: absolute;
+      top: 50%;
+      margin-top: -50px;
+    }
+    a.pp_previous i { left: 10px; }
+    a.pp_next i { right: 10px; }
+		
+		a.pp_contract {
+			cursor: pointer;
+			display: none;
+			height: 20px;
+			width: 20px;
+		}
+			
+		a.pp_close {
+			display: block;
+			line-height: 30px;
+		}
+		
+		.pp_bottom {
+			height: 20px;
+			position: relative;
+		}
+			* html .pp_bottom { padding: 0 20px; }
+			
+			.pp_bottom .pp_middle {
+				height: 20px;
+				left: 20px;
+				position: absolute;
+				right: 20px;
+			}
+				* html .pp_bottom .pp_middle {
+					left: 0;
+					position: static;
+				}
+
+		.pp_loaderIcon {
+			display: block;
+			height: 40px;
+			left: 50%;
+			margin: -20px 0 0 -20px;
+			position: absolute;
+      opacity: 0.6;
+			top: 50%;
+			width: 40px;
+		}
+		
+		#pp_full_res {
+			line-height: 1 !important;
+		}
+		
+			#pp_full_res .pp_inline {
+				text-align: left;
+			}
+			
+				#pp_full_res .pp_inline p { margin: 0 0 15px 0; }
+	
+		div.ppt {
+			display: none;
+			font-size: 17px;
+			margin-bottom: 3px;
+			z-index: 9999;
+      padding-top: 7px;
+		}
+    
+    #pp_full_res iframe {
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+    }
