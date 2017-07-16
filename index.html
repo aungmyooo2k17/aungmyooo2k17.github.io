@@ -1,1036 +1,1099 @@
 
 <!DOCTYPE html>
-
-<html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
 
 <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>MaterialX - Material Design Personal Template</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
 
+  <!-- Favicon-->
+  <link rel="shortcut icon" href="images/favicon.png" >
 
-<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-<title>Aung Myo Oo</title>
- <meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="assets/css/normalize.css">
+  <link rel="stylesheet" href="assets/css/font/font-awesome-4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="assets/libs/materialize/css/materialize.min.css" media="screen,projection" />
+  <link rel="stylesheet" href="assets/css/bootstrap.css" media="screen,projection" />
 
-<script type="text/javascript">
-var CCM_DISPATCHER_FILENAME = '/c5MM/index.php';
-var CCM_CID = 1;
-var CCM_EDIT_MODE = false;
-var CCM_ARRANGE_MODE = false;
-var CCM_IMAGE_PATH = "/c5MM/concrete/images";
-var CCM_TOOLS_PATH = "/c5MM/index.php/tools/required";
-var CCM_BASE_URL = "http://tudor-sv.com";
-var CCM_REL = "/c5MM";
+  <link rel="stylesheet" href="assets/css/animate.min.css" media="screen,projection" />
+  <link rel="stylesheet" href="assets/libs/sweetalert/sweet-alert.css" media="screen,projection" />
 
-</script>
-<script type="text/javascript" src="javascripts/modernizr.foundation.js"></script>
+  <link rel="stylesheet" href="assets/libs/owl-carousel/owl.carousel.css" media="screen,projection" />
+  <link rel="stylesheet" href="assets/libs/owl-carousel/owl.transitions.css" media="screen,projection" />
+  <link rel="stylesheet" href="assets/libs/owl-carousel/owl.theme.css" media="screen,projection" />
 
-<link rel="stylesheet" type="text/css" href="css/ccm.base.css" />
-<script type="text/javascript" src="js/jquery.js"></script>
-<script type="text/javascript" src="js/ccm.base.js"></script>
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
 
-	<!-- <link href='css/google.css' rel='stylesheet' type='text/css'>
-  <link href="font/css/fontello.css" rel="stylesheet"> -->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
+  <!-- Choose your default colors -->
+  <link rel="stylesheet" href="assets/css/colors/color1.css">
+  <!-- <link rel="stylesheet" href="assets/css/colors/color2.css"> -->
+  <!-- <link rel="stylesheet" href="assets/css/colors/color3.css"> -->
+  <!-- <link rel="stylesheet" href="assets/css/colors/color4.css"> -->
+  <!-- <link rel="stylesheet" href="assets/css/colors/color5.css"> -->
+  <!-- <link rel="stylesheet" href="assets/css/colors/color6.css"> -->
+  <!-- <link rel="stylesheet" href="assets/css/colors/color7.css"> -->
+  <!-- <link rel="stylesheet" href="assets/css/colors/color8.css"> -->
 
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.css" >
-	<link rel="stylesheet" type="text/css" href="css/fontello.css" >
-	<link rel="stylesheet" type="text/css" href="css/prettyPhoto-custom.css" >
-	<link rel="stylesheet" type="text/css" href="css/flexslider.css" >
-	<link rel="stylesheet" type="text/css" href="css/mCustomScrollbar.css" >
-	<link rel="stylesheet" type="text/css" href="css/metroMe.css" >
-  <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css" >
-
-	<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false&amp;language=en"></script>
-	<script type="text/javascript" src="js/gmap3.min.js"></script>
-	<script type="text/javascript" src="js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="js/prettyPhoto-custom.min.js"></script>
-	<script type="text/javascript" src="js/flexslider.min.js"></script>
-	<script type="text/javascript" src="js/mCustomScrollbar.concat.min.js"></script>
-	<script type="text/javascript" src="js/scrollTo.min.js"></script>
-	<script type="text/javascript" src="js/metroMe.min.js"></script>
-
-
-
+  <!--[if lt IE 9]>
+      <script src="assets/js/html5shiv.js"></script>
+  <![endif]-->
 </head>
 
 <body>
 
-  <div id="mm-bg" style="opacity: 0;"></div>
 
-	<div class="mm container">
+  <!-- start option panel -->
+  <div id="switch">
+      <div class="content-switcher">
+          <p class="brand-text">Color Options:</p>
+          <ul class="header">
+              <li><a href="#" onclick="setActiveStyleSheet('color1'); return false;" class="button color switch" style="background-color:#00bcd4"></a></li>
+              <li><a href="#" onclick="setActiveStyleSheet('color2'); return false;" class="button color switch" style="background-color:#ff4081"></a></li>
+              <li><a href="#" onclick="setActiveStyleSheet('color3'); return false;" class="button color switch" style="background-color:#C043D5"></a></li>
+              <li><a href="#" onclick="setActiveStyleSheet('color4'); return false;" class="button color switch" style="background-color:#73D077"></a></li>
+              <li><a href="#" onclick="setActiveStyleSheet('color5'); return false;" class="button color switch" style="background-color:#FE7448"></a></li>
+              <li><a href="#" onclick="setActiveStyleSheet('color6'); return false;" class="button color switch" style="background-color:#1ABBAC"></a></li>
+              <li><a href="#" onclick="setActiveStyleSheet('color7'); return false;" class="button color switch" style="background-color:#EAB82E"></a></li>
+              <li><a href="#" onclick="setActiveStyleSheet('color8'); return false;" class="button color switch" style="background-color:#799CAC"></a></li>
+          </ul>
+          <p class="brand-text">Menu Options:</p>
+          <div class="menu-select" title="The menu will display in all devices">
+              <input type="radio" id="menu1" name="intelligent-menu">
+              <label for="menu1">Fixed</label>
+          </div>
+          <div class="menu-select" title="The menu will display or hide in all devices depending on scroll">
+              <input type="radio" id="menu2" name="intelligent-menu" checked="checked">
+              <label for="menu2">Intelligent ( Auto Hide )</label>
+          </div>
+          <div class="menu-select" title="Fixed menu will apply in non-mobile devices and Intelligent menu will apply in mobile devices">
+              <input type="radio" id="menu3" name="intelligent-menu">
+              <label for="menu3">Mobile Intelligent</label>
+          </div>
+          <div id="hide">
+              <i class="fa fa-times"></i>
+          </div>
+      </div>
+  </div>
+  <div id="show" class="btn-floating waves-effect waves-light btn-large brand-text">
+      <i class="fa fa-cog"></i>
+  </div>
+  <!-- end option panel -->
 
-    <div id="customize-div" class="row-fluid">
-      <span>
+  <!-- Preloader --> 
+    <div id="preloader">
+      <div class="loader">
+            <svg class="circle-loader" height="50" width="50">
+              <circle class="path" cx="25" cy="25" r="20" fill="none" stroke-width="6" stroke-miterlimit="10" />
+            </svg>
+        </div>    
+    </div><!--preloader end-->
 
-<style>
+  <!-- Main Container -->
+  <main id="app" class="main-section">
+    <!-- header navigation start -->
+    <header id="navigation" class="root-sec white nav">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="nav-inner">
+              <nav class="primary-nav">
+                <div class="clearfix nav-wrapper">
+                  <a href="#home" class="left brand-logo menu-smooth-scroll" data-section="#home"><img src="images/logo.png" alt="">
+                  </a>
+                  <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="fa fa-bars" aria-hidden="true"></i></a>
+                  
+                  <ul class="inline-menu side-nav" id="mobile-demo">
 
-
-body {
-  color: rgba(255,255,255,0.8);
-  -moz-transition: background-color 2s ease-in;
-  -webkit-transition: background-color 2s ease-in;
-  -o-transition: background-color 2s ease-in;
-  transition: background-color 2s ease-in;
-}
-body.colored { background-image: url('img/world.jpg');}
-
-#mm-bg.opaque { opacity: 1;}
-
-@media (min-width: 768px) {
-  #mm-bg {
-    opacity: 0;
-    -moz-transition: opacity 2s ease-in;
-    -webkit-transition: opacity 2s ease-in;
-    -o-transition: opacity 2s ease-in;
-    transition: opacity 2s ease-in;
-    position: fixed;
-      z-index:-1;
-    width: 100%;
-    height: 100%;
-    top:0;
-    background: url('packages/theme_metro_me_c5/themes/metro_me_c5/images/backgrounds/raindrops_9.jpg') no-repeat;
-    background-position: top center;
-    background-size: 100% auto;
-  }
-}
-
-#tab-about, #tab-work { color: rgba(255,255,255,0.9);}
-h4 { color: rgba(255,255,255,0.6);}
-.skill span { color: rgba(255,255,255,0.6);}
-h4.interval { color: rgba(255,255,255,0.9);}
-a { color: rgba(255,255,255,0.8);}
-a:hover,
-a:focus { color: rgba(255,255,255,1);}
-.mCSB_scrollTools .mCSB_draggerRail{ background: rgba(0,0,0,0.4);;}
-.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{background: rgba(255,255,255,0.75);}
-.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar{background: rgba(255,255,255,0.85);}
-.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar,
-.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar{ background: rgba(255,255,255,0.9);}
-
-#menu-ul a span { color: rgba(255,255,255,0.8);}
-#menu-ul a i { color: rgba(255,255,255,0.7);}
-#social-ul a {
-  color: rgb(218, 196, 227);
-  background-color: rgb(75, 50, 81);
-}
-#social-ul a:hover { background-color: rgba(75, 50, 81,0.7); }
-
-#menu-ul li:hover a span,
-#menu-ul li.active a span { color: rgba(255,255,255,1);}
-#menu-ul li:hover a i,
-#menu-ul li.active a i { color: rgba(255,255,255,0.85);}
-
-#about-li,
-#about-li.active,
-#about-li.active:hover,
-#tab-about .text-box { background-color: rgb(150, 29, 82);}
-#about-li:hover { background-color: rgba(150, 29, 82,0.8);}
-#about-single-img .flex-control-paging li a { background: rgba(150, 29, 82,0.5); }
-#about-single-img .flex-control-paging li a:hover { background: rgba(150, 29, 82,0.8); }
-#about-single-img .flex-control-paging li a.flex-active { background: rgb(150, 29, 82); }
-
-#resume-li,
-#resume-li.active,
-#resume-li.active:hover,
-#tab-resume .text-box { background-color: rgb(29, 123, 150);}
-#tab-resume .progress { background-color: rgba(0,0,0,0.2);;}
-#tab-resume .progress .bar { background-color: hsl(193, 48%, 55%); color: hsl(193, 48%, 15%);}
-#resume-li:hover { background-color: rgba(29, 123, 150,0.8);}
-ul.skill-rate li { color: rgba(0,0,0,0.2);;}
-ul.skill-rate.rated-1 li:first-of-type,
-ul.skill-rate.rated-2 li:nth-of-type(1),
-ul.skill-rate.rated-2 li:nth-of-type(2),
-ul.skill-rate.rated-3 li:nth-of-type(1),
-ul.skill-rate.rated-3 li:nth-of-type(2),
-ul.skill-rate.rated-3 li:nth-of-type(3),
-ul.skill-rate.rated-4 li:nth-of-type(1),
-ul.skill-rate.rated-4 li:nth-of-type(2),
-ul.skill-rate.rated-4 li:nth-of-type(3),
-ul.skill-rate.rated-4 li:nth-of-type(4),
-ul.skill-rate.rated-5 li:nth-of-type(1),
-ul.skill-rate.rated-5 li:nth-of-type(2),
-ul.skill-rate.rated-5 li:nth-of-type(3),
-ul.skill-rate.rated-5 li:nth-of-type(4),
-ul.skill-rate.rated-5 li:nth-of-type(5) { color: rgba(255,255,255,0.6); }
+                  <!-- Mini Profile // only visible in Tab and Mobile -->
+                    <li class="mobile-profile">
+                     <div class="profile-inner">
+                        <div class="pp-container">
+                            <img src="images/person.jpg" alt="">
+                        </div>
+                        <h3>John Doe</h3>
+                        <h5>Creative UI/UX Expert</h5>
+                      </div>
+                    </li><!-- mini profile end-->
 
 
-#work-li,
-#work-li.active,
-#work-li.active:hover,
-#tab-work .text-box,
-#tab-work .gallery-slide a { background-color: rgb(240, 150, 9);}
-#work-li:hover { background-color: rgba(240, 150, 9,0.8);}
-#tab-work .flex-direction-nav a { background-color: rgba(255,255,255,0.6);}
-#tab-work .flex-direction-nav .flex-next i,
-#tab-work .flex-direction-nav .flex-prev i { color: hsl(37, 73%, 29%);}
+                    <li><a href="#about" data-section="#about" class="menu-smooth-scroll"><i class="fa fa-user fa-fw"></i>About Me</a>
+                    </li>
+                    <li><a href="#resume" data-section="#resume" class="menu-smooth-scroll"><i class="fa fa-file-text fa-fw"></i>Resume</a>
+                    </li>
+                    <li><a href="#team" data-section="#team" class="menu-smooth-scroll"><i class="fa fa-users fa-fw"></i>Team</a>
+                    </li>
+                    <li><a href="#contact" data-section="#contact" class="menu-smooth-scroll"><i class="fa fa-paper-plane fa-fw"></i>Contact</a>
+                    </li>
+                  </ul>
+                  
 
-  div.pp_metro_me.pp_work .pp_nav,
-  div.pp_metro_me.pp_work .pp_content,
-  div.pp_metro_me.pp_work .pp_facebook,
-  div.pp_metro_me.pp_work .pp_twitter,
-  div.pp_metro_me.pp_work .pp_expand,
-  div.pp_metro_me.pp_work .pp_contract,
-	div.pp_metro_me.pp_work .pp_close {
-    background-color: rgb(240, 150, 9);
-  }
-  .pp_work div#pp_full_res img,
-  .pp_work div#pp_full_res iframe {
-    border: 4px solid  rgb(240, 150, 9);
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-  }
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- .container end -->
+    </header>
+    <!-- #header  navigation end -->
 
-  div.pp_metro_me.pp_work .pp_facebook,
-  div.pp_metro_me.pp_work .pp_twitter,
-	div.pp_metro_me.pp_work .pp_expand,
-  div.pp_metro_me.pp_work .pp_contract,
-	div.pp_metro_me.pp_work .pp_close,
-  div.pp_metro_me.pp_work .pp_arrow_previous,
-  div.pp_metro_me.pp_work .pp_arrow_next,
-  div.pp_metro_me.pp_work .currentTextHolder {
-    color: rgba(0,0,0,0.7);
-  }
-  div.pp_metro_me.pp_work .ppt {
-    color: rgba(255,255,255,0.9);
-  }
+    <!-- Home Section start -->
+    <section id="home" class="scroll-section root-sec grey lighten-5 home-wrap">
+      <div class="sec-overlay">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="home-inner">
+                  <div class="center-align home-content">
+                    <h1 class="home-title">HI! I'm <span>John Doe</span></h1>
+                    <h2 class="home-subtitle">UX/UI Designer from Dhaka, Bangladesh</h2>
+                    <a href="#contact" class="hire-me-btn btn waves-effect waves-light btn-large brand-bg white-text regular-text"><i class="fa fa-paper-plane-o" aria-hidden="true"></i> Hire Me 
+                    </a>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- .container end -->
+        <div class="section-call-to-area">
+          <div class="container">
+            <div class="row">
+              <a href="#about" class="btn-floating btn-large button-middle call-to-about section-call-to-btn animated btn-up btn-hidden" data-section="#about">
+                <i class="fa fa-angle-down" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+          <!-- .container end -->
+        </div>
+      </div>
+    </section>
+    <!-- #home Section end -->
 
-  div.pp_metro_me.pp_work .pp_facebook:hover,
-  div.pp_metro_me.pp_work .pp_twitter:hover,
-	div.pp_metro_me.pp_work .pp_expand:hover,
-  div.pp_metro_me.pp_work .pp_contract:hover,
-	div.pp_metro_me.pp_work .pp_close:hover,
-  div.pp_metro_me.pp_work .pp_arrow_previous:hover,
-  div.pp_metro_me.pp_work .pp_arrow_next:hover {
-    color: rgba(255,255,255,1);
-  }
+    <!-- About Section start -->
+    <section id="about" class="scroll-section root-sec padd-tb-60 grey lighten-5 about-wrap">
+      <div class="container">
+        <div class="row">
+          <div class="clearfix about-inner">
 
-  div.pp_metro_me.pp_work .pp_previous,
-  div.pp_metro_me.pp_work .pp_next {
-    color: rgba(255,255,255,0.1);
-  }
-  div.pp_metro_me.pp_work .pp_previous:hover,
-  div.pp_metro_me.pp_work .pp_next:hover {
-    color: rgba(255,255,255,0.5);
-  }
+            <div class="col-sm-12 col-md-4">
+              <div class="person-about">
+                <h3 class="about-subtitle">My Story</h3>
+                <p>Hello, I’m a UI/UX Designer &amp; Front End Developer from Victoria, Australia. I hold a master degree of Web Design from the World University. <br />
+                And scrambled it to make a type specimen book. It has survived not only five centuries</p>
+                <a class="waves-effect waves-light btn-large brand-bg white-text"><i class="mdi-content-archive left"></i> Download Resume</a>
+              </div>
+            </div>
+            <!-- about me description -->
 
+            <div class="col-sm-6 col-md-4">
+              <div class="person-img wow fadeIn">
+                <img class="z-depth-1" src="images/person.jpg" alt="">
+              </div>
+            </div>
+            <!-- about me image -->
 
-#life-li,
-#life-li.active,
-#life-li.active:hover,
-#tab-life .text-box,
-#tab-life .tag:after,
-#tab-life .gallery-slide a { background-color: rgb(196, 55, 37);}
-#tab-life .tag,
-#tab-life .progress { background-color: rgba(0,0,0,0.2);;}
-#tab-life .progress .bar { background-color: hsl(7, 48%, 66%); color: hsl(7, 48%, 26%);}
-#life-li:hover { background-color: rgba(196, 55, 37,0.8);}
-#tab-life .flex-direction-nav a { background-color: rgba(255,255,255,0.6);}
-#tab-life .flex-direction-nav .flex-next i,
-#tab-life .flex-direction-nav .flex-prev i { color: hsl(7, 48%, 26%);}
-.tag { color: rgba(255,255,255,0.8);}
+            <div class="col-sm-6 col-md-4">
+              <div class="person-info">
+                <h3 class="about-subtitle">Personal Information</h3>
+                <h5><span>Name :</span> John Doe</h5>
+                <h5><span>Age :</span> 25 Years</h5>
+                <h5><span>Phone :</span> +0123456789</h5>
+                <h5><span>Email :</span> email@domain.com</h5>
+                <h5><span>Address :</span> Dhaka, Bangladesh</h5>
+              </div>
 
-  div.pp_metro_me.pp_life .pp_nav,
-  div.pp_metro_me.pp_life .pp_content,
-  div.pp_metro_me.pp_life .pp_facebook,
-  div.pp_metro_me.pp_life .pp_twitter,
-  div.pp_metro_me.pp_life .pp_expand,
-  div.pp_metro_me.pp_life .pp_contract,
-	div.pp_metro_me.pp_life .pp_close {
-    background-color: rgb(196, 55, 37);
-  }
-  .pp_life div#pp_full_res img,
-  .pp_life div#pp_full_res iframe {
-    border: 4px solid  rgb(196, 55, 37);
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-  }
+              <div class="about-social">
+                <ul>
+                  <li>
+                    <a href="#" class="btn-floating waves-effect waves-light white"><i class="fa fa-facebook"></i></a>
+                  </li>
+                  <li>
+                    <a href="#" class="btn-floating waves-effect waves-light white"><i class="fa fa-twitter"></i></a>
+                  </li>
+                  <li>
+                    <a href="#" class="btn-floating waves-effect waves-light white"><i class="fa fa-google-plus"></i></a>
+                   </li>
+                  <li>
+                    <a href="#" class="btn-floating waves-effect waves-light white"><i class="fa fa-linkedin"></i></a>
+                  </li>
+                  <li>
+                    <a href="#" class="btn-floating waves-effect waves-light white"><i class="fa fa-pinterest"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!-- about me info -->
 
-  div.pp_metro_me.pp_life .pp_facebook,
-  div.pp_metro_me.pp_life .pp_twitter,
-	div.pp_metro_me.pp_life .pp_expand,
-  div.pp_metro_me.pp_life .pp_contract,
-	div.pp_metro_me.pp_life .pp_close,
-  div.pp_metro_me.pp_life .pp_arrow_previous,
-  div.pp_metro_me.pp_life .pp_arrow_next,
-  div.pp_metro_me.pp_life .currentTextHolder {
-    color: rgba(0,0,0,0.7);
-  }
-  div.pp_metro_me.pp_life .ppt {
-    color: rgba(255,255,255,0.9);
-  }
+          </div>
+        </div>
+      </div>
+      <!-- .container end -->
+    </section>
+    <!-- #about Section end -->
 
-  div.pp_metro_me.pp_life .pp_facebook:hover,
-  div.pp_metro_me.pp_life .pp_twitter:hover,
-	div.pp_metro_me.pp_life .pp_expand:hover,
-  div.pp_metro_me.pp_life .pp_contract:hover,
-	div.pp_metro_me.pp_life .pp_close:hover,
-  div.pp_metro_me.pp_life .pp_arrow_previous:hover,
-  div.pp_metro_me.pp_life .pp_arrow_next:hover {
-    color: rgba(255,255,255,1);
-  }
+    <!-- Resume Section start -->
+    <section id="resume" class="scroll-section ">
+      <section id="skill" class="root-sec white skill-wrap">
+      <div class="sec-overlay">
+        <div class="container">
+          <div class="row">
+            <div class="clearfix skill-inner">
+              <div class="col-sm-12 col-md-3">
+                <div class="skill-left">
+                  <h2 class="title">Skills</h2>
+                  <p class="regular-text">Man behind the gun, any sophisticated weapons. Human remains that taking the role. We are experienced in utilizing all resources.</p>
+                </div>
+              </div>
 
-  div.pp_metro_me.pp_life .pp_previous,
-  div.pp_metro_me.pp_life .pp_next {
-    color: rgba(255,255,255,0.1);
-  }
-  div.pp_metro_me.pp_life .pp_previous:hover,
-  div.pp_metro_me.pp_life .pp_next:hover {
-    color: rgba(255,255,255,0.5);
-  }
+              <!-- skills container -->
+              <div class="col-sm-12 col-md-6 col-md-offset-1">
+                <div class="skill-right">
+                  <div id="skillSlider" class="clearfix skill-graph">
 
+                    <!-- single skill -->
+                    <div class="single-skill">
+                      <div class="after-li">
+                        <div class="singel-hr">
+                          <div class="singel-hr-inner" data-height="100%">
+                            <div class="skill-visiable">
+                              <span class="skill-title">Photoshop</span>
+                              <div class="hr-wrap">
+                                <div class="hrc"></div>
+                              </div>
+                            </div>
+                          </div>
+                          <span class="skill-count">100%</span>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- /single skill-->
 
-#contact-li,
-#contact-li.active,
-#contact-li.active:hover,
-#tab-contact .text-box { background-color: rgb(6, 157, 64);}
-#map-box {border: 4px solid rgb(6, 157, 64);}
-#contact-li:hover { background-color: rgba(6, 157, 64,0.8);}
-button[type="submit"] {
-  width: 100%;
-  border: 0;
-  padding: 10px 15px;
-  background-color: rgba(0,0,0,0.2);;
-  color: rgba(255,255,255,0.8);
-}
-button[type="submit"]:hover {
-  background-color: rgba(0,0,0,0.4);;
-  color: rgba(255,255,255,0.9);
-}
-#tab-contact input[type="text"],#tab-contact textarea {
-  border: 2px solid transparent;
-  background-color: rgba(255,255,255,0.2);
-  color: rgba(255,255,255,0.85);
-}
-#tab-contact input[type="text"]:focus, #tab-contact textarea:focus {
-  border-color: rgba(255,255,255,0.2);
-  background-color: transparent;
-  color: rgba(255,255,255,0.85);
-}
-#tab-contact input[type="text"].error, #tab-contact textarea.error {
-  border: 2px solid rgb(168, 60, 67);
-  background-color: rgb(168, 60, 67);
-}
+                    <!-- single skill -->
+                    <div class="single-skill">
+                      <div class="after-li">
+                        <div class="singel-hr">
+                          <div class="singel-hr-inner" data-height="60%">
+                            <div class="skill-visiable">
+                              <span class="skill-title">JavaScript</span>
+                              <div class="hr-wrap">
+                                <div class="hrc"></div>
+                              </div>
+                            </div>
+                          </div>
+                          <span class="skill-count">60%</span>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- /single skill-->
 
-#tab-about .text-box .mCustomScrollBox:before {
-  -webkit-box-shadow: inset 0px 10px 10px -5px rgb(150, 29, 82);
-  box-shadow: inset 0px 10px 10px -5px rgb(150, 29, 82);
-}
-#tab-about .text-box .mCustomScrollBox:after {
-  -webkit-box-shadow: inset 0px -10px 10px -5px rgb(150, 29, 82);
-  box-shadow: inset 0px -10px 10px -5px rgb(150, 29, 82);
-}
-#tab-resume .text-box .mCustomScrollBox:before {
-  -webkit-box-shadow: inset 0px 10px 10px -5px rgb(29, 123, 150);
-  box-shadow: inset 0px 10px 10px -5px rgb(29, 123, 150);
-}
-#tab-resume .text-box .mCustomScrollBox:after {
-  -webkit-box-shadow: inset 0px -10px 10px -5px rgb(29, 123, 150);
-  box-shadow: inset 0px -10px 10px -5px rgb(29, 123, 150);
-}
-#tab-work .text-box .mCustomScrollBox:before {
-  -webkit-box-shadow: inset 0px 10px 10px -5px rgb(240, 150, 9);
-  box-shadow: inset 0px 10px 10px -5px rgb(240, 150, 9);
-}
-#tab-work .text-box .mCustomScrollBox:after {
-  -webkit-box-shadow: inset 0px -10px 10px -5px rgb(240, 150, 9);
-  box-shadow: inset 0px -10px 10px -5px rgb(240, 150, 9);
-}
-#tab-life .text-box .mCustomScrollBox:before {
-  -webkit-box-shadow: inset 0px 10px 10px -5px rgb(196, 55, 37);
-  box-shadow: inset 0px 10px 10px -5px rgb(196, 55, 37);
-}
-#tab-life .text-box .mCustomScrollBox:after {
-  -webkit-box-shadow: inset 0px -10px 10px -5px rgb(196, 55, 37);
-  box-shadow: inset 0px -10px 10px -5px rgb(196, 55, 37);
-}
-#tab-contact .text-box .mCustomScrollBox:before {
-  -webkit-box-shadow: inset 0px 10px 10px -5px rgb(6, 157, 64);
-  box-shadow: inset 0px 10px 10px -5px rgb(6, 157, 64);
-}
-#tab-contact .text-box .mCustomScrollBox:after {
-  -webkit-box-shadow: inset 0px -10px 10px -5px rgb(6, 157, 64);
-  box-shadow: inset 0px -10px 10px -5px rgb(6, 157, 64);
-}
+                    <!-- single skill -->
+                    <div class="single-skill">
+                      <div class="after-li">
+                        <div class="singel-hr">
+                          <div class="singel-hr-inner" data-height="85%">
+                            <div class="skill-visiable">
+                              <span class="skill-title">Illustrator</span>
+                              <div class="hr-wrap">
 
-.gallery-slide a > i { color: rgba(255,255,255,0.01);;}
-.gallery-slide a:hover > i { color: rgba(255,255,255,0.7);}
+                                <div class="hrc"></div>
+                              </div>
+                            </div>
+                          </div>
+                          <span class="skill-count">85%</span>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- /single skill-->
 
-</style>
+                    <!-- single skill -->
+                    <div class="single-skill">
+                      <div class="after-li">
+                        <div class="singel-hr">
+                          <div class="singel-hr-inner" data-height="65%">
+                            <div class="skill-visiable">
+                              <span class="skill-title">HTML</span>
+                              <div class="hr-wrap">
+                                <div class="hrc"></div>
+                              </div>
+                            </div>
+                          </div>
+                          <span class="skill-count">65%</span>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- /single skill-->
 
+                    <!-- single skill -->
+                    <div class="single-skill">
+                      <div class="after-li">
+                        <div class="singel-hr">
+                          <div class="singel-hr-inner" data-height="60%">
+                            <div class="skill-visiable">
+                              <span class="skill-title">JavaScript</span>
+                              <div class="hr-wrap">
+                                <div class="hrc"></div>
+                              </div>
+                            </div>
+                          </div>
+                          <span class="skill-count">60%</span>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- /single skill-->
 
-<i class="icon-art-gallery"></i> customize
-      </span>
+                    <!-- single skill -->
+                    <div class="single-skill">
+                      <div class="after-li">
+                        <div class="singel-hr">
+                          <div class="singel-hr-inner" data-height="35%">
+                            <div class="skill-visiable">
+                              <span class="skill-title">CSS</span>
+                              <div class="hr-wrap">
+                                <div class="hrc"></div>
+                              </div>
+                            </div>
+                          </div>
+                          <span class="skill-count">35%</span>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- /single skill-->
+
+                    <!-- single skill -->
+                    <div class="single-skill">
+                      <div class="after-li">
+                        <div class="singel-hr">
+                          <div class="singel-hr-inner" data-height="85%">
+                            <div class="skill-visiable">
+                              <span class="skill-title">Illustrator</span>
+                              <div class="hr-wrap">
+
+                                <div class="hrc"></div>
+                              </div>
+                            </div>
+                          </div>
+                          <span class="skill-count">85%</span>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- /single skill-->
+
+                    <!-- single skill -->
+                    <div class="single-skill">
+                      <div class="after-li">
+                        <div class="singel-hr">
+                          <div class="singel-hr-inner" data-height="60%">
+                            <div class="skill-visiable">
+                              <span class="skill-title">Wordpress</span>
+                              <div class="hr-wrap">
+                                <div class="hrc"></div>
+                              </div>
+                            </div>
+                          </div>
+                          <span class="skill-count">60%</span>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- /single skill-->
+
+                    <!-- single skill -->
+                    <div class="single-skill">
+                      <div class="after-li">
+                        <div class="singel-hr">
+                          <div class="singel-hr-inner" data-height="85%">
+                            <div class="skill-visiable">
+                              <span class="skill-title">Illustrator</span>
+                              <div class="hr-wrap">
+
+                                <div class="hrc"></div>
+                              </div>
+                            </div>
+                          </div>
+                          <span class="skill-count">85%</span>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- /single skill-->
+
+                    <!-- single skill -->
+                    <div class="single-skill">
+                      <div class="after-li">
+                        <div class="singel-hr">
+                          <div class="singel-hr-inner" data-height="60%">
+                            <div class="skill-visiable">
+                              <span class="skill-title">JavaScript</span>
+                              <div class="hr-wrap">
+                                <div class="hrc"></div>
+                              </div>
+                            </div>
+                          </div>
+                          <span class="skill-count">60%</span>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- /single skill-->
+
+                    <!-- single skill -->
+                  </div>
+                </div>
+              </div>
+              <!-- /skills container -->
+            </div>
+          </div>
+          <div class="btn-wrapp skl-ctrl">
+            <a class="btn-floating waves-effect waves-light btn-large brand-bg white-text go go-left"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
+            <a class="btn-floating waves-effect waves-light btn-large brand-bg white-text go go-right"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
+          </div>
+        </div>
+      </div>
+        <!-- .container end -->
+      </section>
+
+      <section id="experience" class="root-sec padd-tb-120 brand-bg experience-wrap">
+        <div class="container">
+          <div class="row">
+            <div class="experience-inner">
+              <div class="col-sm-12 col-md-10 card-box-wrap">
+                <div class="row">
+                  <div class="clearfix section-head experience-text">
+                    <div class="col-sm-12">
+                      <h2 class="title">Experience</h2>
+                      <p class="regular-text">Aliquam lobortis. Maecenas vestibulum mollis diam. Pellentesque auctor neque nec urna. Nulla sit amet est. Aenean posuere tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus.</p>
+                    </div>
+                  </div>
+                  <div class="col-lg-12">
+                    <div class="overflow-hidden">
+                      <div class="row">
+                        <div id="experienceSlider" class="clearfix card-element-wrapper">
+                          <div class="col-sm-4 cold-xs-12 single-card-box wow fadeInUpSmall" data-wow-duration=".7s">
+                            <div class="card">
+                              <div class="card-image waves-effect waves-block waves-light">
+                                <h2 class="left-align card-title-top">January 2014 - Present</h2>
+                                <div class="valign-wrapper card-img-wrap">
+                                  <img class="activator" src="images/ghost_rider.jpg" alt="">
+                                </div>
+                              </div>
+                              <div class="card-content">
+                                <span class="card-title activator brand-text">UX/UI Designer<i class="mdi-navigation-more-vert right"></i></span>
+                                <p>Apple.inc</p>
+                              </div>
+                              <div class="card-reveal">
+                                <div class="rev-title-wrap">
+                                  <span class="card-title activator brand-text">UX/UI Designer<i class="mdi-navigation-close right"></i></span>
+                                  <p>Apple.inc</p>
+                                </div>
+                                <p class="rev-content">
+                                  Collaboratively initiate collaborative schemas for high-quality communities. Objectively create sticky relationships via team building outsourcing. 
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-sm-4 cold-xs-12 single-card-box wow fadeInUpSmall" data-wow-delay=".2s" data-wow-duration=".7s">
+                            <div class="card">
+                              <div class="card-image waves-effect waves-block waves-light">
+                                <h2 class="left-align card-title-top">January 2014 - Present</h2>
+                                <div class="valign-wrapper card-img-wrap">
+                                  <img class="activator" src="images/lion.jpg" alt="">
+                                </div>
+                              </div>
+                              <div class="card-content">
+                                <span class="card-title activator brand-text">UX/UI Designer<i class="mdi-navigation-more-vert right"></i></span>
+                                <p>Android One</p>
+                              </div>
+                              <div class="card-reveal">
+                                <div class="rev-title-wrap">
+                                  <span class="card-title activator brand-text">UX/UI Designer<i class="mdi-navigation-close right"></i></span>
+                                  <p>Android One</p>
+                                </div>
+                                <p class="rev-content">
+                                  Collaboratively initiate collaborative schemas for high-quality communities. Objectively create sticky relationships via team building outsourcing. 
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-sm-4 cold-xs-12 single-card-box wow fadeInUpSmall" data-wow-delay=".4s" data-wow-duration=".7s">
+                            <div class="card">
+                              <div class="card-image waves-effect waves-block waves-light">
+                                <h2 class="left-align card-title-top">January 2014 - Present</h2>
+                                <div class="valign-wrapper card-img-wrap">
+                                  <img class="activator" src="images/bull.jpg" alt="">
+                                </div>
+                              </div>
+                              <div class="card-content">
+                                <span class="card-title activator brand-text">UX/UI Designer<i class="mdi-navigation-more-vert right"></i></span>
+                                <p>Android One</p>
+                              </div>
+                              <div class="card-reveal">
+                                <div class="rev-title-wrap">
+                                  <span class="card-title activator brand-text">UX/UI Designer<i class="mdi-navigation-close right"></i></span>
+                                  <p>Android One</p>
+                                </div>
+                                <p class="rev-content">
+                                  Collaboratively initiate collaborative schemas for high-quality communities. Objectively create sticky relationships via team building outsourcing. 
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-sm-4 cold-xs-12 single-card-box">
+                            <div class="card">
+                              <div class="card-image waves-effect waves-block waves-light">
+                                <h2 class="left-align card-title-top">January 2014 - Present</h2>
+                                <div class="valign-wrapper card-img-wrap">
+                                  <img class="activator" src="images/beakers.jpg" alt="">
+                                </div>
+                              </div>
+                              <div class="card-content">
+                                <span class="card-title activator brand-text">UX/UI Designer<i class="mdi-navigation-more-vert right"></i></span>
+                                <p>Windows Phone</p>
+                              </div>
+                              <div class="card-reveal">
+                                <div class="rev-title-wrap">
+                                  <span class="card-title activator brand-text">UX/UI Designer<i class="mdi-navigation-close right"></i></span>
+                                  <p>Windows Phone</p>
+                                </div>
+                                <p class="rev-content">
+                                  Collaboratively initiate collaborative schemas for high-quality communities. Objectively create sticky relationships via team building outsourcing. 
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-sm-4 cold-xs-12 single-card-box">
+                            <div class="card">
+                              <div class="card-image waves-effect waves-block waves-light">
+                                <h2 class="left-align card-title-top">January 2014 - Present</h2>
+                                <div class="valign-wrapper card-img-wrap">
+                                  <img class="activator" src="images/kid.jpg" alt="">
+                                </div>
+                              </div>
+                              <div class="card-content">
+                                <span class="card-title activator brand-text">UX/UI Designer<i class="mdi-navigation-more-vert right"></i></span>
+                                <p>Windows Phone</p>
+                              </div>
+                              <div class="card-reveal">
+                                <div class="rev-title-wrap">
+                                  <span class="card-title activator brand-text">UX/UI Designer<i class="mdi-navigation-close right"></i></span>
+                                  <p>Windows Phone</p>
+                                </div>
+                                <p class="rev-content">
+                                  Collaboratively initiate collaborative schemas for high-quality communities. Objectively create sticky relationships via team building outsourcing. 
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="btn-wrapp exp-ctrl">
+              	<a class="btn-floating waves-effect waves-light btn-large brand-text white go go-left"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
+            <a class="btn-floating waves-effect waves-light btn-large brand-text white go go-right"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
+
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="education" class="root-sec grey lighten-5 padd-tb-120 education-wrap">
+        <div class="container">
+          <div class="row">
+            <div class="education-inner">
+              <div class="col-sm-12 col-md-10 card-box-wrap">
+                <div class="row">
+                  <div class="clearfix section-head education-text">
+                    <div class="col-sm-12">
+                      <h2 class="title">education</h2>
+                      <p class="regular-text">Aliquam lobortis. Maecenas vestibulum mollis diam. Pellentesque auctor neque nec urna. Nulla sit amet est. Aenean posuere tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus.</p>
+                    </div>
+                  </div>
+                  <div class="col-lg-12">
+                    <div class="overflow-hidden">
+                      <div class="row">
+                        <div id="educationSlider" class="clearfix card-element-wrapper">
+
+                        <!-- single education -->
+                          <div class="col-sm-4 single-card-box wow fadeInUpSmall" data-wow-duration=".7s">
+                            <div class="card">
+                              <div class="card-image waves-effect waves-block waves-light">
+                                <h2 class="left-align card-title-top">20011 - 2012</h2>
+                                <div class="card-img-wrap">
+                                  <img class="activator" src="images/grad-cap.png" alt="">
+                                </div>
+                              </div>
+                              <div class="card-content">
+                                <span class="card-title activator brand-text">Masters of Science<i class="mdi-navigation-more-vert right"></i></span>
+                                <p>Oxford University</p>
+                              </div>
+                              <!-- Reveal content-->
+                              <div class="card-reveal">
+                                <div class="rev-title-wrap">
+                                  <span class="card-title activator brand-text">Masters of Science<i class="mdi-navigation-close right"></i></span>
+                                  <p>Oxford University</p>
+                                </div>
+                                <p class="rev-content">
+                                  Collaboratively initiate collaborative schemas for high-quality communities. Objectively create sticky relationships via team building outsourcing. 
+                                </p>
+                              </div>
+                            </div>
+                          </div> <!-- single education end -->
+
+                          <!-- single education -->
+                          <div class="col-sm-4 single-card-box wow fadeInUpSmall" data-wow-delay=".2s" data-wow-duration=".7s">
+                            <div class="card">
+                              <div class="card-image waves-effect waves-block waves-light">
+                                <h2 class="left-align card-title-top">2005 - 2007</h2>
+                                <div class="card-img-wrap">
+                                  <img class="activator" src="images/grad-cap.png" alt="">
+                                </div>
+                              </div>
+                              <div class="card-content">
+                                <span class="card-title activator brand-text">Bachelor of Science<i class="mdi-navigation-more-vert right"></i></span>
+                                <p>Oxford University</p>
+                              </div>
+                              <div class="card-reveal">
+                                <div class="rev-title-wrap">
+                                  <span class="card-title activator brand-text">Bachelor of Science<i class="mdi-navigation-close right"></i></span>
+                                  <p>Oxford University</p>
+                                </div>
+                                <p class="rev-content">
+                                  Collaboratively initiate collaborative schemas for high-quality communities. Objectively create sticky relationships via team building outsourcing. 
+                                </p>
+                              </div>
+                            </div>
+                          </div> <!-- single education -->
+
+                        <!-- single education -->
+                          <div class="col-sm-4 single-card-box wow fadeInUpSmall" data-wow-delay=".4s" data-wow-duration=".7s">
+                            <div class="card">
+                              <div class="card-image waves-effect waves-block waves-light">
+                                <h2 class="left-align card-title-top">2005 - 2007</h2>
+                                <div class="card-img-wrap">
+                                  <img class="activator" src="images/grad-cap.png" alt="">
+                                </div>
+                              </div>
+                              <div class="card-content">
+                                <span class="card-title activator brand-text">A Level<i class="mdi-navigation-more-vert right"></i></span>
+                                <p>Oxford College</p>
+                              </div>
+                              <div class="card-reveal">
+                                <div class="rev-title-wrap">
+                                  <span class="card-title activator brand-text">A Level<i class="mdi-navigation-close right"></i></span>
+                                  <p>Oxford College</p>
+                                </div>
+                                <p class="rev-content">
+                                  Collaboratively initiate collaborative schemas for high-quality communities. Objectively create sticky relationships via team building outsourcing. 
+                                </p>
+                              </div>
+                            </div>
+                          </div> <!-- single education -->
+
+                        <!-- single education -->
+                          <div class="col-sm-4 single-card-box">
+                            <div class="card">
+                              <div class="card-image waves-effect waves-block waves-light">
+                                <h2 class="left-align card-title-top">1995 - 2005</h2>
+                                <div class="card-img-wrap">
+                                  <img class="activator" src="images/grad-cap.png" alt="">
+                                </div>
+                              </div>
+                              <div class="card-content">
+                                <span class="card-title activator brand-text">O Level<i class="mdi-navigation-more-vert right"></i></span>
+                                <p>Oxford School</p>
+                              </div>
+                              <div class="card-reveal">
+                                <div class="rev-title-wrap">
+                                  <span class="card-title activator brand-text">O Level<i class="mdi-navigation-close right"></i></span>
+                                  <p>Oxford School</p>
+                                </div>
+                                <p class="rev-content">
+                                  Collaboratively initiate collaborative schemas for high-quality communities. Objectively create sticky relationships via team building outsourcing. 
+                                </p>
+                              </div>
+                            </div>
+                          </div> <!-- single education -->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="btn-wrapp edu-ctrl">
+                <a class="btn-floating waves-effect waves-light btn-large brand-bg go go-left"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
+                <a class="btn-floating waves-effect waves-light btn-large brand-bg go go-right"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+    <!-- #resume Section end -->
+
+    
+
+    <!-- Team Section end -->
+    <section id="team" class="scroll-section root-sec brand-bg padd-tb-120 team-wrap">
+      <div class="container">
+        <div class="row">
+          <div class="clearfix team-inner">
+            <div class="col-sm-12 col-md-10 card-box-wrap">
+              <div class="row">
+                <div class="clearfix section-head team-text">
+                  <div class="col-sm-12">
+                    <h2 class="title">our team</h2>
+                    <p class="regular-text">Our Team combines a unique combination of creativity, experience, knowledge but most of all a shared 'can do' attitude to help clients get the very best support, advice and project management to achieve business goals.</p>
+                  </div>
+                </div>
+                <div class="col-lg-12">
+                  <div class="overflow-hidden">
+                    <div class="row">
+                      <div id="teamSlider" class="clearfix card-element-wrapper">
+                        <div class="col-sm-4 single-card-box wow fadeInUpSmall" data-wow-duration=".7s">
+                          <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                              <div class="card-img-wrap">
+                                <img class="activator" src="images/t1.png" alt="">
+                              </div>
+                            </div>
+                            <div class="card-content">
+                              <span class="card-title activator brand-text">Jonh Doe<i class="mdi-navigation-more-vert right"></i></span>
+                              <p>UX UI Designer</p>
+                            </div>
+                            <div class="card-reveal">
+                              <div class="rev-title-wrap">
+                                <span class="card-title activator brand-text">Jonh Doe<i class="mdi-navigation-close right"></i></span>
+                                <p>UX UI Designer</p>
+                              </div>
+                              <p class="rev-content">
+                                Collaboratively initiate collaborative schemas for high-quality communities. Objectively create sticky relationships via team building outsourcing. 
+                              </p>
+                            </div>
+                          </div>
+                        </div> <!-- single team member -->
+                        <div class="col-sm-4 single-card-box wow fadeInUpSmall" data-wow-delay=".2s" data-wow-duration=".7s">
+                          <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                              <div class="card-img-wrap">
+                                <img class="activator" src="images/t2.png" alt="">
+                              </div>
+                            </div>
+                            <div class="card-content">
+                              <span class="card-title activator brand-text">Letizia Toye<i class="mdi-navigation-more-vert right"></i></span>
+                              <p>Front End Developer</p>
+                            </div>
+                            <div class="card-reveal">
+                              <div class="rev-title-wrap">
+                                <span class="card-title activator brand-text">Letizia Toye<i class="mdi-navigation-close right"></i></span>
+                                <p>Front End Developer</p>
+                              </div>
+                              <p class="rev-content">
+                                Collaboratively initiate collaborative schemas for high-quality communities. Objectively create sticky relationships via team building outsourcing. 
+                              </p>
+                            </div>
+                          </div>
+                        </div> <!-- single team member -->
+                        <div class="col-sm-4 single-card-box wow fadeInUpSmall" data-wow-delay=".4s" data-wow-duration=".7s">
+                          <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                              <div class="card-img-wrap">
+                                <img class="activator" src="images/t3.png" alt="">
+                              </div>
+                            </div>
+                            <div class="card-content">
+                              <span class="card-title activator brand-text">Letizia Toye<i class="mdi-navigation-more-vert right"></i></span>
+                              <p>Front End Developer</p>
+                            </div>
+                            <div class="card-reveal">
+                              <div class="rev-title-wrap">
+                                <span class="card-title activator brand-text">Letizia Toye<i class="mdi-navigation-close right"></i></span>
+                                <p>Front End Developer</p>
+                              </div>
+                              <p class="rev-content">
+                                Collaboratively initiate collaborative schemas for high-quality communities. Objectively create sticky relationships via team building outsourcing. 
+                              </p>
+                            </div>
+                          </div>
+                        </div> <!-- single team member -->
+                        <div class="col-sm-4 single-card-box">
+                          <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                              <div class="card-img-wrap">
+                                <img class="activator" src="images/t4.png" alt="">
+                              </div>
+                            </div>
+                            <div class="card-content">
+                              <span class="card-title activator brand-text">Letizia Toye<i class="mdi-navigation-more-vert right"></i></span>
+                              <p>Front End Developer</p>
+                            </div>
+                            <div class="card-reveal">
+                              <div class="rev-title-wrap">
+                                <span class="card-title activator brand-text">Letizia Toye<i class="mdi-navigation-close right"></i></span>
+                                <p>Front End Developer</p>
+                              </div>
+                              <p class="rev-content">
+                                Collaboratively initiate collaborative schemas for high-quality communities. Objectively create sticky relationships via team building outsourcing. 
+                              </p>
+                            </div>
+                          </div>
+                        </div> <!-- single team member -->
+                        <div class="col-sm-4 single-card-box">
+                          <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                              <div class="card-img-wrap">
+                                <img class="activator" src="images/t5.png" alt="">
+                              </div>
+                            </div>
+                            <div class="card-content">
+                              <span class="card-title activator brand-text">Tandi Battle<i class="mdi-navigation-more-vert right"></i></span>
+                              <p>Team Manager</p>
+                            </div>
+                            <div class="card-reveal">
+                              <div class="rev-title-wrap">
+                                <span class="card-title activator brand-text">Tandi Battle<i class="mdi-navigation-close right"></i></span>
+                                <p>Team Manager</p>
+                              </div>
+                              <p class="rev-content">
+                                Collaboratively initiate collaborative schemas for high-quality communities. Objectively create sticky relationships via team building outsourcing. 
+                              </p>
+                            </div>
+                          </div>
+                        </div> <!-- single team member -->
+                        <div class="col-sm-4 single-card-box">
+                          <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                              <div class="card-img-wrap">
+                                <img class="activator" src="images/t6.png" alt="">
+                              </div>
+                            </div>
+                            <div class="card-content">
+                              <span class="card-title activator brand-text">Tandi Battle<i class="mdi-navigation-more-vert right"></i></span>
+                              <p>Team Manager</p>
+                            </div>
+                            <div class="card-reveal">
+                              <div class="rev-title-wrap">
+                                <span class="card-title activator brand-text">Tandi Battle<i class="mdi-navigation-close right"></i></span>
+                                <p>Team Manager</p>
+                              </div>
+                              <p class="rev-content">
+                                Collaboratively initiate collaborative schemas for high-quality communities. Objectively create sticky relationships via team building outsourcing. 
+                              </p>
+                            </div>
+                          </div>
+                        </div> <!-- single team member -->
+                      </div> <!-- #teamSlider end -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="btn-wrapp tmu-ctrl">
+              <a class="btn-floating waves-effect waves-light btn-large brand-text white go go-left"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
+            <a class="btn-floating waves-effect waves-light btn-large brand-text white go go-right"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
+            </div>
+          </div>
+        </div>
+
+      </div> <!-- .container -->
+    </section>
+    <!-- #team Section end -->
+
+    <!-- Funfacts Section end -->
+    <section id="funfacts" class="root-sec grey lighten-5 funfact-wrap">
+    <div class="sec-inner padd-tb-120">
+      <div class="container">
+        <div class="row">
+          <div class="funfact-inner">
+            <div class="col-sm-4 funfact-box">
+              <div class="center-align card-panel white">
+                <div class="feature-box-outer">
+                  <div class="funfact-box-inner">
+                    <div class="clearfix ">
+                      <i class="fa fa-smile-o" aria-hidden="true"></i>
+                      <span class="num countNumb">150</span>
+                    </div>
+                    <div class="context">Happy clients</div>
+                  </div>
+                </div>
+              </div>
+            </div> <!-- ./single fun fact box -->
+            <div class="col-sm-4 funfact-box">
+              <div class="center-align card-panel white">
+                <div class="feature-box-outer">
+                  <div class="funfact-box-inner">
+                    <div class="clearfix ">
+                      <i class="fa fa-suitcase" aria-hidden="true"></i>
+                      <span class="num countNumb">230</span>
+                    </div>
+                    <div class="context">Project Completed</div>
+                  </div>
+                </div>
+              </div>
+            </div> <!-- ./single fun fact box -->
+            <div class="col-sm-4 funfact-box">
+              <div class="center-align card-panel white">
+                <div class="feature-box-outer">
+                  <div class="funfact-box-inner">
+                    <div class="clearfix ">
+                      <i class="fa fa-gift" aria-hidden="true"></i>
+                      <span class="num countNumb">79</span>
+                    </div>
+                    <div class="context">Award Won</div>
+                  </div>
+                </div>
+              </div>
+            </div> <!-- ./single fun fact box -->
+          </div>
+        </div>
+
+      </div>  <!-- .container end -->
     </div>
+    </section>
+    <!-- #funfacts Section end -->
 
-		<div class="row-fluid">
+    
 
-			<!-- start MENU -->
-			<div id="menu-container" class="span4 load-fade-menu">
+    <!-- Contact Section end -->
+    <section id="contact" class="scroll-section root-sec brand-bg padd-tb-120 contact-wrap">
+      <div class="container">
+        <div class="row">
+          <div class="contact-inner">
+            <div class="col-sm-12 card-box-wrap">
+              <div class="row">
+                <div class="clearfix section-head contact-text">
+                  <div class="col-sm-12">
+                    <h2 class="title">Contact</h2>
+                    <p class="regular-text">Collins Street West Victoria 8007 Australia</p>
+                    <ul class="clearfix contact-info">
+                      <li><a href="">+880 1234 567890</a>
+                      </li>
+                      <li><a href="">support@website.net</a>
+                      </li>
+                      <li><a href="">www.website.net</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div> <!-- contact text end -->
 
-				<ul id="menu-ul" class="row-fluid">
-					<li id="about-li" class="menu-li box-2x1 active">
-						<a href="#tab-about" data-toggle="tab">
-              <span>About me</span>
-                <!-- <i class="i-right-bottom icon-user-male"></i> -->
-                <i class="i-right-bottom material-icons md-18">person</i>
-                <div style="height: 30px"></div>
+                <div class="clearfix contact-form">
+
+                <!-- Map Start -->
+                  <div class="col-sm-7">
+                    <div class="map-wrapper">
+                      <div id="map"></div>
+                    </div>
+                  </div> <!-- Map end -->
+
+                <!-- Contact Form start -->
+                  <div class="col-sm-5">
+                    <div class="clearfix card-panel grey lighten-5 cform-wrapper">
+                      <form action="#" id="contactForm" novalidate>
+                        <div class="input-field">
+                          <input id="contact_name" type="text" name="contactName" class="validate input-box">
+                          <label for="contact_name" class="input-label">Name</label>
+                        </div>
+                        <div class="input-field">
+                          <input id="email" type="email" name="contactEmail" class="validate input-box">
+                          <label for="email" class="input-label">Email</label>
+                        </div>
+                        <div class="input-field">
+                          <input id="subject" type="text" name="contactSubject" class="validate input-box">
+                          <label for="subject" class="input-label">Subject</label>
+                        </div>
+                        <div class="input-field textarea-input">
+                          <textarea id="textarea1" name="contactMessage" class="validate materialize-textarea" style="height: 22px;"></textarea>
+                          <label for="textarea1" class="input-label">Message</label>
+                        </div>
+                        <div class="input-field submit-wrap clearfix">
+                          <button type="submit" class="left waves-effect btn-flat brand-text submit-btn">send message</button>
+                          <div class="right form-loader-area">
+                            <svg class="circular size-20" height="20" width="20">
+                              <circle class="path" cx="10" cy="10" r="7" fill="none" stroke-width="3" stroke-miterlimit="10" />
+                            </svg>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div> <!-- ./contact form end -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> <!-- ./container end -->
+      <div class="section-call-to-area">
+        <div class="container">
+          <div class="row">
+            <a href="#home" class="btn-floating btn-large button-middle call-to-home section-call-to-btn animated btn-up btn-hidden" data-section="#home">
+              <i class="fa fa-angle-up" aria-hidden="true"></i>
             </a>
-					</li>
-					<li id="resume-li" class="menu-li box-1x1">
-						<a href="#tab-resume" data-toggle="tab">
-							<span>Resume</span>
-              <i class="i-centered material-icons md-18">link</i>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- #contact Section end -->
 
-                <!-- <i class="i-centered icon-attach-3"></i> -->
-                <div style="height: 30px"></div>
-            </a>
-					</li>
-					<li id="work-li" class="menu-li box-1x1">
-						<a href="#tab-work" data-toggle="tab">
-							<span>Works</span>
-<!-- <i class="i-centered icon-art-gallery"></i> -->
-<i class="i-centered material-icons md-18">work</i>
-<div style="height: 30px"></div>            </a>
-					</li>
-					<li id="life-li" class="menu-li box-1x1">
-						<a href="#tab-life" data-toggle="tab">
-							<span>Life</span>
-<!-- <i class="i-centered icon-pitch"></i> -->
-<i class="i-centered material-icons md-18">directions_walk</i>
+    <!-- Footer Section end -->
+    <footer id="footer" class="root-sec white root-sec footer-wrap">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="clearfix footer-inner">
+              <ul class="left social-icons">
+                <li><a href="#" class="tooltips tooltipped facebook" data-position="top" data-delay="50" data-tooltip="Facebook"><i class="fa fa-facebook"></i></a>
+                </li>
+                <li><a href="#" class="tooltips tooltipped linkedin" data-position="top" data-delay="50" data-tooltip="Linkdin"><i class="fa fa-linkedin"></i></a>
+                </li>
+                <li><a href="#" class="tooltips tooltipped twitter" data-position="top" data-delay="50" data-tooltip="Twitter"><i class="fa fa-twitter"></i></a>
+                </li>
+                <li><a href="#" class="tooltips tooltipped google-plus" data-position="top" data-delay="50" data-tooltip="Google Plus"><i class="fa fa-google-plus"></i></a>
+                </li>
+                <li><a href="#" class="tooltips tooltipped dribbble" data-position="top" data-delay="50" data-tooltip="Dribbble"><i class="fa fa-dribbble"></i></a>
+                </li>
+                <li><a href="#" class="tooltips tooltipped behance" data-position="top" data-delay="50" data-tooltip="Behance"><i class="fa fa-behance"></i></a>
+                </li>
+              </ul> <!-- ./social icons end -->
+              <div class="right copyright">
+                <p>MaterialX &copy; All Rights Reserved</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> <!-- ./container end-->
+    </footer>
+    <!-- #footer end -->
 
-<div style="height: 30px"></div>            </a>
-					</li>
-					<li id="contact-li" class="menu-li box-1x1">
-						<a href="#tab-contact" data-toggle="tab">
-							<span>Contact</span>
-<!-- <i class="i-centered icon-email"></i> -->
-<i class="i-centered material-icons md-18">mail_outline</i>
-<div style="height: 30px"></div>            </a>
-					</li>
-				</ul>
-
-				<ul id="social-ul" class="row-fluid">
-          <li class="box-05 ">
-  <a href="https://medium.com/@dev.aungmyooo2015" target="_blank">
-    <!-- <i class="icon-twitter"></i> -->
-    <i class="fa fa-medium"></i>
-  </a>
-</li>
-<li class="box-05 ">
-  <a href="https://www.facebook.com/profile.php?id=100009670988237" target="_blank">
-    <i class="fa fa-facebook-official"></i>
-  </a>
-</li>
-<li class="box-05 ">
-  <a href="https://www.linkedin.com/in/aung-myo-oo-5b0386142/" target="_blank">
-    <i class="fa fa-linkedin"></i>
-  </a>
-</li>
-<li class="box-05 ">
-  <a href="https://plus.google.com/101854067924774218570" target="_blank">
-    <i class="fa fa-google-plus"></i>
-  </a>
-</li>
-				</ul>
-
-			</div>
-			<!-- end MENU -->
-
-			<!-- start CONTENT AREA -->
-			<div id="tabs-container" class="span8 load-fade-tabs">
-
-				<!-- start ABOUT TAB -->
-				<div id="tab-about" class="active fade in">
-					<div class="row-fluid">
-
-						<div class="span6 box-2x4 text-box">
-              <h2>Greets !</h2><h3>Meet John Rambo</h3>							<div id="about-me">
-								<p>Proin eget leo ut lacus volutpat tincidunt at vitae neque. Aliquam erat volutpat. Etiam sit amet augue mauris, pellentesque cursus eros. Phasellus et arcu ac nisi vestibulum sagittis at eu nunc. Mauris pulvinar nulla at neque molestie tincidunt. Mauris pretium elementum nunc, vitae iaculis mauris volutpat vitae. Aenean ullamcorper viverra lectus, posuere dapibus mi placerat eget. Sed luctus, libero quis fermentum tincidunt, erat ipsum placerat arcu, sed lobortis justo libero at nulla. Sed dignissim, libero id gravida tincidunt, turpis est iaculis lorem, et aliquam neque tellus ac lacus. Maecenas congue, felis pellentesque semper tristique, nisi quam sodales lect.</p>
-<p>Proin eget leo ut lacus volutpat tincidunt at vitae neque. Aliquam erat volutpat. Etiam sit amet augue mauris, pellentesque cursus eros. Phasellus et arcu ac nisi vestibulum sagittis at eu nunc. Mauris pulvinar nulla at neque molestie tincidunt. Mauris pretium elementum nunc, vitae iaculis mauris volutpat vitae. Aenean ullamcorper viverra lectus, posuere dapibus mi placerat eget. Sed luctus, libero quis fermentum tincidunt, erat ipsum placerat arcu, sed lobortis justo libero at nulla. Sed dignissim, libero id gravida tincidunt, turpis est iaculis lorem, et aliquam neque tellus ac lacus. Maecenas congue, felis pellentesque semper tristique, nisi quam sodales lect.</p>
-<p>Proin eget leo ut lacus volutpat tincidunt at vitae neque. Aliquam erat volutpat. Etiam sit amet augue mauris, pellentesque cursus eros. Phasellus et arcu ac nisi vestibulum sagittis at eu nunc. Mauris pulvinar nulla at neque molestie tincidunt. Mauris pretium elementum nunc, vitae iaculis mauris volutpat vitae. Aenean ullamcorper viverra lectus, posuere dapibus mi placerat eget. Sed luctus, libero quis fermentum tincidunt, erat ipsum placerat arcu, sed lobortis justo libero at nulla. Sed dignissim, libero id gravida tincidunt, turpis est iaculis lorem, et aliquam neque tellus ac lacus. Maecenas congue, felis pellentesque semper tristique, nisi quam sodales lect.</p>							</div>
-						</div>
-
-						<div class="span6">
-
-							<div class="row-fluid box-2x2 image-slider-box">
-
-<div id="about-single-img" class="flexslider">
-  <ul class="slides">
-    <li> <img src=https://lh3.googleusercontent.com/hn8VysZa0PD19FO2vv6GSwraKafBOPVvVt_pQpIN6OpVmTwbMR9KnIaclSQdkFJSWNH7_UrLkRpYIctj7KJZ7qzC3HpEqY77AMWbxpZ0O2OssZ9b_jkJZ-8yYQ7Wb56FlF1j8h9uwNqVfX0IjpZTtd5iZIDF0-rqo2vS2RB5v0T6FqSxmogZdXwOYlbyi7yMak400kOB45-c9tchXYw2KGBcZEn4-Z0jFYI4UjK8bnBKxXuB0Lmuzvsd4vFOJQRNFEPWhXVzXdSYyqYkN17pnps2xDJ6VrEen1EsqQ7N84nZQU3Z7VV6zIzp2SJOJcxsumehC4R4z3V938yz57lKDBpgT7Jm3cgFMx4VQtFTchnNfi0BWkogWMatYsIZxLoPrNbe4kHjPm80fBUX-MEtGbtS-VFpkZmXSCSOcrW-ogX28QT5p_LeTbNeJFw6-i9Hq1u9MR4yxoBoZvic9Q-NGbNrrX7y36c7dlmTY2h67PW_s5J5xAUp_JRfqWfQI66DxzrKcLqVW32_FzRRDDrM1Sb4L2zrA2suX5PuNieoaNxpuzbDhdsFO-6B7OjXt8z2wMqPntV_aApSjjfvSpXzG96zcVcFMGmbUrM7dTdgiKLFVeUx=w454-h605-no alt="" /> </li><li> <img src=https://lh3.googleusercontent.com/M9Cq_u0vPViC5dtdd0JU-MfY3ZSGJsCtBUWiYVj7ZxbuNd6dgypLtQcDvXDG8j9pPCt3_NoRuwy_WagdEJ6Dv-DyuU0DdAGP8kwYczj9r3Zmzh9CFMBSHU5ve6NtcPYewSjoFrrAqw2oQETpom3sIQXE6vnpGTEkBMfwDU0WrPD4D-Ad67fKPDdbfO40-A2rEI7vQaRGChojvCDRAUdIUac_GKAsUALevK2MoLkYmqCyV3SP3u6qBuSeekGetnTaS4D6xw8J-eAnw1RqmxdO0MOly3j3-cvsNApGp_zg2B7951zdeX5Nadv5EOMoXNzODSKBj2PrPOxs8Z0yOUCM13UR6J1-lmFHlRaAXfW16mJPgowJVDPN53QIGqOBg1ZkxK253RqU_bQtjt7ppOrjE1YnW1LW5abLA95ImEuDnZeaa9ffQi-xe16cDd5lQt2EPxrzgj8HfqP9GWiSM2jeT9sXq1ZbF6rU0KySxD4oUFj2YBwlwwXMisiIXO_0Qg0VMEwxqHErzZijQmEDfm5OVVb9jIO9ip3jiyg4Gyh7EiyF2xJn3XUCW_8Y6xlmPsBy47ZS6YalXi5RDm_Y6Sr0dkmJYsIRtGpy0xdHUHXTyPyraF6296oq=w341-h605-no alt="" /> </li>  </ul>
-</div>							</div>
-
-							<div id="about-short" class="row-fluid box-2x2 text-box">
-                <div class="row-fluid">
-  <div class="span5"><label>Name:</label></div>
-  <div class="span7">Aung Myo Oo</div>
-</div>
-<div class="row-fluid">
-  <div class="span5"><label>Age:</label></div>
-  <div class="span7">19</div>
-</div>
-<div class="row-fluid">
-  <div class="span5"><label>Education:</label></div>
-  <div class="span7">Computer Science</div>
-</div>
-<div class="row-fluid">
-  <div class="span5"><label>Profession:</label></div>
-  <div class="span7">Web Developer</div>
-</div>
-<div class="row-fluid">
-  <div class="span5"><label>Company:</label></div>
-  <div class="span7">Freelance Inc.</div>
-</div>
-<div class="row-fluid">
-  <div class="span5"><label>Phone:</label></div>
-  <div class="span7">+959789333573</div>
-</div>
-<div class="row-fluid">
-  <div class="span5"><label>Email:</label></div>
-  <div class="span7">dev.aungmyooo2015@gmail.com</div>
-</div>
-<div class="row-fluid">
-  <div class="span5"><label>Address:</label></div>
-  <div class="span7">No(42), 31street, Pabedan.  Yangon</div>
-</div>
-							</div>
-
-						</div>
-
-					</div>
-				</div>
-				<!-- end ABOUT TAB -->
-
-				<!-- start RESUME TAB -->
-				<div id="tab-resume" class="fade">
-					<div class="row-fluid">
-						<!-- start WORK EXPERIENCE -->
-						<div class="span6 box-2x4 text-box">
-              <h2>Work Experience</h2>							<div id="my-experience">
-                <div class="resume-line">
-  <h3>Google</h3>
-  <h4>Web Developer</h4>
-  <h4 class="interval">2012-NOW</h4>
-  <p>Cras vestibulum posuere libero, eu viverra arcu feugiat non. Ut ut eros ligula. Curabitur rhoncus, elit sit amet dictum convallis, tortor elit vehicula quam, sed posuere leo arcu id tellus. Sed accumsan, nibh nec tincidunt porttitor, urna quam tristique augue, et feugiat tortor nunc non orci. Ut elementum mattis magna, et blandit augue tempus nec. Sed a diam augue, sit amet viverra mauris. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Quisque vulputate lectus et metus feugiat dignissim vel et libero. Nam aliquam egestas erat a malesuada. Vestibulum ac eros a justo adipiscing fringilla ut id metus. EtiaCras vestibulum posuere libero, eu viverra arcu feugiat non. Ut ut eros ligula. Curabitur rhoncus, elit sit amet dictum convallis, tortor elit vehicula quam, sed posuere leo arcu id tellus. Sed accumsan, nibh nec tincidunt porttitor, urna quam tristique augue, et feugiat tortor nunc non orci. Ut elementum mattis magna, et blandit augue tempus nec. Sed a diam augue, sit amet viverra mauris. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Quisque vulputate lectus et metus feugiat dignissim vel et libero. Nam aliquam egestas erat a malesuada. Vestibulum ac eros a justo adipiscing fringilla ut id metus. Etia</p>
-</div><div class="resume-line">
-  <h3>Facebook</h3>
-  <h4>Web Designer & Developer</h4>
-  <h4 class="interval">2010-2012</h4>
-  <p>Proin eget leo ut lacus volutpat tincidunt at vitae neque. Aliquam erat volutpat. Etiam sit amet augue mauris, pellentesque cursus eros. Phasellus et arcu ac nisi vestibulum sagittis at eu nunc. Mauris pulvinar nulla at neque molestie tincidunt. Mauris pretium elementum nunc, vitae iaculis mauris volutpat vitae. Aenean ullamcorper viverra lectus, posuere dapibus mi placerat eget. Sed luctus, libero quis fermentum tincidunt, erat ipsum placerat arcu, sed lobortis justo libero at nulla. Sed dignissim, libero id gravida tincidunt, turpis est iaculis lorem, et aliquam neque tellus ac lacus. Maecenas congue, felis pellentesque semper tristique, nisi quam sodales lect</p>
-</div><div class="resume-line">
-  <h3>Microsoft</h3>
-  <h4>Software Engineer</h4>
-  <h4 class="interval">2004-2009</h4>
-  <p>Elementum nunc, vitae iaculis mauris volutpat vitae. Aenean ullamcorper viverra lectus, posuere dapibus mi placerat eget. Sed luctus, libero quis fermentum tincidunt, erat ipsum placerat arcu, sed lobortis justo libero at nulla. Sed dignissim, libero id gravida tincidunt, turpis est iaculis lorem, et aliquam neque tellus ac lacus. Maecenas congue, felis pellentesque semper tristique, nisi quam sodales lect. Mauris pretium elementum nunc, vitae iaculis mauris volutpat vitae. Aenean ullamcorper viverra lectus, posuere dapibus mi plac</p>
-</div>							</div>
-						</div>
-						<!-- end WORK EXPERIENCE -->
-						<!-- start SKILLS and FEEDBACK -->
-						<div class="span6">
-							<div id="skills-box" class="row-fluid box-2x2 text-box">
-							<h2>Skills</h2>								<div id="all-skills">
-                  <h3>Web Design</h3><div class="skill clearfix">
-  <span>Photoshop</span>
-  <ul class="skill-rate rated-4 clearfix">
-    <li><i class="fa fa-star fa-fw"></i></li>
-    <li><i class="fa fa-star fa-fw"></i></li>
-    <li><i class="fa fa-star fa-fw"></i></li>
-    <li><i class="fa fa-star fa-fw"></i></li>
-    <li><i class="fa fa-star fa-fw"></i></li>
-  </ul>
-</div>
-<div class="skill clearfix">
-  <span>Illustrator</span>
-  <ul class="skill-rate rated-5 clearfix">
-    <li><i class="fa fa-star fa-fw"></i></li>
-    <li><i class="fa fa-star fa-fw"></i></li>
-    <li><i class="fa fa-star fa-fw"></i></li>
-    <li><i class="fa fa-star fa-fw"></i></li>
-    <li><i class="fa fa-star fa-fw"></i></li>
-  </ul>
-</div>
-<div class="skill clearfix">
-  <span>Dreamweaver</span>
-  <ul class="skill-rate rated-3 clearfix">
-    <li><i class="fa fa-star fa-fw"></i></li>
-    <li><i class="fa fa-star fa-fw"></i></li>
-    <li><i class="fa fa-star fa-fw"></i></li>
-    <li><i class="fa fa-star fa-fw"></i></li>
-    <li><i class="fa fa-star fa-fw"></i></li>
-  </ul>
-</div>
-<div class="skill clearfix">
-  <span>Inkscape</span>
-  <ul class="skill-rate rated-2 clearfix">
-    <li><i class="fa fa-star fa-fw"></i></li>
-    <li><i class="fa fa-star fa-fw"></i></li>
-    <li><i class="fa fa-star fa-fw"></i></li>
-    <li><i class="fa fa-star fa-fw"></i></li>
-    <li><i class="fa fa-star fa-fw"></i></li>
-  </ul>
-</div>
-<h3>Web Development</h3><div class="skill clearfix">
-  <span>HTML 5</span>
-  <ul class="skill-rate rated-4 clearfix">
-    <li><i class="fa fa-star fa-fw"></i></li>
-    <li><i class="fa fa-star fa-fw"></i></li>
-    <li><i class="fa fa-star fa-fw"></i></li>
-    <li><i class="fa fa-star fa-fw"></i></li>
-    <li><i class="fa fa-star fa-fw"></i></li>
-  </ul>
-</div>
-<div class="skill clearfix">
-  <span>CSS 3</span>
-  <ul class="skill-rate rated-3 clearfix">
-    <li><i class="fa fa-star fa-fw"></i></li>
-    <li><i class="fa fa-star fa-fw"></i></li>
-    <li><i class="fa fa-star fa-fw"></i></li>
-    <li><i class="fa fa-star fa-fw"></i></li>
-    <li><i class="fa fa-star fa-fw"></i></li>
-  </ul>
-</div>
-<div class="skill clearfix">
-  <span>jQuery</span>
-  <ul class="skill-rate rated-5 clearfix">
-    <li><i class="fa fa-star fa-fw"></i></li>
-    <li><i class="fa fa-star fa-fw"></i></li>
-    <li><i class="fa fa-star fa-fw"></i></li>
-    <li><i class="fa fa-star fa-fw"></i></li>
-    <li><i class="fa fa-star fa-fw"></i></li>
-  </ul>
-</div>
-<div class="skill clearfix">
-  <span>Bootstrap</span>
-  <ul class="skill-rate rated-4 clearfix">
-    <li><i class="fa fa-star fa-fw"></i></li>
-    <li><i class="fa fa-star fa-fw"></i></li>
-    <li><i class="fa fa-star fa-fw"></i></li>
-    <li><i class="fa fa-star fa-fw"></i></li>
-    <li><i class="fa fa-star fa-fw"></i></li>
-  </ul>
-</div>
-<h3>CMS knowledge</h3><div class="skill clearfix">
-  <span>Wordpress</span>
-  <ul class="skill-rate rated-4 clearfix">
-    <li><i class="fa fa-star fa-fw"></i></li>
-    <li><i class="fa fa-star fa-fw"></i></li>
-    <li><i class="fa fa-star fa-fw"></i></li>
-    <li><i class="fa fa-star fa-fw"></i></li>
-    <li><i class="fa fa-star fa-fw"></i></li>
-  </ul>
-</div>
-<div class="skill clearfix">
-  <span>Joomla!</span>
-  <ul class="skill-rate rated-3 clearfix">
-    <li><i class="fa fa-star fa-fw"></i></li>
-    <li><i class="fa fa-star fa-fw"></i></li>
-    <li><i class="fa fa-star fa-fw"></i></li>
-    <li><i class="fa fa-star fa-fw"></i></li>
-    <li><i class="fa fa-star fa-fw"></i></li>
-  </ul>
-</div>
-<div class="skill clearfix">
-  <span>Drupal</span>
-  <ul class="skill-rate rated-5 clearfix">
-    <li><i class="fa fa-star fa-fw"></i></li>
-    <li><i class="fa fa-star fa-fw"></i></li>
-    <li><i class="fa fa-star fa-fw"></i></li>
-    <li><i class="fa fa-star fa-fw"></i></li>
-    <li><i class="fa fa-star fa-fw"></i></li>
-  </ul>
-</div>
-<div class="skill clearfix">
-  <span>Magento</span>
-  <ul class="skill-rate rated-4 clearfix">
-    <li><i class="fa fa-star fa-fw"></i></li>
-    <li><i class="fa fa-star fa-fw"></i></li>
-    <li><i class="fa fa-star fa-fw"></i></li>
-    <li><i class="fa fa-star fa-fw"></i></li>
-    <li><i class="fa fa-star fa-fw"></i></li>
-  </ul>
-</div>
-<div class="skill clearfix">
-  <span>Concrete5</span>
-  <ul class="skill-rate rated-5 clearfix">
-    <li><i class="fa fa-star fa-fw"></i></li>
-    <li><i class="fa fa-star fa-fw"></i></li>
-    <li><i class="fa fa-star fa-fw"></i></li>
-    <li><i class="fa fa-star fa-fw"></i></li>
-    <li><i class="fa fa-star fa-fw"></i></li>
-  </ul>
-</div>
-								</div>
-							</div>
-
-							<div class="row-fluid box-2x2 text-box">
-                <h2>Feedback<span> from Clients</span></h2>								<div id="feedback">
-                  <div class="percentage">
-  <div>Professionalism</div>
-  <div class="progress">
-    <div class="bar bar-80">80 %</div>
-  </div>
-</div>
-<div class="percentage">
-  <div>Seriosity</div>
-  <div class="progress">
-    <div class="bar bar-70">70 %</div>
-  </div>
-</div>
-<div class="percentage">
-  <div>Punctuality</div>
-  <div class="progress">
-    <div class="bar bar-60">60 %</div>
-  </div>
-</div>
-<div class="percentage">
-  <div>Responsibility</div>
-  <div class="progress">
-    <div class="bar bar-75">75 %</div>
-  </div>
-</div>
-<div class="percentage">
-  <div>Innovation</div>
-  <div class="progress">
-    <div class="bar bar-90">90 %</div>
-  </div>
-</div>
-								</div>
-							</div>
-						</div>
-						<!-- end SKILLS and FEEDBACK -->
-					</div>
-				</div>
-				<!-- end RESUME TAB -->
-
-				<!-- start WORK TAB -->
-				<div id="tab-work" class="fade">
-					<!-- start PROJECT with SINGLE IMAGE SLIDER -->
-					<div class="row-fluid">
-
-<!-- start SINGLE IMAGE SLIDER -->
-<div class="span6 box-2x2 image-slider-box">
-  <div id="project-single-img" class="flexslider hide-dir">
-    <ul class="slides">
-      <li> <img src=http://tudor-sv.com/c5MM/files/2913/8157/0880/1.jpg alt="" /> </li><li> <img src=http://tudor-sv.com/c5MM/files/9713/8157/0881/2.jpg alt="" /> </li><li> <img src=http://tudor-sv.com/c5MM/files/6313/8157/0882/3.jpg alt="" /> </li>    </ul>
-  </div>
-</div>
-<!-- end SINGLE IMAGE SLIDER -->
-<!-- start TEXT SLIDER -->
-<div class="span6 box-2x2 text-box">
-  <div id="project-single-txt" class="flexslider">
-    <ul class="slides">
-      <li class="slide-fade in"><h3>Project 1</h3><p>Donec eu libero sit amet quam egestas semper. AeneanPellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet link here quam egestas semper. AeneanPellentesque habitant morbi tristique senectus et netus et malesuada fames acDonmpor sit amet, ante. Donec eu libero sit amet quam egestas semper. AeneanPellentesque habitant morbi tristique senectus et netus et </p></li><li class="slide-fade"><h3>Project 2</h3><p>Donec eu libero sit amet quam egestas semper. AeneanPellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. AeneanPellentesque habitant morbi tristique senectus et netus et malesuada fames acesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. AeneanPellentesque habitant morbi tristique senectus et netus et</p></li><li class="slide-fade"><h3>Project 3</h3><p>Donec eu libero sit amet quam egestas semper. AeneanPellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. AeneanPellentesque habitant morbi tristique senectus et netus et malesuada fames acesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. AeneanPellentesque habitant morbi tristique senectus et netus et</p></li>    </ul>
-  </div>
-</div>
-<!-- end TEXT SLIDER -->					</div>
-					<!-- end PROJECT with SINGLE IMAGE SLIDER -->
-					<!-- start PROJECT with GALLERY SLIDER -->
-					<div class="row-fluid">
-
-<!-- start TEXT SLIDER -->
-<div class="span6 box-2x2 text-box">
-  <div class="flexslider gallery-txt">
-    <ul class="slides">
-      <li class="slide-fade in"><h3>Photography</h3><p>Donec eu libero sit amet quam egestas semper. AeneanPellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet link here quam egestas semper. AeneanPellentesque habitant morbi tristique senectus et netus et malesuada fames acDonmpor sit amet, ante. Donec eu libero sit amet quam egestas semper. AeneanPellentesque habitant morbi tristique senectus et netus et </p></li><li class="slide-fade in"><h3>Design</h3><p>Donec eu libero sit amet quam egestas semper. AeneanPellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. AeneanPellentesque habitant morbi tristique senectus et netus et malesuada fames acesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. AeneanPellentesque habitant morbi tristique senectus et netus et</p></li><li class="slide-fade in"><h3>Programming</h3><p>Donec eu libero sit amet quam egestas semper. AeneanPellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. AeneanPellentesque habitant morbi tristique senectus et netus et malesuada fames acesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. AeneanPellentesque habitant morbi tristique senectus et netus et</p></li>    </ul>
-  </div>
-</div>
-<!-- end TEXT SLIDER -->
-<!-- start GALLERY SLIDER -->
-<div class="span6 box-2x2 gallery-slider">
-  <div class="flexslider hide-dir gallery-img">
-    <ul class="slides">
-
-      <li> <div class="gallery-slide"><a href="http://tudor-sv.com/c5MM/files/8813/8157/1014/10.jpg" rel="prettyPhoto[gallery_106_0]"><img class="thumb" src="/c5MM/files/cache/b2ff0bce3eb35c8d50052838bee9e2ba_f15.jpg" alt="" /></a><a href="http://tudor-sv.com/c5MM/files/6613/8157/1013/9.jpg" rel="prettyPhoto[gallery_106_0]"><img class="thumb" src="/c5MM/files/cache/14e9f18a87af7149bb0abb3df991a8af_f14.jpg" alt="" /></a><a href="http://tudor-sv.com/c5MM/files/9813/8157/1012/8.jpg" rel="prettyPhoto[gallery_106_0]"><img class="thumb" src="/c5MM/files/cache/45d52d2ebf0c004306ee2dcd62d3bec7_f13.jpg" alt="" /></a><a href="http://tudor-sv.com/c5MM/files/5713/8157/1011/7.jpg" rel="prettyPhoto[gallery_106_0]"><img class="thumb" src="/c5MM/files/cache/def3fd13a29298c81e8be52dc01c3ea1_f12.jpg" alt="" /></a><a href="#"></a><a href="http://tudor-sv.com/c5MM/files/4113/8157/1009/6.jpg" rel="prettyPhoto[gallery_106_0]"><img class="thumb" src="/c5MM/files/cache/278134bfbf3bf9d3a9377c331ab71b7c_f11.jpg" alt="" /></a><a href="http://tudor-sv.com/c5MM/files/2213/8157/1009/5.jpg" rel="prettyPhoto[gallery_106_0]"><img class="thumb" src="/c5MM/files/cache/ed75293a5bb4ef84131003b43a27261d_f10.jpg" alt="" /></a><a href="http://tudor-sv.com/c5MM/files/4413/8157/1008/4.jpg" rel="prettyPhoto[gallery_106_0]"><img class="thumb" src="/c5MM/files/cache/d055b987b8c5bf4268859570e68f15cc_f9.jpg" alt="" /></a><a href="http://tudor-sv.com/c5MM/files/2613/8157/1007/3.jpg" rel="prettyPhoto[gallery_106_0]"><img class="thumb" src="/c5MM/files/cache/e5ead5ed9929d095f344c8c3a02b73ab_f8.jpg" alt="" /></a><a href="#"></a><a href="http://tudor-sv.com/c5MM/files/7713/8157/1006/2.jpg" rel="prettyPhoto[gallery_106_0]"><img class="thumb" src="/c5MM/files/cache/335f61af54ea8bf008b9f8dc3afe7d6e_f7.jpg" alt="" /></a><a href="http://tudor-sv.com/c5MM/files/7913/8157/1005/1.jpg" rel="prettyPhoto[gallery_106_0]"><img class="thumb" src="/c5MM/files/cache/380cde52ff48d35274d8c00627925976_f6.jpg" alt="" /></a></div> </li><li> <div class="gallery-slide"><a href="http://tudor-sv.com/c5MM/files/7313/8157/1064/12.jpg" rel="prettyPhoto[gallery_106_1]"><img class="thumb" src="/c5MM/files/cache/7d3494106d36f78b65133b3cb26e5a82_f27.jpg" alt="" /></a><a href="http://tudor-sv.com/c5MM/files/7213/8157/1063/11.jpg" rel="prettyPhoto[gallery_106_1]"><img class="thumb" src="/c5MM/files/cache/c85bbee37373d772862c75a1e4d18278_f26.jpg" alt="" /></a><a href="#"></a><a href="http://tudor-sv.com/c5MM/files/9713/8157/1062/10.jpg" rel="prettyPhoto[gallery_106_1]"><img class="thumb" src="/c5MM/files/cache/c833e0b5059fc245264f5bbc4c6b8072_f25.jpg" alt="" /></a><a href="http://tudor-sv.com/c5MM/files/4813/8157/1061/9.jpg" rel="prettyPhoto[gallery_106_1]"><img class="thumb" src="/c5MM/files/cache/fdac13d535edc66e5f115a4c3b65e71d_f24.jpg" alt="" /></a><a href="http://tudor-sv.com/c5MM/files/2513/8157/1060/8.jpg" rel="prettyPhoto[gallery_106_1]"><img class="thumb" src="/c5MM/files/cache/aea7c6710f02d76a480c4f7c15cfde43_f23.jpg" alt="" /></a><a href="http://tudor-sv.com/c5MM/files/3213/8157/1059/7.jpg" rel="prettyPhoto[gallery_106_1]"><img class="thumb" src="/c5MM/files/cache/a2930d065ab2b7ffc0d0e1d7affb264a_f22.jpg" alt="" /></a><a href="#"></a><a href="http://tudor-sv.com/c5MM/files/1713/8157/1058/6.jpg" rel="prettyPhoto[gallery_106_1]"><img class="thumb" src="/c5MM/files/cache/4e205e71da32161549d0fb8d95c6f66a_f21.jpg" alt="" /></a><a href="http://tudor-sv.com/c5MM/files/6813/8157/1056/5.jpg" rel="prettyPhoto[gallery_106_1]"><img class="thumb" src="/c5MM/files/cache/6801b7ebd4524a8a5c13992896a1b9ed_f20.jpg" alt="" /></a><a href="http://tudor-sv.com/c5MM/files/3113/8157/1055/4.jpg" rel="prettyPhoto[gallery_106_1]"><img class="thumb" src="/c5MM/files/cache/b1c8f4d2207a2353b4fa39ec58e0a3c3_f19.jpg" alt="" /></a><a href="#"></a><a href="http://tudor-sv.com/c5MM/files/9913/8157/1055/3.jpg" rel="prettyPhoto[gallery_106_1]"><img class="thumb" src="/c5MM/files/cache/484f31880ea4b04a497faa52e86e6fdd_f18.jpg" alt="" /></a><a href="http://tudor-sv.com/c5MM/files/7813/8157/1054/2.jpg" rel="prettyPhoto[gallery_106_1]"><img class="thumb" src="/c5MM/files/cache/e186924ae00fa60980c7787a9012fa06_f17.jpg" alt="" /></a><a href="http://tudor-sv.com/c5MM/files/2713/8157/1053/1.jpg" rel="prettyPhoto[gallery_106_1]"><img class="thumb" src="/c5MM/files/cache/bb131c22a18ebc8fce4eaee46381deda_f16.jpg" alt="" /></a></div> </li><li> <div class="gallery-slide"><a href="http://tudor-sv.com/c5MM/files/8713/8157/1124/12.jpg" rel="prettyPhoto[gallery_106_2]"><img class="thumb" src="/c5MM/files/cache/f48c87598b992aba14d681850d6816aa_f40.jpg" alt="" /></a><a href="http://tudor-sv.com/c5MM/files/7413/8157/1123/11.jpg" rel="prettyPhoto[gallery_106_2]"><img class="thumb" src="/c5MM/files/cache/e23a03c06f063d5298f521bca7c62d05_f39.jpg" alt="" /></a><a href="http://tudor-sv.com/c5MM/files/3813/8157/1122/10.jpg" rel="prettyPhoto[gallery_106_2]"><img class="thumb" src="/c5MM/files/cache/ac368e2a9a449cad444b934e64e71fb8_f38.jpg" alt="" /></a><a href="#"></a><a href="http://tudor-sv.com/c5MM/files/1413/8157/1121/9.jpg" rel="prettyPhoto[gallery_106_2]"><img class="thumb" src="/c5MM/files/cache/67fc8387c16b20c59e73f11ad53a1778_f37.jpg" alt="" /></a><a href="http://tudor-sv.com/c5MM/files/5213/8157/1119/7.jpg" rel="prettyPhoto[gallery_106_2]"><img class="thumb" src="/c5MM/files/cache/5ec4efd827bf903310ec68b0dfab3d31_f35.jpg" alt="" /></a><a href="http://tudor-sv.com/c5MM/files/7513/8157/1117/6.jpg" rel="prettyPhoto[gallery_106_2]"><img class="thumb" src="/c5MM/files/cache/43f4cf2540157cd38750c2a13f775706_f34.jpg" alt="" /></a><a href="http://tudor-sv.com/c5MM/files/4313/8157/1116/5.jpg" rel="prettyPhoto[gallery_106_2]"><img class="thumb" src="/c5MM/files/cache/fd4cf61d77583026c6fbe9b95b3e5419_f33.jpg" alt="" /></a><a href="#"></a><a href="http://tudor-sv.com/c5MM/files/1613/8157/1119/8.jpg" rel="prettyPhoto[gallery_106_2]"><img class="thumb" src="/c5MM/files/cache/d819f13a816d667b672d91997d305e0b_f36.jpg" alt="" /></a><a href="#"></a><a href="http://tudor-sv.com/c5MM/files/1813/8157/1114/3.jpg" rel="prettyPhoto[gallery_106_2]"><img class="thumb" src="/c5MM/files/cache/36932d47cd975c0e66b8f1cd51d164a6_f31.jpg" alt="" /></a><a href="http://tudor-sv.com/c5MM/files/7213/8157/1113/2.jpg" rel="prettyPhoto[gallery_106_2]"><img class="thumb" src="/c5MM/files/cache/eeedad3fefca558c63cfebe0792e1545_f30.jpg" alt="" /></a><a href="http://tudor-sv.com/c5MM/files/6513/8157/1112/1.jpg" rel="prettyPhoto[gallery_106_2]"><img class="thumb" src="/c5MM/files/cache/d1ca706e047eb0b17c4aac8446a1eb1c_f29.jpg" alt="" /></a></div> </li>
-    </ul>
-  </div>
-</div>
-<!-- end GALLERY SLIDER -->					</div>
-					<!-- end PROJECT with GALLERY SLIDER -->
-				</div>
-				<!-- end WORK TAB -->
-
-				<!-- start LIFE TAB -->
-				<div id="tab-life" class="fade">
-					<!-- start PERSONALITY and INTERESTS -->
-					<div class="row-fluid">
-						<div class="span6 box-2x2 text-box">
-              <h2>Personality</h2>							<div id="personality" class="tags">
-                <span class="tag">perfectionist</span>
-<span class="tag">helper</span>
-<span class="tag">achiever</span>
-<span class="tag">thinker</span>
-<span class="tag">dreamer</span>
-<span class="tag">romantic</span>
-<span class="tag">questioner</span>
-<span class="tag">lider</span>
-<span class="tag">self-motivated</span>
-<span class="tag">adaptable</span>
-<span class="tag">creative</span>
-<span class="tag">diplomatic</span>
-<span class="tag">enthusiastic</span>
-<span class="tag">rational</span>
-<span class="tag">sincere</span>
-<span class="tag">patient</span>
-<span class="tag">optimistic</span>
-<span class="tag">inventive</span>
-<span class="tag">humorous</span>
-<span class="tag">friendly</span>
-							</div>
-						</div>
-
-						<div class="span6 box-2x2 text-box">
-              <h2>Interests</h2>							<div id="interests">
-                <div class="percentage">
-  <div>Traveling</div>
-  <div class="progress">
-    <div class="bar bar-80">80 %</div>
-  </div>
-</div>
-<div class="percentage">
-  <div>Hicking</div>
-  <div class="progress">
-    <div class="bar bar-70">70 %</div>
-  </div>
-</div>
-<div class="percentage">
-  <div>Reading</div>
-  <div class="progress">
-    <div class="bar bar-60">60 %</div>
-  </div>
-</div>
-<div class="percentage">
-  <div>Philosophy</div>
-  <div class="progress">
-    <div class="bar bar-90">90 %</div>
-  </div>
-</div>
-							</div>
-						</div>
-					</div>
-					<!-- end PERSONALITY and INTERESTS -->
-					<!-- start LIFE with GALLERY SLIDER -->
-					<div class="row-fluid">
-
-<!-- start TEXT SLIDER -->
-<div class="span6 box-2x2 text-box">
-  <div class="flexslider gallery-txt">
-    <ul class="slides">
-      <li class="slide-fade in"><h3>Travel</h3><p>Donec eu libero sit amet quam egestas semper. AeneanPellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet link here quam egestas semper. AeneanPellentesque habitant morbi tristique senectus et netus et malesuada fames acDonmpor sit amet, ante. Donec eu libero sit amet quam egestas semper. AeneanPellentesque habitant morbi tristique senectus et netus et </p></li><li class="slide-fade in"><h3>Volunteering</h3><p>Donec eu libero sit amet quam egestas semper. AeneanPellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. AeneanPellentesque habitant morbi tristique senectus et netus et malesuada fames acesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. AeneanPellentesque habitant morbi tristique senectus et netus et</p></li><li class="slide-fade in"><h3>Have fun</h3><p>Donec eu libero sit amet quam egestas semper. AeneanPellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. AeneanPellentesque habitant morbi tristique senectus et netus et malesuada fames acesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. AeneanPellentesque habitant morbi tristique senectus et netus et</p></li>    </ul>
-  </div>
-</div>
-<!-- end TEXT SLIDER -->
-<!-- start GALLERY SLIDER -->
-<div class="span6 box-2x2 gallery-slider">
-  <div class="flexslider hide-dir gallery-img">
-    <ul class="slides">
-
-      <li> <div class="gallery-slide"><a href="http://tudor-sv.com/c5MM/files/8813/8157/1014/10.jpg" rel="prettyPhoto[gallery_108_0]"><img class="thumb" src="/c5MM/files/cache/b2ff0bce3eb35c8d50052838bee9e2ba_f15.jpg" alt="" /></a><a href="http://tudor-sv.com/c5MM/files/6613/8157/1013/9.jpg" rel="prettyPhoto[gallery_108_0]"><img class="thumb" src="/c5MM/files/cache/14e9f18a87af7149bb0abb3df991a8af_f14.jpg" alt="" /></a><a href="#"></a><a href="http://tudor-sv.com/c5MM/files/9813/8157/1012/8.jpg" rel="prettyPhoto[gallery_108_0]"><img class="thumb" src="/c5MM/files/cache/45d52d2ebf0c004306ee2dcd62d3bec7_f13.jpg" alt="" /></a><a href="http://tudor-sv.com/c5MM/files/5713/8157/1011/7.jpg" rel="prettyPhoto[gallery_108_0]"><img class="thumb" src="/c5MM/files/cache/def3fd13a29298c81e8be52dc01c3ea1_f12.jpg" alt="" /></a><a href="http://tudor-sv.com/c5MM/files/4113/8157/1009/6.jpg" rel="prettyPhoto[gallery_108_0]"><img class="thumb" src="/c5MM/files/cache/278134bfbf3bf9d3a9377c331ab71b7c_f11.jpg" alt="" /></a><a href="http://tudor-sv.com/c5MM/files/2213/8157/1009/5.jpg" rel="prettyPhoto[gallery_108_0]"><img class="thumb" src="/c5MM/files/cache/ed75293a5bb4ef84131003b43a27261d_f10.jpg" alt="" /></a><a href="#"></a><a href="http://tudor-sv.com/c5MM/files/4413/8157/1008/4.jpg" rel="prettyPhoto[gallery_108_0]"><img class="thumb" src="/c5MM/files/cache/d055b987b8c5bf4268859570e68f15cc_f9.jpg" alt="" /></a><a href="http://tudor-sv.com/c5MM/files/2613/8157/1007/3.jpg" rel="prettyPhoto[gallery_108_0]"><img class="thumb" src="/c5MM/files/cache/e5ead5ed9929d095f344c8c3a02b73ab_f8.jpg" alt="" /></a><a href="http://tudor-sv.com/c5MM/files/7713/8157/1006/2.jpg" rel="prettyPhoto[gallery_108_0]"><img class="thumb" src="/c5MM/files/cache/335f61af54ea8bf008b9f8dc3afe7d6e_f7.jpg" alt="" /></a><a href="http://tudor-sv.com/c5MM/files/7913/8157/1005/1.jpg" rel="prettyPhoto[gallery_108_0]"><img class="thumb" src="/c5MM/files/cache/380cde52ff48d35274d8c00627925976_f6.jpg" alt="" /></a></div> </li><li> <div class="gallery-slide"><a href="#"></a><a href="http://tudor-sv.com/c5MM/files/7313/8157/1064/12.jpg" rel="prettyPhoto[gallery_108_1]"><img class="thumb" src="/c5MM/files/cache/7d3494106d36f78b65133b3cb26e5a82_f27.jpg" alt="" /></a><a href="http://tudor-sv.com/c5MM/files/7213/8157/1063/11.jpg" rel="prettyPhoto[gallery_108_1]"><img class="thumb" src="/c5MM/files/cache/c85bbee37373d772862c75a1e4d18278_f26.jpg" alt="" /></a><a href="http://tudor-sv.com/c5MM/files/9713/8157/1062/10.jpg" rel="prettyPhoto[gallery_108_1]"><img class="thumb" src="/c5MM/files/cache/c833e0b5059fc245264f5bbc4c6b8072_f25.jpg" alt="" /></a><a href="http://tudor-sv.com/c5MM/files/4813/8157/1061/9.jpg" rel="prettyPhoto[gallery_108_1]"><img class="thumb" src="/c5MM/files/cache/fdac13d535edc66e5f115a4c3b65e71d_f24.jpg" alt="" /></a><a href="#"></a><a href="http://tudor-sv.com/c5MM/files/2513/8157/1060/8.jpg" rel="prettyPhoto[gallery_108_1]"><img class="thumb" src="/c5MM/files/cache/aea7c6710f02d76a480c4f7c15cfde43_f23.jpg" alt="" /></a><a href="http://tudor-sv.com/c5MM/files/3213/8157/1059/7.jpg" rel="prettyPhoto[gallery_108_1]"><img class="thumb" src="/c5MM/files/cache/a2930d065ab2b7ffc0d0e1d7affb264a_f22.jpg" alt="" /></a><a href="http://tudor-sv.com/c5MM/files/1713/8157/1058/6.jpg" rel="prettyPhoto[gallery_108_1]"><img class="thumb" src="/c5MM/files/cache/4e205e71da32161549d0fb8d95c6f66a_f21.jpg" alt="" /></a><a href="#"></a><a href="http://tudor-sv.com/c5MM/files/6813/8157/1056/5.jpg" rel="prettyPhoto[gallery_108_1]"><img class="thumb" src="/c5MM/files/cache/6801b7ebd4524a8a5c13992896a1b9ed_f20.jpg" alt="" /></a><a href="http://tudor-sv.com/c5MM/files/3113/8157/1055/4.jpg" rel="prettyPhoto[gallery_108_1]"><img class="thumb" src="/c5MM/files/cache/b1c8f4d2207a2353b4fa39ec58e0a3c3_f19.jpg" alt="" /></a><a href="http://tudor-sv.com/c5MM/files/9913/8157/1055/3.jpg" rel="prettyPhoto[gallery_108_1]"><img class="thumb" src="/c5MM/files/cache/484f31880ea4b04a497faa52e86e6fdd_f18.jpg" alt="" /></a><a href="http://tudor-sv.com/c5MM/files/7813/8157/1054/2.jpg" rel="prettyPhoto[gallery_108_1]"><img class="thumb" src="/c5MM/files/cache/e186924ae00fa60980c7787a9012fa06_f17.jpg" alt="" /></a><a href="http://tudor-sv.com/c5MM/files/2713/8157/1053/1.jpg" rel="prettyPhoto[gallery_108_1]"><img class="thumb" src="/c5MM/files/cache/bb131c22a18ebc8fce4eaee46381deda_f16.jpg" alt="" /></a></div> </li><li> <div class="gallery-slide"><a href="http://tudor-sv.com/c5MM/files/8713/8157/1124/12.jpg" rel="prettyPhoto[gallery_108_2]"><img class="thumb" src="/c5MM/files/cache/f48c87598b992aba14d681850d6816aa_f40.jpg" alt="" /></a><a href="http://tudor-sv.com/c5MM/files/7413/8157/1123/11.jpg" rel="prettyPhoto[gallery_108_2]"><img class="thumb" src="/c5MM/files/cache/e23a03c06f063d5298f521bca7c62d05_f39.jpg" alt="" /></a><a href="#"></a><a href="http://tudor-sv.com/c5MM/files/3813/8157/1122/10.jpg" rel="prettyPhoto[gallery_108_2]"><img class="thumb" src="/c5MM/files/cache/ac368e2a9a449cad444b934e64e71fb8_f38.jpg" alt="" /></a><a href="http://tudor-sv.com/c5MM/files/1413/8157/1121/9.jpg" rel="prettyPhoto[gallery_108_2]"><img class="thumb" src="/c5MM/files/cache/67fc8387c16b20c59e73f11ad53a1778_f37.jpg" alt="" /></a><a href="http://tudor-sv.com/c5MM/files/5213/8157/1119/7.jpg" rel="prettyPhoto[gallery_108_2]"><img class="thumb" src="/c5MM/files/cache/5ec4efd827bf903310ec68b0dfab3d31_f35.jpg" alt="" /></a><a href="#"></a><a href="http://tudor-sv.com/c5MM/files/7513/8157/1117/6.jpg" rel="prettyPhoto[gallery_108_2]"><img class="thumb" src="/c5MM/files/cache/43f4cf2540157cd38750c2a13f775706_f34.jpg" alt="" /></a><a href="http://tudor-sv.com/c5MM/files/4313/8157/1116/5.jpg" rel="prettyPhoto[gallery_108_2]"><img class="thumb" src="/c5MM/files/cache/fd4cf61d77583026c6fbe9b95b3e5419_f33.jpg" alt="" /></a><a href="http://tudor-sv.com/c5MM/files/1613/8157/1119/8.jpg" rel="prettyPhoto[gallery_108_2]"><img class="thumb" src="/c5MM/files/cache/d819f13a816d667b672d91997d305e0b_f36.jpg" alt="" /></a><a href="#"></a><a href="http://tudor-sv.com/c5MM/files/1813/8157/1114/3.jpg" rel="prettyPhoto[gallery_108_2]"><img class="thumb" src="/c5MM/files/cache/36932d47cd975c0e66b8f1cd51d164a6_f31.jpg" alt="" /></a><a href="http://tudor-sv.com/c5MM/files/7213/8157/1113/2.jpg" rel="prettyPhoto[gallery_108_2]"><img class="thumb" src="/c5MM/files/cache/eeedad3fefca558c63cfebe0792e1545_f30.jpg" alt="" /></a><a href="http://tudor-sv.com/c5MM/files/6513/8157/1112/1.jpg" rel="prettyPhoto[gallery_108_2]"><img class="thumb" src="/c5MM/files/cache/d1ca706e047eb0b17c4aac8446a1eb1c_f29.jpg" alt="" /></a><a href="#"></a></div> </li>
-    </ul>
-  </div>
-</div>
-<!-- end GALLERY SLIDER -->					</div>
-					<!-- end LIFE with GALLERY SLIDER -->
-				</div>
-				<!-- end LIFE TAB -->
-
-				<!-- start CONTACT TAB -->
-				<div id="tab-contact" class="fade">
-
-					<div class="row-fluid">
-
-						<div id="contact-details" class="span6 box-2x2 text-box">
-							<div class="row-fluid">
-  <div class="span5"><label>Address:</label></div>
-  <div class="span7">36 Designer's, Berlin, Germany</div>
-</div>
-<div class="row-fluid">
-  <div class="span5"><label>Phone 1:</label></div>
-  <div class="span7">+40 742 098 075</div>
-</div>
-<div class="row-fluid">
-  <div class="span5"><label>Phone 2:</label></div>
-  <div class="span7">+40 753 238 077</div>
-</div>
-<div class="row-fluid">
-  <div class="span5"><label>Email 1:</label></div>
-  <div class="span7">nice_mail@metrome.com</div>
-</div>
-<div class="row-fluid">
-  <div class="span5"><label>Email 2:</label></div>
-  <div class="span7">jrambo@mail.com </div>
-</div>
-<div class="row-fluid">
-  <div class="span5"><label>Website:</label></div>
-  <div class="span7">www.thisismysite.com</div>
-</div>
-						</div>
-
-						<div id="form-box" class="span6 box-2x2 text-box">
+  </main>
+  <!-- Main Container end-->
 
 
-<form action="/c5MM/packages/theme_metro_me_c5/themes/metro_me_c5/php/mail.php" method="post">
-  <input id="name" name="name" class="input-block-level" type="text" placeholder="Your name" >
-  <input id="email" name="email" class="input-block-level" type="text" placeholder="Your e-mail">
-  <textarea name="message" class="input-block-level" placeholder="Type your message here"></textarea>
-
-  <input type="hidden" name="to_adress" value="savatudor@yahoo.com">
-  <input type="hidden" name="from_adress" value="savatudor@yahoo.com">
-
-  <button type="submit">Send message</button>
-</form>
-
-<script>
-  //START Ajax Contact Form initialization
-  var formBox = $('#form-box');
-  var submitBtn = formBox.find('button');
-
-  submitBtn.click(function(e) {
-    e.preventDefault();
-    var error = false;
-
-    //message validation
-    var messageArea = formBox.find('textarea');
-    var messageVal = messageArea.val();
-    if (messageVal == "" || messageVal == " ") {
-      error = true;
-      messageArea.addClass('error');
-      submitBtn.html('Say something !');
-    }
-
-    //email validation
-    var emailInput = $('#email');
-    var emailVal = emailInput.val();
-    if (emailVal == "" || emailVal == " " || emailVal.indexOf('@') == -1 || emailVal.indexOf('.') == -1) {
-      error = true;
-      emailInput.addClass('error');
-      submitBtn.html('Invalid email !');
-    }
-
-    //name validation
-    var nameInput = $('#name');
-    var nameVal = nameInput.val();
-    if (nameVal == "" || nameVal == " ") {
-      error = true;
-      nameInput.addClass('error');
-      submitBtn.html('Name please !');
-    }
-
-    //check if any error occured
-    if (!error) {
-      submitBtn.html('Sending ...');
-
-      //collect form data
-      var formData = formBox.find('form').serialize();
-
-      //ajax request
-      $.ajax({
-        type: "POST",
-        url: "/c5MM/packages/theme_metro_me_c5/themes/metro_me_c5/php/mail.php",
-        data: formData,
-        success: function() {
-          submitBtn.html('Message sent. Thanks !');
-          setTimeout(function() {
-            submitBtn.html('Send message');
-          }, 5000)
-        },
-        error: function(jqXHR, errorType) {
-          submitBtn.html('Try again ...');
-          console.log(errorType);
-        }
-      });
-    }
-  });
-
-  formBox.find('input, textarea').focus(function() {
-    submitBtn.html('Send message');
-    $(this).removeClass('error');
-  });
-  //END Ajax Contact Form initialization
-</script>
-
-              <!--
-							<form action="/c5MM/packages/theme_metro_me_c5/themes/metro_me_c5/php/mail.php" method="post">
-								<input id="name" name="name" class="input-block-level" type="text" placeholder="Your name" >
-								<input id="email" name="email" class="input-block-level" type="text" placeholder="Your email">
-								<textarea name="message" class="input-block-level" placeholder="Type your message here"></textarea>
-								<button type="submit">Send message</button>
-							</form>
-              -->
-
-						</div>
-
-					</div>
-
-					<!-- start MAP -->
-					<div class="row-fluid">
-						<div id="map-box" class="span12 box-4x2">
-
-
-<div id="gmap-container"></div>
-
-
-<script>
-
-  //start Google map initialization using gmap3 16.772687, 96.157782
-
-  var gMap3Latitude = 16.772687;
-  var gMap3Longitude = 96.157782;
-  var gMap3Zoom = 15;
-
-  function loadGmap() {
-    $('#gmap-container').gmap3({
-      map: {
-        options: {
-          center: [gMap3Latitude, gMap3Longitude],
-          zoom: gMap3Zoom,
-          mapTypeControl: false,
-          navigationControl: true,
-          scrollwheel: true,
-          streetViewControl: false
-        }
-      },
-      marker: {
-        latLng: [gMap3Latitude, gMap3Longitude]
-      }
-    });
-  }
-
-  $('a[href="#tab-contact"]').on('shown', function () {
-    loadGmap();
-    $(window).resize();
-  });
-
-  //end Google map initialization using gmap3
-
-</script>
-
-						</div>
-					</div>
-					<!-- end MAP -->
-				</div>
-				<!-- end CONTACT TAB -->
-			</div>
-			<!-- end CONTENT AREA -->
-
-		</div>
-
-		<div id="to-top" class="row-fluid">
-      <a id="login-link" href="/c5MM/index.php/login/"><i class="icon-user"></i> Login</a>
-      <a id="to-top-link" href="#menu-container">Top</a>
-    </div>
-
-	</div>
-
-  <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-54814068-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
+  <!-- JavaScripts -->
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script src="assets/js/jquery.easing.1.3.js"></script>
+  <script src="assets/js/detectmobilebrowser.js"></script>
+  <script src="assets/js/isotope.pkgd.min.js"></script>
+  <script src="assets/js/wow.min.js"></script>
+  <script src="assets/js/waypoints.js"></script>
+  <script src="assets/js/jquery.counterup.min.js"></script>
+  <script src="assets/js/jquery.nicescroll.min.js"></script>
+  <script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=true"></script>
+  <script src="assets/js/gmaps.js"></script>
+  <script src="assets/libs/owl-carousel/owl.carousel.min.js"></script>
+  <script src="assets/libs/materialize/js/materialize.min.js"></script>
+  <script src="assets/libs/jwplayer/jwplayer.js"></script>
+  <script src="assets/libs/sweetalert/sweet-alert.min.js"></script>
+  <script src="assets/js/common.js"></script>
+  <script src="assets/js/main.js"></script>
 </body>
+
 </html>
