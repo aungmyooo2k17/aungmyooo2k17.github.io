@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="21bc6d0a-a888-447f-b8b1-dca3d9f51161" name="Default" comment="" />
+    <list default="true" id="21bc6d0a-a888-447f-b8b1-dca3d9f51161" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YHR/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/YHR/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YHR/restaurant.html" beforeDir="false" afterPath="$PROJECT_DIR$/YHR/restaurant.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,12 +14,30 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/YHR/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1710">
-              <caret line="114" column="79" lean-forward="true" selection-start-line="112" selection-start-column="12" selection-end-line="114" selection-end-column="79" />
+            <state relative-caret-position="744">
+              <caret line="129" column="32" lean-forward="true" selection-start-line="129" selection-start-column="6" selection-end-line="129" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login-page.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/YHR/login-page.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="257">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/YHR/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="148">
+              <caret line="65" column="29" selection-start-line="65" selection-start-column="20" selection-end-line="65" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -23,8 +45,8 @@
       <file leaf-file-name="restaurant.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/YHR/restaurant.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="402">
-              <caret line="261" selection-start-line="261" selection-end-line="261" />
+            <state relative-caret-position="408">
+              <caret line="338" column="39" selection-start-line="338" selection-start-column="39" selection-end-line="338" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -32,8 +54,8 @@
       <file leaf-file-name="location.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/YHR/location.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="581">
-              <caret line="238" lean-forward="true" selection-start-line="238" selection-end-line="238" />
+            <state relative-caret-position="3360">
+              <caret line="224" column="14" selection-start-line="221" selection-start-column="11" selection-end-line="224" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -41,7 +63,7 @@
       <file leaf-file-name="category.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/YHR/category.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="359">
+            <state relative-caret-position="2670">
               <caret line="178" column="19" lean-forward="true" selection-start-line="165" selection-start-column="11" selection-end-line="178" selection-end-column="19" />
             </state>
           </provider>
@@ -75,6 +97,8 @@
         <option value="$PROJECT_DIR$/YHR/index.html" />
         <option value="$PROJECT_DIR$/YHR/location.html" />
         <option value="$PROJECT_DIR$/YHR/category.html" />
+        <option value="$PROJECT_DIR$/YHR/login-page.html" />
+        <option value="$PROJECT_DIR$/YHR/login.html" />
         <option value="$PROJECT_DIR$/YHR/restaurant.html" />
       </list>
     </option>
@@ -91,7 +115,7 @@
       <path value="$PROJECT_DIR$/YHR/vendor/fontawesome-free/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
@@ -103,6 +127,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -124,7 +149,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -161,36 +185,38 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1532953708508</updated>
-      <workItem from="1532953710961" duration="11756000" />
+      <workItem from="1532953710961" duration="12404000" />
+      <workItem from="1533121408006" duration="3368000" />
+      <workItem from="1533132523841" duration="2655000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11756000" />
+    <option name="totallyTimeSpent" value="18427000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="805" extended-state="6" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,6 +231,62 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/YHR/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1710">
+          <caret line="114" column="79" selection-start-line="112" selection-start-column="12" selection-end-line="114" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YHR/location.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3360">
+          <caret line="224" column="14" lean-forward="true" selection-start-line="221" selection-start-column="11" selection-end-line="224" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YHR/category.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2670">
+          <caret line="178" column="19" lean-forward="true" selection-start-line="165" selection-start-column="11" selection-end-line="178" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YHR/restaurant.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3390">
+          <caret line="226" column="22" lean-forward="true" selection-start-line="226" selection-start-column="22" selection-end-line="226" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YHR/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1710">
+          <caret line="114" column="79" selection-start-line="112" selection-start-column="12" selection-end-line="114" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YHR/location.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3570">
+          <caret line="238" lean-forward="true" selection-start-line="238" selection-end-line="238" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YHR/category.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2670">
+          <caret line="178" column="19" lean-forward="true" selection-start-line="165" selection-start-column="11" selection-end-line="178" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YHR/restaurant.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3675">
+          <caret line="245" column="35" lean-forward="true" selection-start-line="245" selection-start-column="35" selection-end-line="245" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -215,31 +297,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/YHR/index.html">
+    <entry file="file://$PROJECT_DIR$/YHR/category.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1710">
-          <caret line="114" column="79" lean-forward="true" selection-start-line="112" selection-start-column="12" selection-end-line="114" selection-end-column="79" />
+        <state relative-caret-position="2670">
+          <caret line="178" column="19" lean-forward="true" selection-start-line="165" selection-start-column="11" selection-end-line="178" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/libs/jwplayer/jwplayer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="57" column="397" selection-start-line="57" selection-start-column="397" selection-end-line="57" selection-end-column="397" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/YHR/location.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="581">
-          <caret line="238" lean-forward="true" selection-start-line="238" selection-end-line="238" />
+        <state relative-caret-position="3360">
+          <caret line="224" column="14" selection-start-line="221" selection-start-column="11" selection-end-line="224" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/YHR/category.html">
+    <entry file="file://$PROJECT_DIR$/YHR/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="178" column="19" lean-forward="true" selection-start-line="165" selection-start-column="11" selection-end-line="178" selection-end-column="19" />
+        <state relative-caret-position="744">
+          <caret line="129" column="32" lean-forward="true" selection-start-line="129" selection-start-column="6" selection-end-line="129" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YHR/login-page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YHR/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="65" column="29" selection-start-line="65" selection-start-column="20" selection-end-line="65" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/YHR/restaurant.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="261" selection-start-line="261" selection-end-line="261" />
+        <state relative-caret-position="408">
+          <caret line="338" column="39" selection-start-line="338" selection-start-column="39" selection-end-line="338" selection-end-column="39" />
         </state>
       </provider>
     </entry>

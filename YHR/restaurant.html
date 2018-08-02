@@ -172,6 +172,11 @@
                            name="restaurant_name" required>
                 </div>
                 <div class="form-group">
+                    <label>Phone Number</label>
+                    <input class="form-control" type="number" id="restaurant_phone"
+                           name="restaurant_phone" required>
+                </div>
+                <div class="form-group">
                     <label>Address</label>
                     <textarea class="form-control" id="restaurant_address"
                               name="restaurant_address" required></textarea>
@@ -180,10 +185,10 @@
                     <label>Time</label>
                     <br>
                     From<input class="form-control-lg" type="time" id="restaurant_time_from"
-                           name="restaurant_time_from" required>
+                               name="restaurant_time_from" required>
 
                     To<input class="form-control-lg" type="time" id="restaurant_time_to"
-                               name="restaurant_time_to" required>
+                             name="restaurant_time_to" required>
                 </div>
 
                 <div class="form-group">
@@ -210,8 +215,16 @@
                            name="restaurant_detail_photo3" required>
                 </div>
 
-                
+                <div class="form-group">
+                    <label>Category</label>
+                    <select class="btn btn-secondary" id="sl_category"></select>
 
+                </div>
+
+                <div class="form-group">
+                    <label>Location</label>
+                    <select class="btn btn-secondary" id="sl_location"></select>
+                </div>
 
                 <input class="btn btn-primary" type="submit" value="Save Restaurant">
             </form>
@@ -259,6 +272,80 @@
     </div>
 </div>
 
+
+<script>
+
+    window.onload = function() {
+        checkCookie();
+    };
+
+    var slCategory = document.getElementById('sl_category');
+    var slLocation = document.getElementById('sl_location');
+    var tbRestaurantId = document.getElementById('restaurant_id');
+    var tbRestaurantName = document.getElementById('restaurant_name');
+    var tbRestaurantPhone = document.getElementById('restaurant_phone');
+    var tbRestaurantAddress = document.getElementById('restaurant_address');
+    var tbRestaurantTimeFrom = document.getElementById('restaurant_time_from');
+    var tbRestaurantTimeTo = document.getElementById('restaurant_time_to');
+    var tbRestaurantCoverPhoto = document.getElementById('restaurant_cover_photo');
+    var tbRestaurantDetailPhoto1 = document.getElementById('restaurant_detail_photo1');
+    var tbRestaurantDetailPhoto2 = document.getElementById('restaurant_detail_photo2');
+    var tbRestaurantDetailPhoto3 = document.getElementById('restaurant_detail_photo3');
+
+
+    var categoryRef = firebase.app().database().ref('category/');
+    categoryRef.once('value').then(function (snap) {
+        snap.forEach(function (childSnap) {
+            var option = document.createElement("option");
+            option.value = childSnap.child('category_id').val();
+            option.text = childSnap.child('category_name').val();
+            slCategory.add(option);
+        });
+    });
+
+    var locationRef = firebase.app().database().ref('location/');
+    locationRef.once('value').then(function (snap) {
+        snap.forEach(function (childSnap) {
+            var option = document.createElement("option");
+            option.value = childSnap.child('location_id').val();
+            option.text = childSnap.child('location_name').val();
+            slLocation.add(option);
+        });
+    });
+
+    function save_restaurant() {
+
+        firebase.database().ref('restaurant/' + tbRestaurantId.value).set({
+            restaurant_id: tbRestaurantId.value,
+            restaurant_name: tbRestaurantName.value,
+            restaurant_phone_number: tbRestaurantPhone.value,
+            restaurant_address: tbRestaurantAddress.value,
+            restaurant_open_time: tbRestaurantTimeFrom.value,
+            restaurant_close_time: tbRestaurantTimeTo.value,
+            restaurant_cover_photo: tbRestaurantCoverPhoto.value,
+            restaurant_detail_photo1: tbRestaurantDetailPhoto1.value,
+            restaurant_detail_photo2: tbRestaurantDetailPhoto2.value,
+            restaurant_detail_photo3: tbRestaurantDetailPhoto3.value,
+            restaurant_category_id: slCategory.value,
+            restaurant_location_id: slLocation.value
+
+        });
+
+        alert('saved successful');
+
+    }
+
+    function checkCookie() {
+        var user = getCookie("m2csgroup");
+        if (user != "") {
+            alert("Welcome again " + user);
+        } else {
+            location.href = "login.html";
+        }
+    }
+
+
+</script>
 
 <!-- Bootstrap core JavaScript-->
 <script src="vendor/jquery/jquery.min.js"></script>
