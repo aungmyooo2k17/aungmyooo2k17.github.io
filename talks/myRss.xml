@@ -34,31 +34,9 @@
 
 <googleplay:image href="http://sample.com/podcasts/unknown/Episode1.jpg" />
 
-<!-- <enclosure url="http://sample.com/podcasts/UnknownPodcastEpisode1.mp3" length="2320111" type="audio/mpeg" /> -->
-
-<!-- <guid>http://sample.com/podcasts/UnknownPodcastEpisode1.mp3</guid> -->
-
 <pubDate>Mon, 29 Jun 2015 19:00:00 GMT</pubDate>
 
 </item>
-
-<!-- <item>
-
-<title>What can we know, really?</title>
-
-<googleplay:author>The everyman</googleplay:author>
-
-<googleplay:description>And then we follow up on last week's podcast to examine what can and cannot be known.</googleplay:description>
-
-<googleplay:image href="http://sample.com/podcasts/unknown/Episode2.jpg" />
-
-<enclosure url="http://sample.com/podcasts/UnknownPodcastEpisode2.m4a" length="6421543" type="audio/x-m4a" />
-
-<guid>http://sample.com/podcasts/UnknownPodcastEpisode2.m4a</guid>
-
-<pubDate>Mon, 6 Jul 2015 19:00:00 GMT</pubDate>
-
-</item> -->
 
 </channel>
 
