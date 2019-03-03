@@ -1,6 +1,23 @@
 $(window).keypress(function(e) {
       if (e.which === 32) {
-        $("#quote").addClass("reset");
+        generateQuotes();
+      }
+  });
+
+$(window).on("tap", function() {
+  generateQuotes();
+})
+  function mycallback(json){
+    var quote = json[0];
+    $("#quote").html(quote.content)
+    $("#writer").html(quote.title)
+    $("#quote").addClass("executed");
+      $("#quote").removeClass("reset");
+      $("#writer").toggleClass("fade");
+  }
+
+  function generateQuotes() {
+    $("#quote").addClass("reset");
         $("#quote").removeClass("executed");
         $("#writer").toggleClass("fade");
         setTimeout(function(){
@@ -10,13 +27,4 @@ $(window).keypress(function(e) {
             dataType:"jsonp"
         });
         }, 1000);
-      }
-  });
-  function mycallback(json){
-    var quote = json[0];
-    $("#quote").html(quote.content)
-    $("#writer").html(quote.title)
-    $("#quote").addClass("executed");
-      $("#quote").removeClass("reset");
-      $("#writer").toggleClass("fade");
   }
