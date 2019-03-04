@@ -3,6 +3,7 @@ $(window).keypress(function(e) {
         generateQuotes();
       }
   });
+window.addEventListener("click", function(){ generateQuotes(); });
 
 $(window).on("tap", function() {
   generateQuotes();
