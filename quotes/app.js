@@ -5,9 +5,9 @@ $(window).keypress(function(e) {
   });
 window.addEventListener("click", function(){ generateQuotes(); });
 
-$(window).on("tap", function() {
-  generateQuotes();
-})
+
+
+
   function mycallback(json){
     var quote = json[0];
     $("#quote").html(quote.content)
