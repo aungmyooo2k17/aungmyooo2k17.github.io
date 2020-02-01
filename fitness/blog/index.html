@@ -2616,6 +2616,16 @@
       .bpm-progression-sidebar-tablet-mobile h4 {
       }
     </style>
+    <!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.8.0/firebase-app.js"></script>
+
+    <!-- If you enabled Analytics in your project, add the Firebase SDK for Analytics -->
+    <script src="https://www.gstatic.com/firebasejs/7.8.0/firebase-analytics.js"></script>
+
+    <!-- Add Firebase products that you want to use -->
+    <script src="https://www.gstatic.com/firebasejs/7.8.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.8.0/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.8.0/firebase-database.js"></script>
   </head>
   <body
     class="blog theme-solestep-progression woocommerce-no-js progression-studios-personal-active elementor-default"
@@ -3723,5 +3733,37 @@ progression-studios-one-page-nav-off					"
         s.parentNode.insertBefore(t, s);
       })();
     </script>
+    <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyBvNpeOg4YCUx22PF6kRvEETFCEHi0Rtvc",
+        authDomain: "martu-c07a2.firebaseapp.com",
+        databaseURL: "https://martu-c07a2.firebaseio.com",
+        projectId: "martu-c07a2",
+        storageBucket: "martu-c07a2.appspot.com",
+        messagingSenderId: "124973578821",
+        appId: "1:124973578821:web:93e305d7b57ad1915a412c",
+        measurementId: "G-V671PQBTB1"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      firebase.analytics();
+
+      firebase
+        .database()
+        .ref("data")
+        .set("jfeiofe");
+
+      var database = firebase.database();
+      var query = firebase.database().ref('posts').limitToLast(100);
+      query.then(function(snapshot) {
+        snapshot.forEach(function(childSnapshot) {
+          console.log(childSnapshot);
+        });
+      });
+
+      console.log("post" + post);
+    </script>
+    <!-- Insert these scripts at the bottom of the HTML, but before you use any Firebase services -->
   </body>
 </html>
