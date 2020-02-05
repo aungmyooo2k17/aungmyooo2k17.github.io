@@ -3030,42 +3030,9 @@ progression-studios-one-page-nav-off					"
       <div id="content-pro" class="site-content">
         <div class="width-container-pro ">
           <div id="main-container-pro">
-            <div class="progression-studios-blog-index">
+            <div class="progression-studios-blog-index" id="blog-post">
               <!-- #post-## -->
-              <div
-                id="post-117"
-                class="post-117 post type-post status-publish format-standard has-post-thumbnail hentry category-health-fitness tag-meditation tag-nutrition"
-              >
-                <iframe
-                  src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FCoach.and.PersonalTrainer.MARTU%2Fposts%2F1062436290773331&width=500"
-                  width="100%"
-                  height="646"
-                  style="border:none;overflow:hidden"
-                  scrolling="no"
-                  frameborder="0"
-                  allowTransparency="true"
-                  allow="encrypted-media"
-                ></iframe>
-                <!-- close .progression-studios-default-blog-index -->
-              </div>
-
-              <div
-                id="post-118"
-                class="post-118 post type-post status-publish format-standard has-post-thumbnail hentry category-health-fitness tag-meditation tag-nutrition"
-              >
-                <iframe
-                  src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FCoach.and.PersonalTrainer.MARTU%2Fvideos%2F496078101326645%2F&show_text=1&width=560"
-                  width="100%"
-                  height="656"
-                  style="border:none;overflow:hidden"
-                  scrolling="no"
-                  frameborder="0"
-                  allowTransparency="true"
-                  allow="encrypted-media"
-                  allowfullscreen="true"
-                ></iframe>
-                <!-- close .progression-studios-default-blog-index -->
-              </div>
+              
               <!-- #post-## -->
             </div>
             <!-- close .progression-studios-blog-index -->
@@ -3603,6 +3570,7 @@ progression-studios-one-page-nav-off					"
     <!-- close #boxed-layout-pro -->
     <div id="pro-scroll-top">Scroll to top</div>
     <div id="fb-root"></div>
+    <template id="blog-temp"> </template>
     <script
       async
       defer
@@ -3734,35 +3702,23 @@ progression-studios-one-page-nav-off					"
       })();
     </script>
     <script>
-      // Your web app's Firebase configuration
-      var firebaseConfig = {
-        apiKey: "AIzaSyBvNpeOg4YCUx22PF6kRvEETFCEHi0Rtvc",
-        authDomain: "martu-c07a2.firebaseapp.com",
-        databaseURL: "https://martu-c07a2.firebaseio.com",
-        projectId: "martu-c07a2",
-        storageBucket: "martu-c07a2.appspot.com",
-        messagingSenderId: "124973578821",
-        appId: "1:124973578821:web:93e305d7b57ad1915a412c",
-        measurementId: "G-V671PQBTB1"
-      };
-      // Initialize Firebase
-      firebase.initializeApp(firebaseConfig);
-      firebase.analytics();
 
-      firebase
-        .database()
-        .ref("data")
-        .set("jfeiofe");
+      var blogPost = document.getElementById('blog-post');
 
-      var database = firebase.database();
-      var query = firebase.database().ref('posts').limitToLast(100);
-      query.then(function(snapshot) {
-        snapshot.forEach(function(childSnapshot) {
-          console.log(childSnapshot);
+      fetch(
+        "https://script.google.com/macros/s/AKfycbyPfR6P-klYPGfJQBB6eHi2SVg-0_EknH5tkMmJFBpKro44FwIF/exec"
+      )
+        .then(resp => resp.json()) // Transform the data into json
+        .then(function(data) {
+          let posts = data;
+          return posts.map(function(post) {
+            console.log(post.id);
+            blogPost.innerHTML += post.post_frame;
+          });
+        })
+        .catch(function(error) {
+          console.log(error);
         });
-      });
-
-      console.log("post" + post);
     </script>
     <!-- Insert these scripts at the bottom of the HTML, but before you use any Firebase services -->
   </body>
