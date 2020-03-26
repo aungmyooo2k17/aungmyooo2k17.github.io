@@ -1,0 +1,76 @@
+#navbar-main {
+  background-color: rgba(255,255,255,0);
+}
+
+.nav-btn-website {
+  background-color: #f57b38;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  border: 0;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 16px;
+  padding-left: 16px;
+}
+
+#service-announcement-section {
+  padding-top: 58px;
+  padding-bottom: 68px;
+  background-color: #f57b38;
+}
+
+#main-title {
+  margin-top: 8px;
+}
+
+#sub-title {
+  margin: 31px;
+  margin-top: 18px;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  color: rgb(255,255,255);
+}
+
+#btn-main-link {
+}
+
+.main-content-btn {
+  background-color: #ffffff;
+  color: #f57b38;
+  font-family: Roboto, sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  text-transform: uppercase;
+  border: 0;
+  padding-top: 8px;
+  padding-right: 24px;
+  padding-bottom: 8px;
+  padding-left: 24px;
+}
+
+.website-img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 495px;
+}
+
+#content-section {
+}
+
+#content-heading {
+}
+
+#content-description {
+}
+
+.website-mobile-img {
+}
+
+.row.img-row {
+}
+
+#section-img {
+}
+
