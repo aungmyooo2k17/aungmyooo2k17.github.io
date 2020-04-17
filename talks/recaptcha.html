@@ -1,28 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <title>reCAPTCHA</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-  </head>
-  <body style='background-color: transparent;'>
+</head>
+
+<body style='background-color: transparent;'>
     <div></div>
     <form action="?" method="POST">
-      <div class="g-recaptcha" 
-        data-sitekey="6LeZSOoUAAAAAJCdTXARWuUOMxZRNcFkBrm76IKD"
-        data-callback="captchaCallback"></div>
+        <!-- <div class="g-recaptcha" data-sitekey="6LeZSOoUAAAAAJCdTXARWuUOMxZRNcFkBrm76IKD"
+            data-callback="captchaCallback"></div> -->
+        <div class="g-recaptcha" data-theme="light" data-sitekey="6LeZSOoUAAAAAJCdTXARWuUOMxZRNcFkBrm76IKD"
+            data-callback="captchaCallback"
+            style="transform:scale(0.77);-webkit-transform:scale(0.77);transform-origin:0 0;-webkit-transform-origin:0 0;">
+        </div>
 
     </form>
     <script>
-      function captchaCallback(response){
-        //console.log(response);
-        if(typeof Captcha!=="undefined"){
-          Captcha.postMessage(response);
+        function captchaCallback(response) {
+            //console.log(response);
+            if (typeof Captcha !== "undefined") {
+                Captcha.postMessage(response);
+            }
         }
-      }
     </script>
-  </body>
-</html>
+</body>
 
+</html>
