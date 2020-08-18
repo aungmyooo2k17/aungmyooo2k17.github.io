@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Great Depression &#8211; Scientia</title>
+	<atom:link href="http://scientia.themerex.net/category/history-of-the-library/great-depression/feed/" rel="self" type="application/rss+xml" />
+	<link>http://scientia.themerex.net</link>
+	<description>Public Library WordPress Theme</description>
+	<lastBuildDate>Fri, 20 Sep 2019 09:42:06 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2.7</generator>
+
+<image>
+	<url>http://scientia.themerex.net/wp-content/uploads/2018/01/cropped-favicon_512x512-32x32.png</url>
+	<title>Great Depression &#8211; Scientia</title>
+	<link>http://scientia.themerex.net</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Library Office Security Administration</title>
+		<link>http://scientia.themerex.net/library-office-security-administration/</link>
+				<comments>http://scientia.themerex.net/library-office-security-administration/#comments</comments>
+				<pubDate>Sun, 21 Jan 2018 12:49:01 +0000</pubDate>
+		<dc:creator><![CDATA[Melissa Hunter]]></dc:creator>
+				<category><![CDATA[Blog Extra]]></category>
+		<category><![CDATA[Great Depression]]></category>
+		<category><![CDATA[History of the Library]]></category>
+		<category><![CDATA[books]]></category>
+		<category><![CDATA[News and Events]]></category>
+
+		<guid isPermaLink="false">http://scientia.themerex.net/?p=79</guid>
+				<description><![CDATA[We love our library and hope that we find as many volunteers as we can to keep it safe]]></description>
+								<content:encoded><![CDATA[<p>Nunc egestas quam ligula, ac venenatis leo dapibus non. Cras a dictum eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed egestas semper felis, sit amet consectetur odio laoreet a. Morbi aliquam, quam sed suscipit tempor, sapien eros dictum leo, eget fermentum quam odio vitae quam. Suspendisse elementum felis sit amet libero molestie, nec venenatis augue molestie. Donec libero lorem, tempus eu tellus at, malesuada placerat ante. Class aptent taciti sociosqu a litora torquent per conubia nostra, per inceptos a himenaeos. Cras malesuada lacus ligula, vitae convallis erat ultricies eu. Fusce ultrices vel sapien vehicula facilisis. Etiam ut purus lectus.</p>
+<p>Nunc egestas a quam ligula, ac venenatis leo dapibus non. Quisque tristique mattis nunc, tempor a imperdiet. Vivamus ultricies, justo sagittis tempus ultrices, dui mauris condimentum lorem, non dignissim dui nisi vel nibh. Quisque placerat, est a bibendum cursus, nisl velit efficitur lorem, nec cursus magna lorem ac velit. Donec non feugiat libero, eget facilisis turpis. Fusce est vestibulum enim sit amet nunc fringilla, ut dictum lectus interdum placerat dignissim.</p>
+<p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nunc vel interdum enim, non hendrerit felis. Pellentesque ut turpis sed nibh porttitor pharetra. Praesent a tellus sem, molestie sed congue nec, rhoncus eu magna. Fusce fringilla ipsum maximus lacus gravida, non faucibus nisi tincidunt. Donec ornare dictum laoreet.</p>
+]]></content:encoded>
+							<wfw:commentRss>http://scientia.themerex.net/library-office-security-administration/feed/</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+							</item>
+	</channel>
+</rss>

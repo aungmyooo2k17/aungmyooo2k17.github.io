@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Romance &#8211; Scientia</title>
+	<atom:link href="http://scientia.themerex.net/product-category/romance/feed/" rel="self" type="application/rss+xml" />
+	<link>http://scientia.themerex.net</link>
+	<description>Public Library WordPress Theme</description>
+	<lastBuildDate>Sat, 08 Feb 2020 07:40:39 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2.7</generator>
+
+<image>
+	<url>http://scientia.themerex.net/wp-content/uploads/2018/01/cropped-favicon_512x512-32x32.png</url>
+	<title>Romance &#8211; Scientia</title>
+	<link>http://scientia.themerex.net</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>The Life Lessons</title>
+		<link>http://scientia.themerex.net/product/the-life-lessons/</link>
+				<comments>http://scientia.themerex.net/product/the-life-lessons/#respond</comments>
+				<pubDate>Wed, 26 Jun 2019 15:11:29 +0000</pubDate>
+		<dc:creator><![CDATA[Melissa Hunter]]></dc:creator>
+		
+		<guid isPermaLink="false">http://scientia.themerex.net/?post_type=product&#038;p=1681</guid>
+				<description><![CDATA[The Life Lessons is the book about self education and principles eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+
+Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Sed ut perspiciatis unde omnis iste natus error sit accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores.]]></description>
+								<content:encoded><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+]]></content:encoded>
+							<wfw:commentRss>http://scientia.themerex.net/product/the-life-lessons/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+		<item>
+		<title>Murder in a Village</title>
+		<link>http://scientia.themerex.net/product/murder-in-a-village/</link>
+				<comments>http://scientia.themerex.net/product/murder-in-a-village/#respond</comments>
+				<pubDate>Wed, 26 Jun 2019 14:59:20 +0000</pubDate>
+		<dc:creator><![CDATA[Melissa Hunter]]></dc:creator>
+		
+		<guid isPermaLink="false">http://scientia.themerex.net/?post_type=product&#038;p=1674</guid>
+				<description><![CDATA[Another wonderful work of fiction for all English detective lovers eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+
+Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Sed ut perspiciatis unde omnis iste natus error sit accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores.]]></description>
+								<content:encoded><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+]]></content:encoded>
+							<wfw:commentRss>http://scientia.themerex.net/product/murder-in-a-village/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+							</item>
+	</channel>
+</rss>

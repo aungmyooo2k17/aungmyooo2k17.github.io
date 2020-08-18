@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Team &#8211; Scientia</title>
+	<atom:link href="http://scientia.themerex.net/team/feed/" rel="self" type="application/rss+xml" />
+	<link>http://scientia.themerex.net</link>
+	<description>Public Library WordPress Theme</description>
+	<lastBuildDate>Thu, 13 Jun 2019 09:04:11 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.2.7</generator>
+
+<image>
+	<url>http://scientia.themerex.net/wp-content/uploads/2018/01/cropped-favicon_512x512-32x32.png</url>
+	<title>Team &#8211; Scientia</title>
+	<link>http://scientia.themerex.net</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>George Clark</title>
+		<link>http://scientia.themerex.net/team/george-clark/</link>
+				<pubDate>Tue, 23 Jan 2018 13:27:19 +0000</pubDate>
+		<dc:creator><![CDATA[Melissa Hunter]]></dc:creator>
+		
+		<guid isPermaLink="false">http://scientia.themerex.net/?post_type=cpt_team&#038;p=290</guid>
+				<description><![CDATA[]]></description>
+								<content:encoded><![CDATA[]]></content:encoded>
+										</item>
+		<item>
+		<title>Barry Walsh</title>
+		<link>http://scientia.themerex.net/team/barry-walsh/</link>
+				<pubDate>Tue, 23 Jan 2018 13:23:32 +0000</pubDate>
+		<dc:creator><![CDATA[Melissa Hunter]]></dc:creator>
+		
+		<guid isPermaLink="false">http://scientia.themerex.net/?post_type=cpt_team&#038;p=289</guid>
+				<description><![CDATA[]]></description>
+								<content:encoded><![CDATA[]]></content:encoded>
+										</item>
+		<item>
+		<title>Janet Green</title>
+		<link>http://scientia.themerex.net/team/janet-green/</link>
+				<pubDate>Tue, 23 Jan 2018 13:21:27 +0000</pubDate>
+		<dc:creator><![CDATA[Melissa Hunter]]></dc:creator>
+		
+		<guid isPermaLink="false">http://scientia.themerex.net/?post_type=cpt_team&#038;p=288</guid>
+				<description><![CDATA[]]></description>
+								<content:encoded><![CDATA[]]></content:encoded>
+										</item>
+		<item>
+		<title>Rita Parker</title>
+		<link>http://scientia.themerex.net/team/rita-parker/</link>
+				<pubDate>Tue, 23 Jan 2018 13:08:53 +0000</pubDate>
+		<dc:creator><![CDATA[Melissa Hunter]]></dc:creator>
+		
+		<guid isPermaLink="false">http://scientia.themerex.net/?post_type=cpt_team&#038;p=287</guid>
+				<description><![CDATA[]]></description>
+								<content:encoded><![CDATA[]]></content:encoded>
+										</item>
+		<item>
+		<title>Karen Smith</title>
+		<link>http://scientia.themerex.net/team/karen-smith/</link>
+				<pubDate>Tue, 23 Jan 2018 13:06:52 +0000</pubDate>
+		<dc:creator><![CDATA[Melissa Hunter]]></dc:creator>
+		
+		<guid isPermaLink="false">http://scientia.themerex.net/?post_type=cpt_team&#038;p=286</guid>
+				<description><![CDATA[]]></description>
+								<content:encoded><![CDATA[]]></content:encoded>
+										</item>
+		<item>
+		<title>Mia Lukas</title>
+		<link>http://scientia.themerex.net/team/mia-lukas/</link>
+				<pubDate>Tue, 23 Jan 2018 13:05:11 +0000</pubDate>
+		<dc:creator><![CDATA[Melissa Hunter]]></dc:creator>
+		
+		<guid isPermaLink="false">http://scientia.themerex.net/?post_type=cpt_team&#038;p=285</guid>
+				<description><![CDATA[]]></description>
+								<content:encoded><![CDATA[]]></content:encoded>
+										</item>
+		<item>
+		<title>Jeremy Lee</title>
+		<link>http://scientia.themerex.net/team/jeremy-lee/</link>
+				<pubDate>Tue, 23 Jan 2018 13:02:43 +0000</pubDate>
+		<dc:creator><![CDATA[Melissa Hunter]]></dc:creator>
+		
+		<guid isPermaLink="false">http://scientia.themerex.net/?post_type=cpt_team&#038;p=284</guid>
+				<description><![CDATA[]]></description>
+								<content:encoded><![CDATA[]]></content:encoded>
+										</item>
+		<item>
+		<title>Robert Morris</title>
+		<link>http://scientia.themerex.net/team/robert-morris/</link>
+				<pubDate>Tue, 23 Jan 2018 12:58:41 +0000</pubDate>
+		<dc:creator><![CDATA[Melissa Hunter]]></dc:creator>
+		
+		<guid isPermaLink="false">http://scientia.themerex.net/?post_type=cpt_team&#038;p=275</guid>
+				<description><![CDATA[]]></description>
+								<content:encoded><![CDATA[]]></content:encoded>
+										</item>
+	</channel>
+</rss>
