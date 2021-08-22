@@ -1,13 +1,89 @@
 {
-    "numberOfElements": 10,
-    "pageNumber": 1,
-    "pageSize": 10,
-    "totalElements": 143,
-    "totalPages": 16,
-    "items": [
-        {
-            "categoryId": 1,
-            "categoryName": "Halal"
-        }
-    ]
+  "numberOfElements": 5,
+  "pageNumber": 1,
+  "pageSize": 5,
+  "totalElements": 20,
+  "totalPages": 4,
+  "items": [
+    {
+      "categoryId": 1,
+      "categoryName": "Halal"
+    },
+    {
+      "categoryId": 2,
+      "categoryName": "Halal"
+    },
+    {
+      "categoryId": 3,
+      "categoryName": "Halal"
+    },
+    {
+      "categoryId": 4,
+      "categoryName": "Halal"
+    },
+    {
+      "categoryId": 5,
+      "categoryName": "Halal"
+    },
+    {
+      "categoryId": 6,
+      "categoryName": "Halal"
+    },
+    {
+      "categoryId": 7,
+      "categoryName": "Halal"
+    },
+    {
+      "categoryId": 8,
+      "categoryName": "Halal"
+    },
+    {
+      "categoryId": 9,
+      "categoryName": "Halal"
+    },
+    {
+      "categoryId": 10,
+      "categoryName": "Halal"
+    },
+    {
+      "categoryId": 11,
+      "categoryName": "Halal"
+    },
+    {
+      "categoryId": 12,
+      "categoryName": "Halal"
+    },
+    {
+      "categoryId": 13,
+      "categoryName": "Halal"
+    },
+    {
+      "categoryId": 14,
+      "categoryName": "Halal"
+    },
+    {
+      "categoryId": 15,
+      "categoryName": "Halal"
+    },
+    {
+      "categoryId": 16,
+      "categoryName": "Halal"
+    },
+    {
+      "categoryId": 17,
+      "categoryName": "Halal"
+    },
+    {
+      "categoryId": 18,
+      "categoryName": "Halal"
+    },
+    {
+      "categoryId": 19,
+      "categoryName": "Halal"
+    },
+    {
+      "categoryId": 20,
+      "categoryName": "Halal"
+    }
+  ]
 }
