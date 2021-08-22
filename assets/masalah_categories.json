@@ -1,1 +1,13 @@
-
+{
+    numberOfElements: 10,
+    pageNumber: 1,
+    pageSize: 10,
+    totalElements: 143,
+    totalPages: 16,
+    items: [
+        {
+            categoryId: 1,
+            categoryName: "Halal"
+        }
+    ]
+}
