@@ -7,83 +7,103 @@
   "items": [
     {
       "categoryId": 1,
-      "categoryName": "Halal"
+      "categoryName": "Halal",
+      "masalahCount": 2
     },
     {
       "categoryId": 2,
-      "categoryName": "Halal"
+      "categoryName": "Halal",
+      "masalahCount": 2
     },
     {
       "categoryId": 3,
-      "categoryName": "Halal"
+      "categoryName": "Halal",
+      "masalahCount": 2
     },
     {
       "categoryId": 4,
-      "categoryName": "Halal"
+      "categoryName": "Halal",
+      "masalahCount": 0
     },
     {
       "categoryId": 5,
-      "categoryName": "Halal"
+      "categoryName": "Halal",
+      "masalahCount": 2
     },
     {
       "categoryId": 6,
-      "categoryName": "Halal"
+      "categoryName": "Halal",
+      "masalahCount": 2
     },
     {
       "categoryId": 7,
-      "categoryName": "Halal"
+      "categoryName": "Halal",
+      "masalahCount": 2
     },
     {
       "categoryId": 8,
-      "categoryName": "Halal"
+      "categoryName": "Halal",
+      "masalahCount": 0
     },
     {
       "categoryId": 9,
-      "categoryName": "Halal"
+      "categoryName": "Halal",
+      "masalahCount": 2
     },
     {
       "categoryId": 10,
-      "categoryName": "Halal"
+      "categoryName": "Halal",
+      "masalahCount": 2
     },
     {
       "categoryId": 11,
-      "categoryName": "Halal"
+      "categoryName": "Halal",
+      "masalahCount": 2
     },
     {
       "categoryId": 12,
-      "categoryName": "Halal"
+      "categoryName": "Halal",
+      "masalahCount": 2
     },
     {
       "categoryId": 13,
-      "categoryName": "Halal"
+      "categoryName": "Halal",
+      "masalahCount": 2
     },
     {
       "categoryId": 14,
-      "categoryName": "Halal"
+      "categoryName": "Halal",
+      "masalahCount": 0
     },
     {
       "categoryId": 15,
-      "categoryName": "Halal"
+      "categoryName": "Halal",
+      "masalahCount": 2
     },
     {
       "categoryId": 16,
-      "categoryName": "Halal"
+      "categoryName": "Halal",
+      "masalahCount": 2
     },
     {
       "categoryId": 17,
-      "categoryName": "Halal"
+      "categoryName": "Halal",
+      "masalahCount": 2
     },
     {
       "categoryId": 18,
-      "categoryName": "Halal"
+      "categoryName": "Halal",
+      "masalahCount": 2
     },
     {
       "categoryId": 19,
-      "categoryName": "Halal"
+      "categoryName": "Halal",
+      "masalahCount": 2
     },
     {
       "categoryId": 20,
-      "categoryName": "Halal"
+      "categoryName": "Halal",
+      "masalahCount": 2
     }
   ]
 }
