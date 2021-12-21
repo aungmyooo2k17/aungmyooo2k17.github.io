@@ -7,102 +7,102 @@
   "items": [
     {
       "categoryId": 1,
-      "categoryName": "အဖြစ်",
+      "categoryName": "Halal",
       "masalahCount": 2
     },
     {
       "categoryId": 2,
-      "categoryName": "ကျွန်တော်",
+      "categoryName": "Halal",
       "masalahCount": 2
     },
     {
       "categoryId": 3,
-      "categoryName": "သူ၏",
+      "categoryName": "Halal",
       "masalahCount": 2
     },
     {
       "categoryId": 4,
-      "categoryName": "ထို",
+      "categoryName": "Halal",
       "masalahCount": 0
     },
     {
       "categoryId": 5,
-      "categoryName": "သူတို့",
+      "categoryName": "Halal",
       "masalahCount": 2
     },
     {
       "categoryId": 6,
-      "categoryName": "အားဖြင့်",
+      "categoryName": "Halal",
       "masalahCount": 2
     },
     {
       "categoryId": 7,
-      "categoryName": "စကားလုံး",
+      "categoryName": "Halal",
       "masalahCount": 2
     },
     {
       "categoryId": 8,
-      "categoryName": "အချို့သော",
+      "categoryName": "Halal",
       "masalahCount": 0
     },
     {
       "categoryId": 9,
-      "categoryName": "ဖြစ်",
+      "categoryName": "Halal",
       "masalahCount": 2
     },
     {
       "categoryId": 10,
-      "categoryName": "သို့မဟုတ်",
+      "categoryName": "Halal",
       "masalahCount": 2
     },
     {
       "categoryId": 11,
-      "categoryName": "ကျွန်တော်တို့",
+      "categoryName": "Halal",
       "masalahCount": 2
     },
     {
       "categoryId": 12,
-      "categoryName": "တစ်ဦး",
+      "categoryName": "Halal",
       "masalahCount": 2
     },
     {
       "categoryId": 13,
-      "categoryName": "ခဲ့ကြတယ်",
+      "categoryName": "Halal",
       "masalahCount": 2
     },
     {
       "categoryId": 14,
-      "categoryName": "လိမ့်မည်",
+      "categoryName": "Halal",
       "masalahCount": 0
     },
     {
       "categoryId": 15,
-      "categoryName": "ကပြောပါတယ်",
+      "categoryName": "Halal",
       "masalahCount": 2
     },
     {
       "categoryId": 16,
-      "categoryName": "တစ်ခုချင်းစီ",
+      "categoryName": "Halal",
       "masalahCount": 2
     },
     {
       "categoryId": 17,
-      "categoryName": "အလိုရှိ",
+      "categoryName": "Halal",
       "masalahCount": 2
     },
     {
       "categoryId": 18,
-      "categoryName": "သေးငယ်သော",
+      "categoryName": "Halal",
       "masalahCount": 2
     },
     {
       "categoryId": 19,
-      "categoryName": "ကြီးမားတဲ့",
+      "categoryName": "Halal",
       "masalahCount": 2
     },
     {
       "categoryId": 20,
-      "categoryName": "မြေယာ",
+      "categoryName": "Halal",
       "masalahCount": 2
     }
   ]
