@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AOC Accounting & Tax - Northern Beaches</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            color: #333;
+            line-height: 1.6;
+        }
+        .hero-section {
+            background-color: #0f172a;
+            color: white;
+        }
+        .cta-button {
+            background-color: #c2a589;
+            color: #0f172a;
+            transition: all 0.3s ease;
+        }
+        .cta-button:hover {
+            background-color: #b39176;
+        }
+        .section-heading {
+            position: relative;
+        }
+        .section-heading::after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 50px;
+            height: 3px;
+            background-color: #c2a589;
+        }
+        .service-card {
+            border: 1px solid #e2e8f0;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+        .service-card:hover {
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+            transform: translateY(-5px);
+        }
+        .industry-card {
+            border-radius: 8px;
+            background-color: #f8fafc;
+            transition: all 0.3s ease;
+        }
+        .industry-card:hover {
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+            transform: translateY(-5px);
+        }
+        .value-card {
+            border-left: 4px solid #c2a589;
+            background-color: #f8fafc;
+            transition: all 0.3s ease;
+        }
+        .value-card:hover {
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="bg-white shadow-md py-4 sticky top-0 z-50">
+        <div class="container mx-auto px-6 flex justify-between items-center">
+            <div class="text-2xl font-bold text-[#0f172a]">AOC Accounting & Tax</div>
+            <div class="hidden md:flex space-x-6">
+                <a href="#home" class="hover:text-[#c2a589] transition duration-300">Home</a>
+                <a href="#about" class="hover:text-[#c2a589] transition duration-300">About Us</a>
+                <a href="#services" class="hover:text-[#c2a589] transition duration-300">Services</a>
+                <a href="#industries" class="hover:text-[#c2a589] transition duration-300">Industries</a>
+                <a href="#values" class="hover:text-[#c2a589] transition duration-300">Core Values</a>
+                <a href="#fees" class="hover:text-[#c2a589] transition duration-300">Fees</a>
+                <a href="#contact" class="hover:text-[#c2a589] transition duration-300">Contact</a>
+            </div>
+            <div class="md:hidden">
+                <button class="text-gray-500">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero-section py-20">
+        <div class="container mx-auto px-6 text-center">
+            <h1 class="text-4xl md:text-5xl font-bold mb-4">Northern Beaches based accounting firm<br>for individuals and businesses</h1>
+            <p class="text-xl mb-8">Personalized accounting services with over 25 years of experience</p>
+            <button class="cta-button px-8 py-3 rounded-md font-bold hover:shadow-lg">Book a Free Consultation</button>
+        </div>
+    </header>
+
+    <!-- About Us Section -->
+    <section id="about" class="py-16 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold mb-16 text-center section-heading">About AOC Accounting & Tax</h2>
+            <div class="flex flex-col md:flex-row gap-10">
+                <div class="md:w-1/2">
+                    <img src="https://fastly.picsum.photos/id/7/600/400.jpg?hmac=wJC8k4OXvnU03E7d6yIOTneAa2iBafShBX7plQyJ9s8" alt="Andrea O'Connor, Director" class="rounded-lg shadow-md w-full">
+                </div>
+                <div class="md:w-1/2">
+                    <h3 class="text-2xl font-bold mb-4">Our Expertise</h3>
+                    <p class="mb-4">At <strong>AOC Accounting & Tax</strong>, we are dedicated to providing exceptional accounting services to individuals and businesses. The director <strong>Andrea O'Connor</strong>, brings over 25 years of experience in both <strong>Australian and international accounting</strong>.</p>
+                    <p class="mb-4">With <strong>Masters in Taxation and Business</strong>, a <strong>Masters in Economics</strong>, and qualifications as a <strong>CPA</strong>, <strong>Tax Agent</strong>, and <strong>ASIC Agent</strong>, I am passionate about delivering personalized, high-quality financial solutions tailored to your unique needs.</p>
+                    <p>Every client is different, and we pride ourselves on offering <strong>customized services</strong> to help you meet your specific financial goals. Whether you're seeking <strong>tax planning</strong>, <strong>business structuring</strong>, or expert <strong>financial reporting</strong>, we ensure your finances are optimized for both growth and tax efficiency.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-16">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold mb-16 text-center section-heading">Our Services</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Service 1 -->
+                <div class="service-card p-6">
+                    <div class="w-12 h-12 bg-[#c2a589] rounded-full flex items-center justify-center mb-4">
+                        <i class="fas fa-book text-white"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Bookkeeping Services</h3>
+                    <p class="mb-4">Running a small business is demanding, and bookkeeping can take up valuable time that could be better spent growing your business. We offer professional bookkeeping services to relieve the burden, ensuring your financial records are accurate and up to date.</p>
+                    <ul class="space-y-2">
+                        <li>✅ Migration to Xero</li>
+                        <li>✅ Streamlining Bookkeeping Processes</li>
+                        <li>✅ Transaction Reconciliation</li>
+                        <li>✅ Expense & Sales Management</li>
+                    </ul>
+                </div>
+                
+                <!-- Service 2 -->
+                <div class="service-card p-6">
+                    <div class="w-12 h-12 bg-[#c2a589] rounded-full flex items-center justify-center mb-4">
+                        <i class="fas fa-calculator text-white"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Tax Accounting Services</h3>
+                    <p class="mb-4">Navigating the complexities of tax laws can be overwhelming, but with expert guidance, you can minimize tax liabilities and ensure compliance. We help businesses structure their operations efficiently for tax purposes.</p>
+                    <ul class="space-y-2">
+                        <li>✅ Tax Planning & Structuring</li>
+                        <li>✅ Business Tax Compliance</li>
+                        <li>✅ Capital Gains Tax (CGT) Advice</li>
+                        <li>✅ ATO Liaison & Audit Support</li>
+                    </ul>
+                </div>
+                
+                <!-- Service 3 -->
+                <div class="service-card p-6">
+                    <div class="w-12 h-12 bg-[#c2a589] rounded-full flex items-center justify-center mb-4">
+                        <i class="fas fa-file-invoice text-white"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Income Tax Return & BAS Preparation</h3>
+                    <p class="mb-4">Staying compliant with tax obligations is crucial for both individuals and businesses. We provide comprehensive tax return and BAS preparation services to ensure accurate reporting and optimal tax outcomes.</p>
+                    <ul class="space-y-2">
+                        <li>✅ Individual & Business Tax Returns</li>
+                        <li>✅ Tax Deductions & Offsets</li>
+                        <li>✅ Investment & Rental Property Tax Advice</li>
+                        <li>✅ GST Reporting & Lodgment</li>
+                    </ul>
+                </div>
+                
+                <!-- Service 4 -->
+                <div class="service-card p-6">
+                    <div class="w-12 h-12 bg-[#c2a589] rounded-full flex items-center justify-center mb-4">
+                        <i class="fas fa-piggy-bank text-white"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Self-Managed Superannuation Fund Services</h3>
+                    <p class="mb-4">Managing your own superannuation fund can provide greater control over your retirement savings, but it also comes with complex regulatory and compliance requirements.</p>
+                    <ul class="space-y-2">
+                        <li>✅ Establishment of SMSF</li>
+                        <li>✅ ABN & TFN Registration</li>
+                        <li>✅ Investment Strategy Guidance</li>
+                        <li>✅ Annual Financial Statements & Tax Return Preparation</li>
+                    </ul>
+                </div>
+                
+                <!-- Service 5 -->
+                <div class="service-card p-6">
+                    <div class="w-12 h-12 bg-[#c2a589] rounded-full flex items-center justify-center mb-4">
+                        <i class="fas fa-laptop text-white"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Xero Setup & Training</h3>
+                    <p class="mb-4">We help you set up and optimize Xero for your business needs, ensuring you get the most from your accounting software.</p>
+                    <ul class="space-y-2">
+                        <li>✅ Xero Setup & Customization</li>
+                        <li>✅ Data Migration from Previous Systems</li>
+                        <li>✅ Integration with Third-Party Apps</li>
+                        <li>✅ Staff Training & Support</li>
+                    </ul>
+                </div>
+                
+                <!-- Service 6 -->
+                <div class="service-card p-6">
+                    <div class="w-12 h-12 bg-[#c2a589] rounded-full flex items-center justify-center mb-4">
+                        <i class="fas fa-building text-white"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Entity Setup Services</h3>
+                    <p class="mb-4">Establishing the right business structure is critical for tax efficiency and protection. We provide expert guidance in setting up a range of business entities.</p>
+                    <ul class="space-y-2">
+                        <li>✅ Company Setup & Registration</li>
+                        <li>✅ Trust Setup (Family, Unit, Discretionary)</li>
+                        <li>✅ Partnership Setup</li>
+                        <li>✅ SMSF Setup</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Industries Section -->
+    <section id="industries" class="py-16 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold mb-16 text-center section-heading">Industries We Serve</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="industry-card p-6">
+                    <div class="w-12 h-12 bg-[#0f172a] rounded-full flex items-center justify-center mb-4">
+                        <i class="fas fa-hard-hat text-white"></i>
+                    </div>
+                    <h3 class="text-lg font-bold mb-2">Building & Construction</h3>
+                    <p>We help tradespeople and construction businesses manage their finances, optimize tax structures, and stay compliant with industry-specific regulations.</p>
+                </div>
+                <div class="industry-card p-6">
+                    <div class="w-12 h-12 bg-[#0f172a] rounded-full flex items-center justify-center mb-4">
+                        <i class="fas fa-home text-white"></i>
+                    </div>
+                    <h3 class="text-lg font-bold mb-2">Property Investors & Real Estate</h3>
+                    <p>Whether you're purchasing your first investment property or managing a portfolio, we assist with tax planning, negative gearing strategies, and capital gains tax.</p>
+                </div>
+                <div class="industry-card p-6">
+                    <div class="w-12 h-12 bg-[#0f172a] rounded-full flex items-center justify-center mb-4">
+                        <i class="fas fa-briefcase text-white"></i>
+                    </div>
+                    <h3 class="text-lg font-bold mb-2">Self-Employed Professionals</h3>
+                    <p>We provide tailored tax and accounting solutions for self-employed professionals, ensuring efficient income structuring and tax minimization strategies.</p>
+                </div>
+                <div class="industry-card p-6">
+                    <div class="w-12 h-12 bg-[#0f172a] rounded-full flex items-center justify-center mb-4">
+                        <i class="fas fa-stethoscope text-white"></i>
+                    </div>
+                    <h3 class="text-lg font-bold mb-2">Health & Medical Professionals</h3>
+                    <p>Our services cater to medical practitioners by ensuring tax efficiency, managing payroll, and structuring business entities.</p>
+                </div>
+                <div class="industry-card p-6">
+                    <div class="w-12 h-12 bg-[#0f172a] rounded-full flex items-center justify-center mb-4">
+                        <i class="fas fa-laptop-code text-white"></i>
+                    </div>
+                    <h3 class="text-lg font-bold mb-2">Technology & IT Services</h3>
+                    <p>For startups, freelancers, and established IT firms, we offer expert tax and accounting solutions, including R&D tax incentives.</p>
+                </div>
+                <div class="industry-card p-6">
+                    <div class="w-12 h-12 bg-[#0f172a] rounded-full flex items-center justify-center mb-4">
+                        <i class="fas fa-gavel text-white"></i>
+                    </div>
+                    <h3 class="text-lg font-bold mb-2">Professional Services</h3>
+                    <p>We work with lawyers, mortgage brokers, engineers, and architects, helping them manage tax obligations and business structures.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Core Values Section -->
+    <section id="values" class="py-16">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold mb-16 text-center section-heading">Our Core Values</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="value-card p-6">
+                    <h3 class="text-lg font-bold mb-2">Client-Centered Approach</h3>
+                    <p>We prioritize our clients' financial well-being, offering tailored solutions that align with their unique needs and long-term goals.</p>
+                </div>
+                <div class="value-card p-6">
+                    <h3 class="text-lg font-bold mb-2">Minimizing Tax, Maximizing Advice</h3>
+                    <p>We proactively seek tax-saving opportunities while providing strategic advice to help clients make informed financial decisions.</p>
+                </div>
+                <div class="value-card p-6">
+                    <h3 class="text-lg font-bold mb-2">Integrity & Transparency</h3>
+                    <p>Honesty and ethical practices are the foundation of our services. We believe in full transparency regarding fees, processes, and financial strategies.</p>
+                </div>
+                <div class="value-card p-6">
+                    <h3 class="text-lg font-bold mb-2">Expertise & Continuous Learning</h3>
+                    <p>With over 25 years of experience in Australian and international accounting, we stay ahead of regulatory changes to provide the best solutions.</p>
+                </div>
+                <div class="value-card p-6">
+                    <h3 class="text-lg font-bold mb-2">Efficiency & Accuracy</h3>
+                    <p>We ensure that all financial reports, tax filings, and compliance matters are handled with precision and efficiency.</p>
+                </div>
+                <div class="value-card p-6">
+                    <h3 class="text-lg font-bold mb-2">Technology-Driven Solutions</h3>
+                    <p>As Xero and MYOB specialists, we embrace cloud accounting to enhance efficiency and give clients real-time financial insights.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Fees Section -->
+    <section id="fees" class="py-16 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold mb-16 text-center section-heading">Transparent & Flexible Accounting Fees</h2>
+            <div class="flex flex-col md:flex-row gap-10">
+                <div class="md:w-1/2">
+                    <p class="mb-4">At AOC Accounting & Tax, we believe that quality, professional advice should be both accessible and cost-effective. Our flexible fee structure ensures that you only pay for the services you need, whether you're an individual or a business owner.</p>
+                    <p class="mb-4">For business clients, we offer tailored solutions to meet your specific needs, whether you require ongoing support or assistance with one-off projects. We work proactively to help you plan ahead and provide expert guidance whenever needed.</p>
+                    <p class="mb-4">Before engagement, we can review your requirements and provide a clear fee estimate, giving you transparency and confidence in our services.</p>
+                    <button class="cta-button mt-4 px-8 py-3 rounded-md font-bold">Request Fee Estimate</button>
+                </div>
+                <div class="md:w-1/2">
+                    <div class="bg-white p-6 rounded-lg shadow-md">
+                        <h3 class="text-2xl font-bold mb-4">Switching Accountant Made Easy</h3>
+                        <p class="mb-4">Maybe you're unsatisfied with your current accountant but feel like switching would be just too hard? The good news is that moving from another accountant doesn't need to be difficult.</p>
+                        <p class="mb-4">We can streamline the process with our systematic and structured approach. We'll handle everything from contacting your existing accountant, transferring accounting software logins and plugging any gaps.</p>
+                        <p>All you need to do is let us know you want to make the change, and we can take care of the rest.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="py-16">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold mb-16 text-center section-heading">Client Testimonials</h2>
+            <p class="text-center mb-10">Our clients appreciate our dedication and expertise</p>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="bg-gray-100 p-6 rounded-lg text-center">
+                    <div class="flex justify-center mb-4 text-[#c2a589]">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="mb-4">"AOC Accounting transformed our financial operations. Their expertise and personal approach made a significant difference."</p>
+                    <p class="font-bold">John Smith</p>
+                    <p class="text-sm text-gray-600">Business Owner, Sydney</p>
+                </div>
+                
+                <div class="bg-gray-100 p-6 rounded-lg text-center">
+                    <div class="flex justify-center mb-4 text-[#c2a589]">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="mb-4">"I highly recommend AOC Accounting for their professional accounting services. They helped us minimize tax and maximize growth."</p>
+                    <p class="font-bold">Sarah Johnson</p>
+                    <p class="text-sm text-gray-600">Property Investor, Northern Beaches</p>
+                </div>
+                
+                <div class="bg-gray-100 p-6 rounded-lg text-center">
+                    <div class="flex justify-center mb-4 text-[#c2a589]">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="mb-4">"AOC Accounting is indispensable for our financial management. Andrea's attention to detail and industry knowledge is outstanding."</p>
+                    <p class="font-bold">David Chen</p>
+                    <p class="text-sm text-gray-600">Medical Practitioner, Sydney</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold mb-16 text-center section-heading">Get In Touch</h2>
+            <div class="flex flex-col md:flex-row gap-10">
+                <div class="md:w-1/2">
+                    <form class="bg-white p-6 rounded-lg shadow-md">
+                        <div class="mb-4">
+                            <label for="name" class="block text-gray-700 mb-2">Name</label>
+                            <input type="text" id="name" class="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-[#c2a589]">
+                        </div>
+                        <div class="mb-4">
+                            <label for="email" class="block text-gray-700 mb-2">Email</label>
+                            <input type="email" id="email" class="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-[#c2a589]">
+                        </div>
+                        <div class="mb-4">
+                            <label for="phone" class="block text-gray-700 mb-2">Phone</label>
+                            <input type="tel" id="phone" class="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-[#c2a589]">
+                        </div>
+                        <div class="mb-4">
+                            <label for="message" class="block text-gray-700 mb-2">Message</label>
+                            <textarea id="message" rows="4" class="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-[#c2a589]"></textarea>
+                        </div>
+                        <button type="submit" class="cta-button w-full py-3 rounded-md font-bold">Send Message</button>
+                    </form>
+                </div>
+                <div class="md:w-1/2">
+                    <div class="bg-white p-6 rounded-lg shadow-md h-full">
+                        <h3 class="text-2xl font-bold mb-6">Contact Information</h3>
+                        <div class="mb-6 flex items-start">
+                            <div class="bg-[#c2a589] p-3 rounded-full mr-4">
+                                <i class="fas fa-map-marker-alt text-white"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold mb-2">Address</h4>
+                                <p>Northern Beaches, Sydney, NSW</p>
+                            </div>
+                        </div>
+                        <div class="mb-6 flex items-start">
+                            <div class="bg-[#c2a589] p-3 rounded-full mr-4">
+                                <i class="fas fa-phone text-white"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold mb-2">Phone</h4>
+                                <p>(02) XXXX XXXX</p>
+                            </div>
+                        </div>
+                        <div class="mb-6 flex items-start">
+                            <div class="bg-[#c2a589] p-3 rounded-full mr-4">
+                                <i class="fas fa-envelope text-white"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold mb-2">Email</h4>
+                                <p>info@aocaccounting.com.au</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="bg-[#c2a589] p-3 rounded-full mr-4">
+                                <i class="fas fa-clock text-white"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold mb-2">Hours</h4>
+                                <p>Monday - Friday: 9AM - 5PM</p>
+                                <p class="text-[#c2a589] mt-2">We understand that your questions don't have to be always between 9am - 5pm.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-12 bg-[#0f172a] text-white">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl font-bold mb-4">Start your financial journey today</h2>
+            <p class="mb-8">Book a free consultation and take the first step towards optimizing your financial future</p>
+            <button class="cta-button px-8 py-3 rounded-md font-bold hover:shadow-lg">Book Now</button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-[#0f172a] text-white py-10">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">AOC Accounting & Tax</h3>
+                    <p>Professional accounting services with over 25 years of experience in both Australian and international accounting.</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#home" class="hover:text-[#c2a589] transition duration-300">Home</a></li>
+                        <li><a href="#about" class="hover:text-[#c2a589] transition duration-300">About Us</a></li>
+                        <li><a href="#services" class="hover:text-[#c2a589] transition duration-300">Services</a></li>
+                        <li><a href="#industries" class="hover:text-[#c2a589] transition duration-300">Industries</a></li>
+                        <li><a href="#contact" class="hover:text-[#c2a589] transition duration-300">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Services</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="hover:text-[#c2a589] transition duration-300">Bookkeeping</a></li>
+                        <li><a href="#" class="hover:text-[#c2a589] transition duration-300">Tax Accounting</a></li>
+                        <li><a href="#" class="hover:text-[#c2a589] transition duration-300">SMSF Services</a></li>
+                        <li><a href="#" class="hover:text-[#c2a589] transition duration-300">Xero Setup</a></li>
+                        <li><a href="#" class="hover:text-[#c2a589] transition duration-300">Entity Setup</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Get In Touch</h3>
+                    <p>Book a free consultation today and take the first step towards optimizing your financial future.</p>
+                    <button class="mt-4 bg-white text-[#0f172a] px-4 py-2 rounded-md font-bold hover:bg-gray-200 transition duration-300">Book Now</button>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center">
+                <p>&copy; 2025 AOC Accounting & Tax. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#home" class="fixed bottom-6 right-6 bg-[#c2a589] text-white w-12 h-12 rounded-full flex items-center justify-center shadow-lg hover:bg-[#b39176] transition duration-300">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <script>
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
