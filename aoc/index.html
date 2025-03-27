@@ -2771,68 +2771,6 @@
                         </div>
                       </div>
                     </div>
-                    <div
-                      class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-836397a elementor-hidden-mobile"
-                      data-id="836397a"
-                      data-element_type="column"
-                    >
-                      <div
-                        class="elementor-widget-wrap elementor-element-populated"
-                      >
-                        <div
-                          class="elementor-element elementor-element-801b0dc animated-slow elementor-widget__width-auto elementor-invisible elementor-widget elementor-widget-jkit_video_button"
-                          data-id="801b0dc"
-                          data-element_type="widget"
-                          data-settings='{"_animation":"fadeInRight","_animation_delay":10}'
-                          data-widget_type="jkit_video_button.default"
-                        >
-                          <div class="elementor-widget-container">
-                            <div
-                              class="jeg-elementor-kit jkit-video-button jeg_module_50_2_67dfce7785379"
-                              data-autoplay="0"
-                              data-loop="0"
-                              data-controls="0"
-                              data-type="youtube"
-                              data-mute="0"
-                              data-start="0"
-                              data-end="0"
-                            >
-                              <a
-                                href="https://www.youtube.com/watch?v=MLpWrANjFbI"
-                                class="jkit-video-popup-btn glow-enable"
-                                ><span class="icon-position-before"
-                                  ><i
-                                    aria-hidden="true"
-                                    class="jki jki-play-button-light"
-                                  ></i></span
-                              ></a>
-                            </div>
-                          </div>
-                        </div>
-                        <div
-                          class="elementor-element elementor-element-581386b elementor-align-right elementor-widget__width-auto animated-slow elementor-invisible elementor-widget elementor-widget-button"
-                          data-id="581386b"
-                          data-element_type="widget"
-                          data-settings='{"_animation":"fadeInRight","_animation_delay":10}'
-                          data-widget_type="button.default"
-                        >
-                          <div class="elementor-widget-container">
-                            <div class="elementor-button-wrapper">
-                              <a
-                                class="elementor-button elementor-button-link elementor-size-sm elementor-animation-float"
-                                href="#"
-                              >
-                                <span class="elementor-button-content-wrapper">
-                                  <span class="elementor-button-text"
-                                    >Our Services</span
-                                  >
-                                </span>
-                              </a>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
                   </div>
                 </section>
               </div>
@@ -3590,6 +3528,58 @@
               data-id="f5ead43"
               data-element_type="column"
             >
+            <!-- CSS to control the card hover effects and general styling -->
+            <style>
+              /* Make cards slightly lift on hover */
+              .elementor-widget-container {
+                transition: all 0.3s ease;
+              }
+              
+              .elementor-widget-container:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+              }
+              
+              /* Style the icon */
+              .icon-box-header .icon {
+                font-size: 24px;
+                color: #0073aa;
+                margin-bottom: 15px;
+              }
+              
+              /* Title styling */
+              .icon-box-body .title {
+                font-size: 18px;
+                margin-bottom: 10px;
+                color: #333;
+              }
+              
+              /* Description styling */
+              .icon-box-description {
+                font-size: 14px;
+                line-height: 1.5;
+                color: #555;
+                margin-bottom: 15px;
+              }
+              
+              /* Read More link styling */
+              .icon-box-link {
+                color: #0073aa;
+                text-decoration: none;
+                font-weight: 500;
+                display: inline-flex;
+                align-items: center;
+              }
+              
+              .icon-box-link i {
+                margin-left: 5px;
+                transition: transform 0.3s ease;
+              }
+              
+              .icon-box-link:hover i {
+                transform: translateX(3px);
+              }
+            </style>
               <div class="elementor-widget-wrap elementor-element-populated">
                 <section
                   class="elementor-section elementor-inner-section elementor-element elementor-element-43a84c6 elementor-section-content-bottom elementor-section-boxed elementor-section-height-default elementor-section-height-default"
@@ -3698,77 +3688,40 @@
                     </div>
                   </div>
                 </section>
-                <section
-                  class="elementor-section elementor-inner-section elementor-element elementor-element-3fa8efc animated-slow elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-invisible"
-                  data-id="3fa8efc"
-                  data-element_type="section"
-                  data-settings='{"animation":"fadeInUp"}'
-                >
+                <!-- Card Section with Images and Overlaid Content -->
+                <section class="elementor-section elementor-inner-section elementor-element elementor-element-3fa8efc animated-slow elementor-section-boxed elementor-section-height-default elementor-section-height-default">
                   <div class="elementor-container elementor-column-gap-default">
-                    <div
-                      class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-6cb5f35"
-                      data-id="6cb5f35"
-                      data-element_type="column"
-                      data-settings='{"background_background":"classic"}'
-                    >
-                      <div
-                        class="elementor-widget-wrap elementor-element-populated"
-                      >
-                        <div
-                          class="elementor-element elementor-element-0c8e82b elementor-widget elementor-widget-image"
-                          data-id="0c8e82b"
-                          data-element_type="widget"
-                          data-widget_type="image.default"
-                        >
-                          <div class="elementor-widget-container">
+                    
+                    <!-- First Card -->
+                    <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element">
+                      <div class="elementor-widget-wrap elementor-element-populated" style="position: relative;">
+                        <!-- Image Container -->
+                        <div class="elementor-element elementor-widget elementor-widget-image">
+                          <div class="elementor-widget-container" style="position: relative;">
                             <img
                               decoding="async"
                               src="wp-content/uploads/sites/214/elementor/thumbs/partner-meeting-of-business-team-colleagues-consultation-and-discussion-marketing-plan-meeting-e1638181179493-pgru1nm72gsplh7ip5sheag54mszey3xpmjod4b0uo.jpg"
                               title="Partner meeting of business team colleagues consultation and discussion marketing plan meeting"
                               alt="Partner meeting of business team colleagues consultation and discussion marketing plan meeting"
                               loading="lazy"
+                              style="width: 100%; height: auto;"
                             />
-                          </div>
-                        </div>
-                        <div
-                          class="elementor-element elementor-element-777d262 jkit-equal-height-disable elementor-widget elementor-widget-jkit_icon_box"
-                          data-id="777d262"
-                          data-element_type="widget"
-                          data-widget_type="jkit_icon_box.default"
-                        >
-                          <div class="elementor-widget-container">
-                            <div
-                              class="jeg-elementor-kit jkit-icon-box icon-position- elementor-animation- jeg_module_50_10_67dfce779ff46"
-                            >
-                              <div
-                                class="jkit-icon-box-wrapper hover-from-left"
-                              >
-                                <div
-                                  class="icon-box icon-box-header elementor-animation-"
-                                >
-                                  <div class="icon style-color">
-                                    <i
-                                      aria-hidden="true"
-                                      class="jki jki-finance-book-light"
-                                    ></i>
-                                  </div>
+                            
+                            <!-- Overlaid Content -->
+                            <div style="position: absolute; bottom: 0; left: 0; right: 0; background-color: rgba(255, 255, 255, 0.85); padding: 20px;">
+                              <div class="icon-box icon-box-header elementor-animation-">
+                                <div class="icon style-color">
+                                  <i aria-hidden="true" class="jki jki-finance-book-light"></i>
                                 </div>
-                                <div class="icon-box icon-box-body">
-                                  <h3 class="title">Client-Centered Approach</h3>
-                                  <p class="icon-box-description">
-                                    We prioritize our clients' financial well-being, offering tailored solutions that align with their unique needs and long-term goals.
-                                  </p>
-                                  <div class="icon-box-button">
-                                    <div
-                                      class="btn-wrapper icon-position-after"
-                                    >
-                                      <a href="" class="icon-box-link"
-                                        >Read More<i
-                                          aria-hidden="true"
-                                          class="fas fa-arrow-right"
-                                        ></i
-                                      ></a>
-                                    </div>
+                              </div>
+                              <div class="icon-box icon-box-body">
+                                <h3 class="title">Client-Centered Approach</h3>
+                                <p class="icon-box-description">
+                                  We prioritize our clients' financial well-being, offering tailored solutions that align with their unique needs and long-term goals.
+                                </p>
+                                <div class="icon-box-button">
+                                  <div class="btn-wrapper icon-position-after">
+                                    <a href="" class="icon-box-link">Read More<i aria-hidden="true" class="fas fa-arrow-right"></i></a>
                                   </div>
                                 </div>
                               </div>
@@ -3777,70 +3730,37 @@
                         </div>
                       </div>
                     </div>
-                    <div
-                      class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-2747f0b"
-                      data-id="2747f0b"
-                      data-element_type="column"
-                      data-settings='{"background_background":"classic"}'
-                    >
-                      <div
-                        class="elementor-widget-wrap elementor-element-populated"
-                      >
-                        <div
-                          class="elementor-element elementor-element-efc1c96 elementor-widget elementor-widget-image"
-                          data-id="efc1c96"
-                          data-element_type="widget"
-                          data-widget_type="image.default"
-                        >
-                          <div class="elementor-widget-container">
+                    
+                    <!-- Second Card -->
+                    <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element">
+                      <div class="elementor-widget-wrap elementor-element-populated" style="position: relative;">
+                        <!-- Image Container -->
+                        <div class="elementor-element elementor-widget elementor-widget-image">
+                          <div class="elementor-widget-container" style="position: relative;">
                             <img
                               decoding="async"
                               src="wp-content/uploads/sites/214/elementor/thumbs/time-to-file-taxes-income-tax-forms-irs-deadline-paperwork-april-15th-owe-refund-payment-e1638181134967-pgru0hbgix6t30wyk5i9s34eealgskg0jt6tro1qmo.jpg"
                               title="Time to file taxes, income tax forms, IRS deadline, paperwork, April 15th, owe, refund, payment"
                               alt="Time to file taxes, income tax forms, IRS deadline, paperwork, April 15th, owe, refund, payment"
                               loading="lazy"
+                              style="width: 100%; height: auto;"
                             />
-                          </div>
-                        </div>
-                        <div
-                          class="elementor-element elementor-element-8cf70d9 jkit-equal-height-disable elementor-widget elementor-widget-jkit_icon_box"
-                          data-id="8cf70d9"
-                          data-element_type="widget"
-                          data-widget_type="jkit_icon_box.default"
-                        >
-                          <div class="elementor-widget-container">
-                            <div
-                              class="jeg-elementor-kit jkit-icon-box icon-position- elementor-animation- jeg_module_50_11_67dfce77a274d"
-                            >
-                              <div
-                                class="jkit-icon-box-wrapper hover-from-left"
-                              >
-                                <div
-                                  class="icon-box icon-box-header elementor-animation-"
-                                >
-                                  <div class="icon style-color">
-                                    <i
-                                      aria-hidden="true"
-                                      class="jki jki-money-3-light"
-                                    ></i>
-                                  </div>
+                            
+                            <!-- Overlaid Content -->
+                            <div style="position: absolute; bottom: 0; left: 0; right: 0; background-color: rgba(255, 255, 255, 0.85); padding: 20px;">
+                              <div class="icon-box icon-box-header elementor-animation-">
+                                <div class="icon style-color">
+                                  <i aria-hidden="true" class="jki jki-money-3-light"></i>
                                 </div>
-                                <div class="icon-box icon-box-body">
-                                  <h3 class="title">Minimizing Tax, Maximizing Advice</h3>
-                                  <p class="icon-box-description">
-                                    We proactively seek tax-saving opportunities while providing strategic advice to help clients make informed financial decisions.
-                                  </p>
-                                  <div class="icon-box-button">
-                                    <div
-                                      class="btn-wrapper icon-position-after"
-                                    >
-                                      <a href="" class="icon-box-link"
-                                        >Read More<i
-                                          aria-hidden="true"
-                                          class="fas fa-arrow-right"
-                                        ></i
-                                      ></a>
-                                    </div>
+                              </div>
+                              <div class="icon-box icon-box-body">
+                                <h3 class="title">Minimizing Tax, Maximizing Advice</h3>
+                                <p class="icon-box-description">
+                                  We proactively seek tax-saving opportunities while providing strategic advice to help clients make informed financial decisions.
+                                </p>
+                                <div class="icon-box-button">
+                                  <div class="btn-wrapper icon-position-after">
+                                    <a href="" class="icon-box-link">Read More<i aria-hidden="true" class="fas fa-arrow-right"></i></a>
                                   </div>
                                 </div>
                               </div>
@@ -3849,70 +3769,37 @@
                         </div>
                       </div>
                     </div>
-                    <div
-                      class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-65d736f"
-                      data-id="65d736f"
-                      data-element_type="column"
-                      data-settings='{"background_background":"classic"}'
-                    >
-                      <div
-                        class="elementor-widget-wrap elementor-element-populated"
-                      >
-                        <div
-                          class="elementor-element elementor-element-e8b8bb7 elementor-widget elementor-widget-image"
-                          data-id="e8b8bb7"
-                          data-element_type="widget"
-                          data-widget_type="image.default"
-                        >
-                          <div class="elementor-widget-container">
+                    
+                    <!-- Third Card -->
+                    <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element">
+                      <div class="elementor-widget-wrap elementor-element-populated" style="position: relative;">
+                        <!-- Image Container -->
+                        <div class="elementor-element elementor-widget elementor-widget-image">
+                          <div class="elementor-widget-container" style="position: relative;">
                             <img
                               decoding="async"
                               src="wp-content/uploads/sites/214/elementor/thumbs/two-business-partnership-coworkers-analysis-strategy-with-discussing-a-financial-planning-graph-and-e1638181148665-pgru0uh76lotlkdufb71qzsuposlsbw99mbmhji87k.jpg"
                               title="Two business partnership coworkers analysis strategy with discussing a financial planning graph and"
                               alt="Two business partnership coworkers analysis strategy with discussing a financial planning graph and"
                               loading="lazy"
+                              style="width: 100%; height: auto;"
                             />
-                          </div>
-                        </div>
-                        <div
-                          class="elementor-element elementor-element-e855bfe jkit-equal-height-disable elementor-widget elementor-widget-jkit_icon_box"
-                          data-id="e855bfe"
-                          data-element_type="widget"
-                          data-widget_type="jkit_icon_box.default"
-                        >
-                          <div class="elementor-widget-container">
-                            <div
-                              class="jeg-elementor-kit jkit-icon-box icon-position- elementor-animation- jeg_module_50_12_67dfce77a4a36"
-                            >
-                              <div
-                                class="jkit-icon-box-wrapper hover-from-left"
-                              >
-                                <div
-                                  class="icon-box icon-box-header elementor-animation-"
-                                >
-                                  <div class="icon style-color">
-                                    <i
-                                      aria-hidden="true"
-                                      class="jki jki-consut2-light"
-                                    ></i>
-                                  </div>
+                            
+                            <!-- Overlaid Content -->
+                            <div style="position: absolute; bottom: 0; left: 0; right: 0; background-color: rgba(255, 255, 255, 0.85); padding: 20px;">
+                              <div class="icon-box icon-box-header elementor-animation-">
+                                <div class="icon style-color">
+                                  <i aria-hidden="true" class="jki jki-consut2-light"></i>
                                 </div>
-                                <div class="icon-box icon-box-body">
-                                  <h3 class="title">Integrity & Transparency</h3>
-                                  <p class="icon-box-description">
-                                    Honesty and ethical practices are the foundation of our services. We believe in full transparency regarding fees, processes, and financial strategies.
-                                  </p>
-                                  <div class="icon-box-button">
-                                    <div
-                                      class="btn-wrapper icon-position-after"
-                                    >
-                                      <a href="" class="icon-box-link"
-                                        >Read More<i
-                                          aria-hidden="true"
-                                          class="fas fa-arrow-right"
-                                        ></i
-                                      ></a>
-                                    </div>
+                              </div>
+                              <div class="icon-box icon-box-body">
+                                <h3 class="title">Integrity & Transparency</h3>
+                                <p class="icon-box-description">
+                                  Honesty and ethical practices are the foundation of our services. We believe in full transparency regarding fees, processes, and financial strategies.
+                                </p>
+                                <div class="icon-box-button">
+                                  <div class="btn-wrapper icon-position-after">
+                                    <a href="" class="icon-box-link">Read More<i aria-hidden="true" class="fas fa-arrow-right"></i></a>
                                   </div>
                                 </div>
                               </div>
@@ -3921,79 +3808,42 @@
                         </div>
                       </div>
                     </div>
+                    
                   </div>
                 </section>
-                <section
-                  class="elementor-section elementor-inner-section elementor-element elementor-element-c045f0a animated-slow elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-invisible"
-                  data-id="c045f0a"
-                  data-element_type="section"
-                  data-settings='{"animation":"fadeInUp"}'
-                >
+                <section class="elementor-section elementor-inner-section elementor-element elementor-element-3fa8efc animated-slow elementor-section-boxed elementor-section-height-default elementor-section-height-default">
                   <div class="elementor-container elementor-column-gap-default">
-                    <div
-                      class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-54fd947"
-                      data-id="54fd947"
-                      data-element_type="column"
-                      data-settings='{"background_background":"classic"}'
-                    >
-                      <div
-                        class="elementor-widget-wrap elementor-element-populated"
-                      >
-                        <div
-                          class="elementor-element elementor-element-f8e1fad elementor-widget elementor-widget-image"
-                          data-id="f8e1fad"
-                          data-element_type="widget"
-                          data-widget_type="image.default"
-                        >
-                          <div class="elementor-widget-container">
+                    
+                    <!-- First Card -->
+                    <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element">
+                      <div class="elementor-widget-wrap elementor-element-populated" style="position: relative;">
+                        <!-- Image Container -->
+                        <div class="elementor-element elementor-widget elementor-widget-image">
+                          <div class="elementor-widget-container" style="position: relative;">
                             <img
                               decoding="async"
-                              src="wp-content/uploads/sites/214/elementor/thumbs/discussing-company-financial-statistics-e1638180733814-pgrtq0e6ecutre4gp4kvi88k6s7a1xvnfzl4bpklxs.jpg"
-                              title="Discussing company financial statistics"
-                              alt="Discussing company financial statistics"
+                              src="wp-content/uploads/sites/214/elementor/thumbs/partner-meeting-of-business-team-colleagues-consultation-and-discussion-marketing-plan-meeting-e1638181179493-pgru1nm72gsplh7ip5sheag54mszey3xpmjod4b0uo.jpg"
+                              title="Partner meeting of business team colleagues consultation and discussion marketing plan meeting"
+                              alt="Partner meeting of business team colleagues consultation and discussion marketing plan meeting"
                               loading="lazy"
+                              style="width: 100%; height: auto;"
                             />
-                          </div>
-                        </div>
-                        <div
-                          class="elementor-element elementor-element-093f5d4 jkit-equal-height-disable elementor-widget elementor-widget-jkit_icon_box"
-                          data-id="093f5d4"
-                          data-element_type="widget"
-                          data-widget_type="jkit_icon_box.default"
-                        >
-                          <div class="elementor-widget-container">
-                            <div
-                              class="jeg-elementor-kit jkit-icon-box icon-position- elementor-animation- jeg_module_50_13_67dfce77a75e6"
-                            >
-                              <div
-                                class="jkit-icon-box-wrapper hover-from-left"
-                              >
-                                <div
-                                  class="icon-box icon-box-header elementor-animation-"
-                                >
-                                  <div class="icon style-color">
-                                    <i
-                                      aria-hidden="true"
-                                      class="jki jki-business-light"
-                                    ></i>
-                                  </div>
+                            
+                            <!-- Overlaid Content -->
+                            <div style="position: absolute; bottom: 0; left: 0; right: 0; background-color: rgba(255, 255, 255, 0.85); padding: 20px;">
+                              <div class="icon-box icon-box-header elementor-animation-">
+                                <div class="icon style-color">
+                                  <i aria-hidden="true" class="jki jki-finance-book-light"></i>
                                 </div>
-                                <div class="icon-box icon-box-body">
-                                  <h3 class="title">Expertise & Continuous Learning</h3>
-                                  <p class="icon-box-description">
-                                    With over 25 years of experience in Australian and international accounting, we stay ahead of regulatory changes to provide the best solutions for our clients.
-                                  </p>
-                                  <div class="icon-box-button">
-                                    <div
-                                      class="btn-wrapper icon-position-after"
-                                    >
-                                      <a href="" class="icon-box-link"
-                                        >Read More<i
-                                          aria-hidden="true"
-                                          class="fas fa-arrow-right"
-                                        ></i
-                                      ></a>
-                                    </div>
+                              </div>
+                              <div class="icon-box icon-box-body">
+                                <h3 class="title">Expertise & Continuous Learning</h3>
+                                <p class="icon-box-description">
+                                  With over 25 years of experience in Australian and international accounting, we stay ahead of regulatory changes to provide the best solutions for our clients.
+                                </p>
+                                <div class="icon-box-button">
+                                  <div class="btn-wrapper icon-position-after">
+                                    <a href="" class="icon-box-link">Read More<i aria-hidden="true" class="fas fa-arrow-right"></i></a>
                                   </div>
                                 </div>
                               </div>
@@ -4002,70 +3852,37 @@
                         </div>
                       </div>
                     </div>
-                    <div
-                      class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-adca1ab"
-                      data-id="adca1ab"
-                      data-element_type="column"
-                      data-settings='{"background_background":"classic"}'
-                    >
-                      <div
-                        class="elementor-widget-wrap elementor-element-populated"
-                      >
-                        <div
-                          class="elementor-element elementor-element-a23b1e0 elementor-widget elementor-widget-image"
-                          data-id="a23b1e0"
-                          data-element_type="widget"
-                          data-widget_type="image.default"
-                        >
-                          <div class="elementor-widget-container">
+                    
+                    <!-- Second Card -->
+                    <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element">
+                      <div class="elementor-widget-wrap elementor-element-populated" style="position: relative;">
+                        <!-- Image Container -->
+                        <div class="elementor-element elementor-widget elementor-widget-image">
+                          <div class="elementor-widget-container" style="position: relative;">
                             <img
                               decoding="async"
-                              src="wp-content/uploads/sites/214/elementor/thumbs/top-view-of-businessmen-analyzing-management-statistics-while-working-at-company-investments-e1638181171934-pgru1g3hjsif0lifx2jguccgdju1pda30lbsiwm68g.jpg"
-                              title="Top view of businessmen analyzing management statistics while working at company investments"
-                              alt="Top view of businessmen analyzing management statistics while working at company investments"
+                              src="wp-content/uploads/sites/214/elementor/thumbs/time-to-file-taxes-income-tax-forms-irs-deadline-paperwork-april-15th-owe-refund-payment-e1638181134967-pgru0hbgix6t30wyk5i9s34eealgskg0jt6tro1qmo.jpg"
+                              title="Time to file taxes, income tax forms, IRS deadline, paperwork, April 15th, owe, refund, payment"
+                              alt="Time to file taxes, income tax forms, IRS deadline, paperwork, April 15th, owe, refund, payment"
                               loading="lazy"
+                              style="width: 100%; height: auto;"
                             />
-                          </div>
-                        </div>
-                        <div
-                          class="elementor-element elementor-element-de5377a jkit-equal-height-disable elementor-widget elementor-widget-jkit_icon_box"
-                          data-id="de5377a"
-                          data-element_type="widget"
-                          data-widget_type="jkit_icon_box.default"
-                        >
-                          <div class="elementor-widget-container">
-                            <div
-                              class="jeg-elementor-kit jkit-icon-box icon-position- elementor-animation- jeg_module_50_14_67dfce77a97cc"
-                            >
-                              <div
-                                class="jkit-icon-box-wrapper hover-from-left"
-                              >
-                                <div
-                                  class="icon-box icon-box-header elementor-animation-"
-                                >
-                                  <div class="icon style-color">
-                                    <i
-                                      aria-hidden="true"
-                                      class="jki jki-save-money-light"
-                                    ></i>
-                                  </div>
+                            
+                            <!-- Overlaid Content -->
+                            <div style="position: absolute; bottom: 0; left: 0; right: 0; background-color: rgba(255, 255, 255, 0.85); padding: 20px;">
+                              <div class="icon-box icon-box-header elementor-animation-">
+                                <div class="icon style-color">
+                                  <i aria-hidden="true" class="jki jki-money-3-light"></i>
                                 </div>
-                                <div class="icon-box icon-box-body">
-                                  <h3 class="title">Technology-Driven Solutions</h3>
-                                  <p class="icon-box-description">
-                                    As Xero and MYOB specialists, we embrace cloud accounting to enhance efficiency, streamline processes, and give clients real-time financial insights.
-                                  </p>
-                                  <div class="icon-box-button">
-                                    <div
-                                      class="btn-wrapper icon-position-after"
-                                    >
-                                      <a href="" class="icon-box-link"
-                                        >Read More<i
-                                          aria-hidden="true"
-                                          class="fas fa-arrow-right"
-                                        ></i
-                                      ></a>
-                                    </div>
+                              </div>
+                              <div class="icon-box icon-box-body">
+                                <h3 class="title">Technology-Driven Solutions</h3>
+                                <p class="icon-box-description">
+                                  As Xero and MYOB specialists, we embrace cloud accounting to enhance efficiency, streamline processes, and give clients real-time financial insights.
+                                </p>
+                                <div class="icon-box-button">
+                                  <div class="btn-wrapper icon-position-after">
+                                    <a href="" class="icon-box-link">Read More<i aria-hidden="true" class="fas fa-arrow-right"></i></a>
                                   </div>
                                 </div>
                               </div>
@@ -4074,70 +3891,37 @@
                         </div>
                       </div>
                     </div>
-                    <div
-                      class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-c86bed6"
-                      data-id="c86bed6"
-                      data-element_type="column"
-                      data-settings='{"background_background":"classic"}'
-                    >
-                      <div
-                        class="elementor-widget-wrap elementor-element-populated"
-                      >
-                        <div
-                          class="elementor-element elementor-element-91cddb0 elementor-widget elementor-widget-image"
-                          data-id="91cddb0"
-                          data-element_type="widget"
-                          data-widget_type="image.default"
-                        >
-                          <div class="elementor-widget-container">
+                    
+                    <!-- Third Card -->
+                    <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element">
+                      <div class="elementor-widget-wrap elementor-element-populated" style="position: relative;">
+                        <!-- Image Container -->
+                        <div class="elementor-element elementor-widget elementor-widget-image">
+                          <div class="elementor-widget-container" style="position: relative;">
                             <img
                               decoding="async"
-                              src="wp-content/uploads/sites/214/elementor/thumbs/businesswoman-leader-team-conference-on-meeting-presentation-to-planning-investment-project-working-e1638181156188-pgru11zwp9z46g2x7eg2axwjgrrjhwq3ynjibr72ts.jpg"
-                              title="Businesswoman leader team conference on meeting presentation to planning investment project working"
-                              alt="Businesswoman leader team conference on meeting presentation to planning investment project working"
+                              src="wp-content/uploads/sites/214/elementor/thumbs/two-business-partnership-coworkers-analysis-strategy-with-discussing-a-financial-planning-graph-and-e1638181148665-pgru0uh76lotlkdufb71qzsuposlsbw99mbmhji87k.jpg"
+                              title="Two business partnership coworkers analysis strategy with discussing a financial planning graph and"
+                              alt="Two business partnership coworkers analysis strategy with discussing a financial planning graph and"
                               loading="lazy"
+                              style="width: 100%; height: auto;"
                             />
-                          </div>
-                        </div>
-                        <div
-                          class="elementor-element elementor-element-a4a775f jkit-equal-height-disable elementor-widget elementor-widget-jkit_icon_box"
-                          data-id="a4a775f"
-                          data-element_type="widget"
-                          data-widget_type="jkit_icon_box.default"
-                        >
-                          <div class="elementor-widget-container">
-                            <div
-                              class="jeg-elementor-kit jkit-icon-box icon-position- elementor-animation- jeg_module_50_15_67dfce77abb96"
-                            >
-                              <div
-                                class="jkit-icon-box-wrapper hover-from-left"
-                              >
-                                <div
-                                  class="icon-box icon-box-header elementor-animation-"
-                                >
-                                  <div class="icon style-color">
-                                    <i
-                                      aria-hidden="true"
-                                      class="jki jki-coins-1-light"
-                                    ></i>
-                                  </div>
+                            
+                            <!-- Overlaid Content -->
+                            <div style="position: absolute; bottom: 0; left: 0; right: 0; background-color: rgba(255, 255, 255, 0.85); padding: 20px;">
+                              <div class="icon-box icon-box-header elementor-animation-">
+                                <div class="icon style-color">
+                                  <i aria-hidden="true" class="jki jki-consut2-light"></i>
                                 </div>
-                                <div class="icon-box icon-box-body">
-                                  <h3 class="title">Strong Client Relationships</h3>
-                                  <p class="icon-box-description">
-                                    We build long-term partnerships based on trust, communication, and a genuine interest in our clients' success.
-                                  </p>
-                                  <div class="icon-box-button">
-                                    <div
-                                      class="btn-wrapper icon-position-after"
-                                    >
-                                      <a href="" class="icon-box-link"
-                                        >Read More<i
-                                          aria-hidden="true"
-                                          class="fas fa-arrow-right"
-                                        ></i
-                                      ></a>
-                                    </div>
+                              </div>
+                              <div class="icon-box icon-box-body">
+                                <h3 class="title">Strong Client Relationships</h3>
+                                <p class="icon-box-description">
+                                  We build long-term partnerships based on trust, communication, and a genuine interest in our clients' success.
+                                </p>
+                                <div class="icon-box-button">
+                                  <div class="btn-wrapper icon-position-after">
+                                    <a href="" class="icon-box-link">Read More<i aria-hidden="true" class="fas fa-arrow-right"></i></a>
                                   </div>
                                 </div>
                               </div>
@@ -4146,79 +3930,42 @@
                         </div>
                       </div>
                     </div>
+                    
                   </div>
                 </section>
-				<section
-                  class="elementor-section elementor-inner-section elementor-element elementor-element-c045f0a animated-slow elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-invisible"
-                  data-id="c045f0a"
-                  data-element_type="section"
-                  data-settings='{"animation":"fadeInUp"}'
-                >
+                <section class="elementor-section elementor-inner-section elementor-element elementor-element-3fa8efc animated-slow elementor-section-boxed elementor-section-height-default elementor-section-height-default">
                   <div class="elementor-container elementor-column-gap-default">
-                    <div
-                      class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-54fd947"
-                      data-id="54fd947"
-                      data-element_type="column"
-                      data-settings='{"background_background":"classic"}'
-                    >
-                      <div
-                        class="elementor-widget-wrap elementor-element-populated"
-                      >
-                        <div
-                          class="elementor-element elementor-element-f8e1fad elementor-widget elementor-widget-image"
-                          data-id="f8e1fad"
-                          data-element_type="widget"
-                          data-widget_type="image.default"
-                        >
-                          <div class="elementor-widget-container">
+                    
+                    <!-- First Card -->
+                    <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element">
+                      <div class="elementor-widget-wrap elementor-element-populated" style="position: relative;">
+                        <!-- Image Container -->
+                        <div class="elementor-element elementor-widget elementor-widget-image">
+                          <div class="elementor-widget-container" style="position: relative;">
                             <img
                               decoding="async"
-                              src="wp-content/uploads/sites/214/elementor/thumbs/discussing-company-financial-statistics-e1638180733814-pgrtq0e6ecutre4gp4kvi88k6s7a1xvnfzl4bpklxs.jpg"
-                              title="Discussing company financial statistics"
-                              alt="Discussing company financial statistics"
+                              src="wp-content/uploads/sites/214/elementor/thumbs/partner-meeting-of-business-team-colleagues-consultation-and-discussion-marketing-plan-meeting-e1638181179493-pgru1nm72gsplh7ip5sheag54mszey3xpmjod4b0uo.jpg"
+                              title="Partner meeting of business team colleagues consultation and discussion marketing plan meeting"
+                              alt="Partner meeting of business team colleagues consultation and discussion marketing plan meeting"
                               loading="lazy"
+                              style="width: 100%; height: auto;"
                             />
-                          </div>
-                        </div>
-                        <div
-                          class="elementor-element elementor-element-093f5d4 jkit-equal-height-disable elementor-widget elementor-widget-jkit_icon_box"
-                          data-id="093f5d4"
-                          data-element_type="widget"
-                          data-widget_type="jkit_icon_box.default"
-                        >
-                          <div class="elementor-widget-container">
-                            <div
-                              class="jeg-elementor-kit jkit-icon-box icon-position- elementor-animation- jeg_module_50_13_67dfce77a75e6"
-                            >
-                              <div
-                                class="jkit-icon-box-wrapper hover-from-left"
-                              >
-                                <div
-                                  class="icon-box icon-box-header elementor-animation-"
-                                >
-                                  <div class="icon style-color">
-                                    <i
-                                      aria-hidden="true"
-                                      class="jki jki-business-light"
-                                    ></i>
-                                  </div>
+                            
+                            <!-- Overlaid Content -->
+                            <div style="position: absolute; bottom: 0; left: 0; right: 0; background-color: rgba(255, 255, 255, 0.85); padding: 20px;">
+                              <div class="icon-box icon-box-header elementor-animation-">
+                                <div class="icon style-color">
+                                  <i aria-hidden="true" class="jki jki-finance-book-light"></i>
                                 </div>
-                                <div class="icon-box icon-box-body">
-                                  <h3 class="title">Efficiency & Accuracy</h3>
-                                  <p class="icon-box-description">
-                                    We ensure that all financial reports, tax filings, and compliance matters are handled with precision and efficiency, reducing risks and maximizing benefits.
-                                  </p>
-                                  <div class="icon-box-button">
-                                    <div
-                                      class="btn-wrapper icon-position-after"
-                                    >
-                                      <a href="" class="icon-box-link"
-                                        >Read More<i
-                                          aria-hidden="true"
-                                          class="fas fa-arrow-right"
-                                        ></i
-                                      ></a>
-                                    </div>
+                              </div>
+                              <div class="icon-box icon-box-body">
+                                <h3 class="title">Efficiency & Accuracy</h3>
+                                <p class="icon-box-description">
+                                  We ensure that all financial reports, tax filings, and compliance matters are handled with precision and efficiency, reducing risks and maximizing benefits.
+                                </p>
+                                <div class="icon-box-button">
+                                  <div class="btn-wrapper icon-position-after">
+                                    <a href="" class="icon-box-link">Read More<i aria-hidden="true" class="fas fa-arrow-right"></i></a>
                                   </div>
                                 </div>
                               </div>
@@ -4227,70 +3974,37 @@
                         </div>
                       </div>
                     </div>
-                    <div
-                      class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-adca1ab"
-                      data-id="adca1ab"
-                      data-element_type="column"
-                      data-settings='{"background_background":"classic"}'
-                    >
-                      <div
-                        class="elementor-widget-wrap elementor-element-populated"
-                      >
-                        <div
-                          class="elementor-element elementor-element-a23b1e0 elementor-widget elementor-widget-image"
-                          data-id="a23b1e0"
-                          data-element_type="widget"
-                          data-widget_type="image.default"
-                        >
-                          <div class="elementor-widget-container">
+                    
+                    <!-- Second Card -->
+                    <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element">
+                      <div class="elementor-widget-wrap elementor-element-populated" style="position: relative;">
+                        <!-- Image Container -->
+                        <div class="elementor-element elementor-widget elementor-widget-image">
+                          <div class="elementor-widget-container" style="position: relative;">
                             <img
                               decoding="async"
-                              src="wp-content/uploads/sites/214/elementor/thumbs/top-view-of-businessmen-analyzing-management-statistics-while-working-at-company-investments-e1638181171934-pgru1g3hjsif0lifx2jguccgdju1pda30lbsiwm68g.jpg"
-                              title="Top view of businessmen analyzing management statistics while working at company investments"
-                              alt="Top view of businessmen analyzing management statistics while working at company investments"
+                              src="wp-content/uploads/sites/214/elementor/thumbs/time-to-file-taxes-income-tax-forms-irs-deadline-paperwork-april-15th-owe-refund-payment-e1638181134967-pgru0hbgix6t30wyk5i9s34eealgskg0jt6tro1qmo.jpg"
+                              title="Time to file taxes, income tax forms, IRS deadline, paperwork, April 15th, owe, refund, payment"
+                              alt="Time to file taxes, income tax forms, IRS deadline, paperwork, April 15th, owe, refund, payment"
                               loading="lazy"
+                              style="width: 100%; height: auto;"
                             />
-                          </div>
-                        </div>
-                        <div
-                          class="elementor-element elementor-element-de5377a jkit-equal-height-disable elementor-widget elementor-widget-jkit_icon_box"
-                          data-id="de5377a"
-                          data-element_type="widget"
-                          data-widget_type="jkit_icon_box.default"
-                        >
-                          <div class="elementor-widget-container">
-                            <div
-                              class="jeg-elementor-kit jkit-icon-box icon-position- elementor-animation- jeg_module_50_14_67dfce77a97cc"
-                            >
-                              <div
-                                class="jkit-icon-box-wrapper hover-from-left"
-                              >
-                                <div
-                                  class="icon-box icon-box-header elementor-animation-"
-                                >
-                                  <div class="icon style-color">
-                                    <i
-                                      aria-hidden="true"
-                                      class="jki jki-save-money-light"
-                                    ></i>
-                                  </div>
+                            
+                            <!-- Overlaid Content -->
+                            <div style="position: absolute; bottom: 0; left: 0; right: 0; background-color: rgba(255, 255, 255, 0.85); padding: 20px;">
+                              <div class="icon-box icon-box-header elementor-animation-">
+                                <div class="icon style-color">
+                                  <i aria-hidden="true" class="jki jki-money-3-light"></i>
                                 </div>
-                                <div class="icon-box icon-box-body">
-                                  <h3 class="title">Proactive Tax & Business Planning</h3>
-                                  <p class="icon-box-description">
-                                    We don't just manage numbers; we help clients plan ahead with proactive strategies for tax minimization, business growth, and wealth creation.
-                                  </p>
-                                  <div class="icon-box-button">
-                                    <div
-                                      class="btn-wrapper icon-position-after"
-                                    >
-                                      <a href="" class="icon-box-link"
-                                        >Read More<i
-                                          aria-hidden="true"
-                                          class="fas fa-arrow-right"
-                                        ></i
-                                      ></a>
-                                    </div>
+                              </div>
+                              <div class="icon-box icon-box-body">
+                                <h3 class="title">Proactive Tax & Business Planning</h3>
+                                <p class="icon-box-description">
+                                  We don't just manage numbers; we help clients plan ahead with proactive strategies for tax minimization, business growth, and wealth creation.
+                                </p>
+                                <div class="icon-box-button">
+                                  <div class="btn-wrapper icon-position-after">
+                                    <a href="" class="icon-box-link">Read More<i aria-hidden="true" class="fas fa-arrow-right"></i></a>
                                   </div>
                                 </div>
                               </div>
@@ -4299,70 +4013,37 @@
                         </div>
                       </div>
                     </div>
-                    <div
-                      class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-c86bed6"
-                      data-id="c86bed6"
-                      data-element_type="column"
-                      data-settings='{"background_background":"classic"}'
-                    >
-                      <div
-                        class="elementor-widget-wrap elementor-element-populated"
-                      >
-                        <div
-                          class="elementor-element elementor-element-91cddb0 elementor-widget elementor-widget-image"
-                          data-id="91cddb0"
-                          data-element_type="widget"
-                          data-widget_type="image.default"
-                        >
-                          <div class="elementor-widget-container">
+                    
+                    <!-- Third Card -->
+                    <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element">
+                      <div class="elementor-widget-wrap elementor-element-populated" style="position: relative;">
+                        <!-- Image Container -->
+                        <div class="elementor-element elementor-widget elementor-widget-image">
+                          <div class="elementor-widget-container" style="position: relative;">
                             <img
                               decoding="async"
-                              src="wp-content/uploads/sites/214/elementor/thumbs/businesswoman-leader-team-conference-on-meeting-presentation-to-planning-investment-project-working-e1638181156188-pgru11zwp9z46g2x7eg2axwjgrrjhwq3ynjibr72ts.jpg"
-                              title="Businesswoman leader team conference on meeting presentation to planning investment project working"
-                              alt="Businesswoman leader team conference on meeting presentation to planning investment project working"
+                              src="wp-content/uploads/sites/214/elementor/thumbs/two-business-partnership-coworkers-analysis-strategy-with-discussing-a-financial-planning-graph-and-e1638181148665-pgru0uh76lotlkdufb71qzsuposlsbw99mbmhji87k.jpg"
+                              title="Two business partnership coworkers analysis strategy with discussing a financial planning graph and"
+                              alt="Two business partnership coworkers analysis strategy with discussing a financial planning graph and"
                               loading="lazy"
+                              style="width: 100%; height: auto;"
                             />
-                          </div>
-                        </div>
-                        <div
-                          class="elementor-element elementor-element-a4a775f jkit-equal-height-disable elementor-widget elementor-widget-jkit_icon_box"
-                          data-id="a4a775f"
-                          data-element_type="widget"
-                          data-widget_type="jkit_icon_box.default"
-                        >
-                          <div class="elementor-widget-container">
-                            <div
-                              class="jeg-elementor-kit jkit-icon-box icon-position- elementor-animation- jeg_module_50_15_67dfce77abb96"
-                            >
-                              <div
-                                class="jkit-icon-box-wrapper hover-from-left"
-                              >
-                                <div
-                                  class="icon-box icon-box-header elementor-animation-"
-                                >
-                                  <div class="icon style-color">
-                                    <i
-                                      aria-hidden="true"
-                                      class="jki jki-coins-1-light"
-                                    ></i>
-                                  </div>
+                            
+                            <!-- Overlaid Content -->
+                            <div style="position: absolute; bottom: 0; left: 0; right: 0; background-color: rgba(255, 255, 255, 0.85); padding: 20px;">
+                              <div class="icon-box icon-box-header elementor-animation-">
+                                <div class="icon style-color">
+                                  <i aria-hidden="true" class="jki jki-consut2-light"></i>
                                 </div>
-                                <div class="icon-box icon-box-body">
-                                  <h3 class="title">Flexibility & Accessibility</h3>
-                                  <p class="icon-box-description">
-                                    We understand that every client's needs are different, offering flexible service arrangements and availability to support businesses and individuals when they need it most.
-                                  </p>
-                                  <div class="icon-box-button">
-                                    <div
-                                      class="btn-wrapper icon-position-after"
-                                    >
-                                      <a href="" class="icon-box-link"
-                                        >Read More<i
-                                          aria-hidden="true"
-                                          class="fas fa-arrow-right"
-                                        ></i
-                                      ></a>
-                                    </div>
+                              </div>
+                              <div class="icon-box icon-box-body">
+                                <h3 class="title">Flexibility & Accessibility</h3>
+                                <p class="icon-box-description">
+                                  We understand that every client's needs are different, offering flexible service arrangements and availability to support businesses and individuals when they need it most.
+                                </p>
+                                <div class="icon-box-button">
+                                  <div class="btn-wrapper icon-position-after">
+                                    <a href="" class="icon-box-link">Read More<i aria-hidden="true" class="fas fa-arrow-right"></i></a>
                                   </div>
                                 </div>
                               </div>
@@ -4371,326 +4052,43 @@
                         </div>
                       </div>
                     </div>
+                    
                   </div>
                 </section>
-				<section
-                  class="elementor-section elementor-inner-section elementor-element elementor-element-c045f0a animated-slow elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-invisible"
-                  data-id="c045f0a"
-                  data-element_type="section"
-                  data-settings='{"animation":"fadeInUp"}'
-                >
+                <section class="elementor-section elementor-inner-section elementor-element elementor-element-3fa8efc animated-slow elementor-section-boxed elementor-section-height-default elementor-section-height-default">
                   <div class="elementor-container elementor-column-gap-default">
-                    <div
-                      class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-c86bed6"
-                      data-id="c86bed6"
-                      data-element_type="column"
-                      data-settings='{"background_background":"classic"}'
-                    >
-                      <div
-                        class="elementor-widget-wrap elementor-element-populated"
-                      >
-                        <div
-                          class="elementor-element elementor-element-91cddb0 elementor-widget elementor-widget-image"
-                          data-id="91cddb0"
-                          data-element_type="widget"
-                          data-widget_type="image.default"
-                        >
-                          <div class="elementor-widget-container">
+                    
+                    <!-- First Card -->
+                    <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element">
+                      <div class="elementor-widget-wrap elementor-element-populated" style="position: relative;">
+                        <!-- Image Container -->
+                        <div class="elementor-element elementor-widget elementor-widget-image">
+                          <div class="elementor-widget-container" style="position: relative;">
                             <img
                               decoding="async"
-                              src="wp-content/uploads/sites/214/elementor/thumbs/businesswoman-leader-team-conference-on-meeting-presentation-to-planning-investment-project-working-e1638181156188-pgru11zwp9z46g2x7eg2axwjgrrjhwq3ynjibr72ts.jpg"
-                              title="Businesswoman leader team conference on meeting presentation to planning investment project working"
-                              alt="Businesswoman leader team conference on meeting presentation to planning investment project working"
+                              src="wp-content/uploads/sites/214/elementor/thumbs/partner-meeting-of-business-team-colleagues-consultation-and-discussion-marketing-plan-meeting-e1638181179493-pgru1nm72gsplh7ip5sheag54mszey3xpmjod4b0uo.jpg"
+                              title="Partner meeting of business team colleagues consultation and discussion marketing plan meeting"
+                              alt="Partner meeting of business team colleagues consultation and discussion marketing plan meeting"
                               loading="lazy"
+                              style="width: 100%; height: auto;"
                             />
-                          </div>
-                        </div>
-                        <div
-                          class="elementor-element elementor-element-a4a775f jkit-equal-height-disable elementor-widget elementor-widget-jkit_icon_box"
-                          data-id="a4a775f"
-                          data-element_type="widget"
-                          data-widget_type="jkit_icon_box.default"
-                        >
-                          <div class="elementor-widget-container">
-                            <div
-                              class="jeg-elementor-kit jkit-icon-box icon-position- elementor-animation- jeg_module_50_15_67dfce77abb96"
-                            >
-                              <div
-                                class="jkit-icon-box-wrapper hover-from-left"
-                              >
-                                <div
-                                  class="icon-box icon-box-header elementor-animation-"
-                                >
-                                  <div class="icon style-color">
-                                    <i
-                                      aria-hidden="true"
-                                      class="jki jki-coins-1-light"
-                                    ></i>
-                                  </div>
-                                </div>
-                                <div class="icon-box icon-box-body">
-                                  <h3 class="title">Comprehensive Financial Guidance</h3>
-                                  <p class="icon-box-description">
-                                    Beyond accounting and tax, we assist with business structuring, SMSF setups, property acquisition documentation, and financial planning collaboration.
-                                  </p>
-                                  <div class="icon-box-button">
-                                    <div
-                                      class="btn-wrapper icon-position-after"
-                                    >
-                                      <a href="" class="icon-box-link"
-                                        >Read More<i
-                                          aria-hidden="true"
-                                          class="fas fa-arrow-right"
-                                        ></i
-                                      ></a>
-                                    </div>
-                                  </div>
+                            
+                            <!-- Overlaid Content -->
+                            <div style="position: absolute; bottom: 0; left: 0; right: 0; background-color: rgba(255, 255, 255, 0.85); padding: 20px;">
+                              <div class="icon-box icon-box-header elementor-animation-">
+                                <div class="icon style-color">
+                                  <i aria-hidden="true" class="jki jki-finance-book-light"></i>
                                 </div>
                               </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </section>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section
-          class="elementor-section elementor-top-section elementor-element elementor-element-7d3ff8c elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-          data-id="7d3ff8c"
-          data-element_type="section"
-          data-settings='{"background_background":"classic"}'
-        >
-          <div class="elementor-background-overlay"></div>
-          <div class="elementor-container elementor-column-gap-default">
-            <div
-              class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-ecc64a1"
-              data-id="ecc64a1"
-              data-element_type="column"
-            >
-              <div class="elementor-widget-wrap elementor-element-populated">
-                <div
-                  class="elementor-element elementor-element-a612233 animated-slow elementor-invisible elementor-widget elementor-widget-jkit_heading"
-                  data-id="a612233"
-                  data-element_type="widget"
-                  data-settings='{"_animation":"fadeInLeft"}'
-                  data-widget_type="jkit_heading.default"
-                >
-                  <div class="elementor-widget-container">
-                    <div
-                      class="jeg-elementor-kit jkit-heading align-left align-tablet- align-mobile- jeg_module_50_16_67dfce77ae08c"
-                    >
-                      <div class="heading-section-title display-inline-block">
-                        <h5 class="heading-title">Why Choose Us</h5>
-                      </div>
-                      <div class="heading-section-separator">
-                        <div class="separator-wrapper style-solid"></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  class="elementor-element elementor-element-28cc9a6 elementor-widget elementor-widget-heading"
-                  data-id="28cc9a6"
-                  data-element_type="widget"
-                  data-widget_type="heading.default"
-                >
-                  <div class="elementor-widget-container">
-                    <h2 class="elementor-heading-title elementor-size-default">
-                      2,000+ Business Company Doing Bookkeeping On Bizkeep
-                    </h2>
-                  </div>
-                </div>
-                <div
-                  class="elementor-element elementor-element-237ba07 elementor-widget elementor-widget-text-editor"
-                  data-id="237ba07"
-                  data-element_type="widget"
-                  data-widget_type="text-editor.default"
-                >
-                  <div class="elementor-widget-container">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div
-              class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-bdf54e7"
-              data-id="bdf54e7"
-              data-element_type="column"
-            >
-              <div class="elementor-widget-wrap elementor-element-populated">
-                <section
-                  class="elementor-section elementor-inner-section elementor-element elementor-element-9a4f0aa elementor-reverse-tablet elementor-reverse-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                  data-id="9a4f0aa"
-                  data-element_type="section"
-                >
-                  <div class="elementor-container elementor-column-gap-no">
-                    <div
-                      class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-f6612da"
-                      data-id="f6612da"
-                      data-element_type="column"
-                    >
-                      <div
-                        class="elementor-widget-wrap elementor-element-populated"
-                      >
-                        <div
-                          class="elementor-element elementor-element-ed48270 jkit-equal-height-disable elementor-widget elementor-widget-jkit_icon_box"
-                          data-id="ed48270"
-                          data-element_type="widget"
-                          data-widget_type="jkit_icon_box.default"
-                        >
-                          <div class="elementor-widget-container">
-                            <div
-                              class="jeg-elementor-kit jkit-icon-box icon-position-left elementor-animation- jeg_module_50_17_67dfce77afcdb"
-                            >
-                              <div
-                                class="jkit-icon-box-wrapper hover-from-left"
-                              >
-                                <div
-                                  class="icon-box icon-box-header elementor-animation-"
-                                >
-                                  <div class="icon style-color">
-                                    <i
-                                      aria-hidden="true"
-                                      class="jki jki-team-1-light"
-                                    ></i>
+                              <div class="icon-box icon-box-body">
+                                <h3 class="title">Comprehensive Financial Guidance</h3>
+                                <p class="icon-box-description">
+                                  Beyond accounting and tax, we assist with business structuring, SMSF setups, property acquisition documentation, and financial planning collaboration.
+                                </p>
+                                <div class="icon-box-button">
+                                  <div class="btn-wrapper icon-position-after">
+                                    <a href="" class="icon-box-link">Read More<i aria-hidden="true" class="fas fa-arrow-right"></i></a>
                                   </div>
-                                </div>
-                                <div class="icon-box icon-box-body">
-                                  <h3 class="title">Professional Bookkeeper</h3>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div
-                      class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-693f0ce"
-                      data-id="693f0ce"
-                      data-element_type="column"
-                    >
-                      <div
-                        class="elementor-widget-wrap elementor-element-populated"
-                      >
-                        <div
-                          class="elementor-element elementor-element-aaa5c45 jkit-equal-height-disable elementor-widget elementor-widget-jkit_icon_box"
-                          data-id="aaa5c45"
-                          data-element_type="widget"
-                          data-widget_type="jkit_icon_box.default"
-                        >
-                          <div class="elementor-widget-container">
-                            <div
-                              class="jeg-elementor-kit jkit-icon-box icon-position-left elementor-animation- jeg_module_50_18_67dfce77b0fb4"
-                            >
-                              <div
-                                class="jkit-icon-box-wrapper hover-from-left"
-                              >
-                                <div
-                                  class="icon-box icon-box-header elementor-animation-"
-                                >
-                                  <div class="icon style-color">
-                                    <i
-                                      aria-hidden="true"
-                                      class="jki jki-chat-light"
-                                    ></i>
-                                  </div>
-                                </div>
-                                <div class="icon-box icon-box-body">
-                                  <h3 class="title">Free Consultations</h3>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </section>
-                <section
-                  class="elementor-section elementor-inner-section elementor-element elementor-element-a8b4dab elementor-reverse-tablet elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                  data-id="a8b4dab"
-                  data-element_type="section"
-                >
-                  <div class="elementor-container elementor-column-gap-no">
-                    <div
-                      class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-7c57588"
-                      data-id="7c57588"
-                      data-element_type="column"
-                    >
-                      <div
-                        class="elementor-widget-wrap elementor-element-populated"
-                      >
-                        <div
-                          class="elementor-element elementor-element-b1de2ac jkit-equal-height-disable elementor-widget elementor-widget-jkit_icon_box"
-                          data-id="b1de2ac"
-                          data-element_type="widget"
-                          data-widget_type="jkit_icon_box.default"
-                        >
-                          <div class="elementor-widget-container">
-                            <div
-                              class="jeg-elementor-kit jkit-icon-box icon-position-left elementor-animation- jeg_module_50_19_67dfce77b2862"
-                            >
-                              <div
-                                class="jkit-icon-box-wrapper hover-from-left"
-                              >
-                                <div
-                                  class="icon-box icon-box-header elementor-animation-"
-                                >
-                                  <div class="icon style-color">
-                                    <i
-                                      aria-hidden="true"
-                                      class="jki jki-clock11-light"
-                                    ></i>
-                                  </div>
-                                </div>
-                                <div class="icon-box icon-box-body">
-                                  <h3 class="title">Saving You Time</h3>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div
-                      class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-7b8f2f6"
-                      data-id="7b8f2f6"
-                      data-element_type="column"
-                    >
-                      <div
-                        class="elementor-widget-wrap elementor-element-populated"
-                      >
-                        <div
-                          class="elementor-element elementor-element-dc60d82 jkit-equal-height-disable elementor-widget elementor-widget-jkit_icon_box"
-                          data-id="dc60d82"
-                          data-element_type="widget"
-                          data-widget_type="jkit_icon_box.default"
-                        >
-                          <div class="elementor-widget-container">
-                            <div
-                              class="jeg-elementor-kit jkit-icon-box icon-position-left elementor-animation- jeg_module_50_20_67dfce77b3a0c"
-                            >
-                              <div
-                                class="jkit-icon-box-wrapper hover-from-left"
-                              >
-                                <div
-                                  class="icon-box icon-box-header elementor-animation-"
-                                >
-                                  <div class="icon style-color">
-                                    <i
-                                      aria-hidden="true"
-                                      class="jki jki-badge"
-                                    ></i>
-                                  </div>
-                                </div>
-                                <div class="icon-box icon-box-body">
-                                  <h3 class="title">Best Quality Service</h3>
                                 </div>
                               </div>
                             </div>
@@ -4911,991 +4309,80 @@
           </div>
         </section>
         <section
-          class="elementor-section elementor-top-section elementor-element elementor-element-879c927 elementor-section-full_width elementor-section-height-default elementor-section-height-default"
-          data-id="879c927"
-          data-element_type="section"
-        >
-          <div class="elementor-container elementor-column-gap-default">
-            <div
-              class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-c3b2507"
-              data-id="c3b2507"
-              data-element_type="column"
-            >
-              <div class="elementor-widget-wrap elementor-element-populated">
-                <div
-                  class="elementor-element elementor-element-6dbea1b animated-slow elementor-invisible elementor-widget elementor-widget-jkit_heading"
-                  data-id="6dbea1b"
-                  data-element_type="widget"
-                  data-settings='{"_animation":"fadeInUp"}'
-                  data-widget_type="jkit_heading.default"
-                >
-                  <div class="elementor-widget-container">
-                    <div
-                      class="jeg-elementor-kit jkit-heading align-center align-tablet- align-mobile- jeg_module_50_25_67dfce77bafb5"
-                    >
-                      <div class="heading-section-title display-inline-block">
-                        <h5 class="heading-title">Our Cases</h5>
-                      </div>
-                      <div class="heading-section-separator">
-                        <div class="separator-wrapper style-solid"></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  class="elementor-element elementor-element-4fa419f elementor-widget elementor-widget-heading"
-                  data-id="4fa419f"
-                  data-element_type="widget"
-                  data-widget_type="heading.default"
-                >
-                  <div class="elementor-widget-container">
-                    <h2 class="elementor-heading-title elementor-size-default">
-                      Let’s See Our Latest Project
-                    </h2>
-                  </div>
-                </div>
-                <section
-                  class="elementor-section elementor-inner-section elementor-element elementor-element-f9545d8 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                  data-id="f9545d8"
-                  data-element_type="section"
-                >
-                  <div class="elementor-container elementor-column-gap-no">
-                    <div
-                      class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-7ec3139"
-                      data-id="7ec3139"
-                      data-element_type="column"
-                    >
-                      <div
-                        class="elementor-widget-wrap elementor-element-populated"
-                      >
-                        <div
-                          class="elementor-element elementor-element-d39dc4a elementor-widget elementor-widget-text-editor"
-                          data-id="d39dc4a"
-                          data-element_type="widget"
-                          data-widget_type="text-editor.default"
-                        >
-                          <div class="elementor-widget-container">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit, sed do eiusmod tempor incididunt ut labore et
-                            dolore magna aliqua
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </section>
-                <section
-                  class="elementor-section elementor-inner-section elementor-element elementor-element-a80d140 elementor-section-full_width elementor-section-height-default elementor-section-height-default"
-                  data-id="a80d140"
-                  data-element_type="section"
-                >
-                  <div class="elementor-container elementor-column-gap-no">
-                    <div
-                      class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-e24e833 animated-slow elementor-invisible"
-                      data-id="e24e833"
-                      data-element_type="column"
-                      data-settings='{"animation":"fadeInUp","animation_delay":40}'
-                    >
-                      <div
-                        class="elementor-widget-wrap elementor-element-populated"
-                      >
-                        <div
-                          class="elementor-element elementor-element-8e7c518 elementor-widget elementor-widget-jkit_team"
-                          data-id="8e7c518"
-                          data-element_type="widget"
-                          data-widget_type="jkit_team.default"
-                        >
-                          <div class="elementor-widget-container">
-                            <div
-                              class="jeg-elementor-kit jkit-team style-overlay overlay-bottom jeg_module_50_26_67dfce77bed70"
-                            >
-                              <div class="profile-card">
-                                <img
-                                  decoding="async"
-                                  src="wp-content/uploads/sites/214/2021/11/financial-services-e1638180715159.jpg"
-                                  alt="Investment Management"
-                                />
-                                <div class="hover-area alignment-bottom">
-                                  <div class="profile-body">
-                                    <h2 class="profile-title">
-                                      Investment Management
-                                    </h2>
-                                    <p class="profile-designation"></p>
-                                    <p class="profile-content">
-                                      Lorem ipsum dolor sit amet, consec
-                                      adipiscing elit, sed do eiusmod tempor
-                                      incididunt ut labore
-                                    </p>
-                                    <ul class="social-list"></ul>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div
-                      class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-a976edd animated-slow elementor-invisible"
-                      data-id="a976edd"
-                      data-element_type="column"
-                      data-settings='{"animation":"fadeInUp","animation_delay":80}'
-                    >
-                      <div
-                        class="elementor-widget-wrap elementor-element-populated"
-                      >
-                        <div
-                          class="elementor-element elementor-element-25ec1af elementor-widget elementor-widget-jkit_team"
-                          data-id="25ec1af"
-                          data-element_type="widget"
-                          data-widget_type="jkit_team.default"
-                        >
-                          <div class="elementor-widget-container">
-                            <div
-                              class="jeg-elementor-kit jkit-team style-overlay overlay-bottom jeg_module_50_27_67dfce77c08cc"
-                            >
-                              <div class="profile-card">
-                                <img
-                                  decoding="async"
-                                  src="wp-content/uploads/sites/214/2021/11/business-team-collaboration-discussing-working-analysis-with-financial-data-and-marketing-growth-e1638181040353.jpg"
-                                  alt="Money Calculations"
-                                />
-                                <div class="hover-area alignment-bottom">
-                                  <div class="profile-body">
-                                    <h2 class="profile-title">
-                                      Money Calculations
-                                    </h2>
-                                    <p class="profile-designation"></p>
-                                    <p class="profile-content">
-                                      Lorem ipsum dolor sit amet, consec
-                                      adipiscing elit, sed do eiusmod tempor
-                                      incididunt ut labore
-                                    </p>
-                                    <ul class="social-list"></ul>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div
-                      class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-c5f00b3 animated-slow elementor-invisible"
-                      data-id="c5f00b3"
-                      data-element_type="column"
-                      data-settings='{"animation":"fadeInUp","animation_delay":120}'
-                    >
-                      <div
-                        class="elementor-widget-wrap elementor-element-populated"
-                      >
-                        <div
-                          class="elementor-element elementor-element-927ee23 elementor-widget elementor-widget-jkit_team"
-                          data-id="927ee23"
-                          data-element_type="widget"
-                          data-widget_type="jkit_team.default"
-                        >
-                          <div class="elementor-widget-container">
-                            <div
-                              class="jeg-elementor-kit jkit-team style-overlay overlay-bottom jeg_module_50_28_67dfce77c27a5"
-                            >
-                              <div class="profile-card">
-                                <img
-                                  decoding="async"
-                                  src="wp-content/uploads/sites/214/2021/11/financial-statistics-e1638180991833.jpg"
-                                  alt="Financial Planning"
-                                />
-                                <div class="hover-area alignment-bottom">
-                                  <div class="profile-body">
-                                    <h2 class="profile-title">
-                                      Financial Planning
-                                    </h2>
-                                    <p class="profile-designation"></p>
-                                    <p class="profile-content">
-                                      Lorem ipsum dolor sit amet, consec
-                                      adipiscing elit, sed do eiusmod tempor
-                                      incididunt ut labore
-                                    </p>
-                                    <ul class="social-list"></ul>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div
-                      class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-674e34d animated-slow elementor-invisible"
-                      data-id="674e34d"
-                      data-element_type="column"
-                      data-settings='{"animation":"fadeInUp","animation_delay":160}'
-                    >
-                      <div
-                        class="elementor-widget-wrap elementor-element-populated"
-                      >
-                        <div
-                          class="elementor-element elementor-element-983d407 elementor-widget elementor-widget-jkit_team"
-                          data-id="983d407"
-                          data-element_type="widget"
-                          data-widget_type="jkit_team.default"
-                        >
-                          <div class="elementor-widget-container">
-                            <div
-                              class="jeg-elementor-kit jkit-team style-overlay overlay-bottom jeg_module_50_29_67dfce77c442c"
-                            >
-                              <div class="profile-card">
-                                <img
-                                  decoding="async"
-                                  src="wp-content/uploads/sites/214/2021/11/business-team-casual-collaboration-discussing-working-analysis-with-financial-data-and-marketing-e1638180979952.jpg"
-                                  alt="Data Entry"
-                                />
-                                <div class="hover-area alignment-bottom">
-                                  <div class="profile-body">
-                                    <h2 class="profile-title">Data Entry</h2>
-                                    <p class="profile-designation"></p>
-                                    <p class="profile-content">
-                                      Lorem ipsum dolor sit amet, consec
-                                      adipiscing elit, sed do eiusmod tempor
-                                      incididunt ut labore
-                                    </p>
-                                    <ul class="social-list"></ul>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </section>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section
-          class="elementor-section elementor-top-section elementor-element elementor-element-bf53aee elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-          data-id="bf53aee"
-          data-element_type="section"
-          data-settings='{"background_background":"classic"}'
-        >
-          <div class="elementor-background-overlay"></div>
-          <div class="elementor-container elementor-column-gap-default">
-            <div
-              class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-d73503c"
-              data-id="d73503c"
-              data-element_type="column"
-            >
-              <div class="elementor-widget-wrap elementor-element-populated">
-                <div
-                  class="elementor-element elementor-element-d0b3308 animated-slow elementor-invisible elementor-widget elementor-widget-jkit_heading"
-                  data-id="d0b3308"
-                  data-element_type="widget"
-                  data-settings='{"_animation":"fadeInLeft"}'
-                  data-widget_type="jkit_heading.default"
-                >
-                  <div class="elementor-widget-container">
-                    <div
-                      class="jeg-elementor-kit jkit-heading align-left align-tablet- align-mobile- jeg_module_50_30_67dfce77c7345"
-                    >
-                      <div class="heading-section-title display-inline-block">
-                        <h5 class="heading-title">Testimonials</h5>
-                      </div>
-                      <div class="heading-section-separator">
-                        <div class="separator-wrapper style-solid"></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  class="elementor-element elementor-element-038db8d elementor-widget elementor-widget-heading"
-                  data-id="038db8d"
-                  data-element_type="widget"
-                  data-widget_type="heading.default"
-                >
-                  <div class="elementor-widget-container">
-                    <h2 class="elementor-heading-title elementor-size-default">
-                      We Are Trusted Over 16+ Countries Worldwide
-                    </h2>
-                  </div>
-                </div>
-                <div
-                  class="elementor-element elementor-element-2623ee7 elementor-widget elementor-widget-text-editor"
-                  data-id="2623ee7"
-                  data-element_type="widget"
-                  data-widget_type="text-editor.default"
-                >
-                  <div class="elementor-widget-container">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div
-              class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-4cb76db"
-              data-id="4cb76db"
-              data-element_type="column"
-              data-settings='{"background_background":"classic"}'
-            >
-              <div class="elementor-widget-wrap elementor-element-populated">
-                <div
-                  class="elementor-element elementor-element-a882e2e animated-slow elementor-invisible elementor-widget elementor-widget-jkit_testimonials"
-                  data-id="a882e2e"
-                  data-element_type="widget"
-                  data-settings='{"_animation":"fadeInRight"}'
-                  data-widget_type="jkit_testimonials.default"
-                >
-                  <div class="elementor-widget-container">
-                    <div
-                      class="jeg-elementor-kit jkit-testimonials arrow-middle-edge style-2 jeg_module_50_31_67dfce77cad9d"
-                      data-id="jeg_module_50_31_67dfce77cad9d"
-                      data-settings='{"autoplay":true,"autoplay_speed":3500,"autoplay_hover_pause":false,"show_navigation":false,"navigation_left":"&lt;i aria-hidden=\"true\" class=\"fas fa-angle-left\"&gt;&lt;\/i&gt;","navigation_right":"&lt;i aria-hidden=\"true\" class=\"fas fa-angle-right\"&gt;&lt;\/i&gt;","show_dots":true,"arrow_position":"bottom","responsive":{"desktop":{"items":1,"margin":10,"breakpoint":1025},"tablet":{"items":1,"margin":10,"breakpoint":768},"mobile":{"items":1,"margin":10,"breakpoint":0}}}'
-                    >
-                      <div class="testimonials-list">
-                        <div class="testimonials-track">
-                          <div
-                            class="testimonial-item elementor-repeater-item-6e9b2e1"
-                          >
-                            <div class="testimonial-box hover-from-left">
-                              <div class="comment-content">
-                                <p>
-                                  Lorem ipsum dolor sit amet, consectetur
-                                  adipiscing elit, sed do eiusmod tempor
-                                  incididunt ut labore et dolore magna aliqua Ut
-                                  enim ad minim veniam
-                                </p>
-                              </div>
-                              <div class="comment-header">
-                                <ul class="rating-stars"></ul>
-                              </div>
-                              <div class="comment-bio">
-                                <div class="bio-details">
-                                  <div class="profile-image">
-                                    <img
-                                      decoding="async"
-                                      src="wp-content/uploads/sites/214/2021/11/testimonial-YV9ABZR-1.png"
-                                      alt="Gerald Flynn"
-                                    />
-                                  </div>
-                                  <span class="profile-info">
-                                    <strong class="profile-name"
-                                      >Gerald Flynn</strong
-                                    >
-                                    <p class="profile-des">Entrepreneur</p>
-                                  </span>
-                                </div>
-                                <div class="icon-content">
-                                  <i
-                                    aria-hidden="true"
-                                    class="jki jki-quote-light"
-                                  ></i>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                          <div
-                            class="testimonial-item elementor-repeater-item-d069a43"
-                          >
-                            <div class="testimonial-box hover-from-left">
-                              <div class="comment-content">
-                                <p>
-                                  Lorem ipsum dolor sit amet, consectetur
-                                  adipiscing elit, sed do eiusmod tempor
-                                  incididunt ut labore et dolore magna aliqua Ut
-                                  enim ad minim veniam
-                                </p>
-                              </div>
-                              <div class="comment-header">
-                                <ul class="rating-stars"></ul>
-                              </div>
-                              <div class="comment-bio">
-                                <div class="bio-details">
-                                  <div class="profile-image">
-                                    <img
-                                      decoding="async"
-                                      src="wp-content/uploads/sites/214/2021/11/testimonial-83S5W35.jpg"
-                                      alt="Evelyn Bush"
-                                    />
-                                  </div>
-                                  <span class="profile-info">
-                                    <strong class="profile-name"
-                                      >Evelyn Bush</strong
-                                    >
-                                    <p class="profile-des">CEO Bciaga</p>
-                                  </span>
-                                </div>
-                                <div class="icon-content">
-                                  <i
-                                    aria-hidden="true"
-                                    class="jki jki-quote-light"
-                                  ></i>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                          <div
-                            class="testimonial-item elementor-repeater-item-05c24f5"
-                          >
-                            <div class="testimonial-box hover-from-left">
-                              <div class="comment-content">
-                                <p>
-                                  Lorem ipsum dolor sit amet, consectetur
-                                  adipiscing elit, sed do eiusmod tempor
-                                  incididunt ut labore et dolore magna aliqua Ut
-                                  enim ad minim veniam
-                                </p>
-                              </div>
-                              <div class="comment-header">
-                                <ul class="rating-stars"></ul>
-                              </div>
-                              <div class="comment-bio">
-                                <div class="bio-details">
-                                  <div class="profile-image">
-                                    <img
-                                      decoding="async"
-                                      src="wp-content/uploads/sites/214/2021/11/testimonial-Q8JDNBT-1.png"
-                                      alt="Carlo Conrad"
-                                    />
-                                  </div>
-                                  <span class="profile-info">
-                                    <strong class="profile-name"
-                                      >Carlo Conrad</strong
-                                    >
-                                    <p class="profile-des">Businessman</p>
-                                  </span>
-                                </div>
-                                <div class="icon-content">
-                                  <i
-                                    aria-hidden="true"
-                                    class="jki jki-quote-light"
-                                  ></i>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section
-          class="elementor-section elementor-top-section elementor-element elementor-element-ace2dcd elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-          data-id="ace2dcd"
-          data-element_type="section"
-        >
-          <div class="elementor-container elementor-column-gap-default">
-            <div
-              class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-0f1440d"
-              data-id="0f1440d"
-              data-element_type="column"
-            >
-              <div class="elementor-widget-wrap elementor-element-populated">
-                <div
-                  class="elementor-element elementor-element-fb420a8 animated-slow elementor-invisible elementor-widget elementor-widget-jkit_heading"
-                  data-id="fb420a8"
-                  data-element_type="widget"
-                  data-settings='{"_animation":"fadeInUp"}'
-                  data-widget_type="jkit_heading.default"
-                >
-                  <div class="elementor-widget-container">
-                    <div
-                      class="jeg-elementor-kit jkit-heading align-center align-tablet- align-mobile- jeg_module_50_32_67dfce77cdc43"
-                    >
-                      <div class="heading-section-title display-inline-block">
-                        <h5 class="heading-title">Our Process</h5>
-                      </div>
-                      <div class="heading-section-separator">
-                        <div class="separator-wrapper style-solid"></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  class="elementor-element elementor-element-2458b3d elementor-widget elementor-widget-heading"
-                  data-id="2458b3d"
-                  data-element_type="widget"
-                  data-widget_type="heading.default"
-                >
-                  <div class="elementor-widget-container">
-                    <h2 class="elementor-heading-title elementor-size-default">
-                      Easy Steps To Get Your Solutions
-                    </h2>
-                  </div>
-                </div>
-                <div
-                  class="elementor-element elementor-element-ebba5a1 elementor-widget elementor-widget-text-editor"
-                  data-id="ebba5a1"
-                  data-element_type="widget"
-                  data-widget_type="text-editor.default"
-                >
-                  <div class="elementor-widget-container">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua
-                  </div>
-                </div>
-                <section
-                  class="elementor-section elementor-inner-section elementor-element elementor-element-9c204aa elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                  data-id="9c204aa"
-                  data-element_type="section"
-                  data-settings='{"background_background":"classic"}'
-                >
-                  <div class="elementor-container elementor-column-gap-default">
-                    <div
-                      class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-f837751"
-                      data-id="f837751"
-                      data-element_type="column"
-                    >
-                      <div
-                        class="elementor-widget-wrap elementor-element-populated"
-                      >
-                        <div
-                          class="elementor-element elementor-element-29de1a9 elementor-widget__width-auto elementor-widget elementor-widget-heading"
-                          data-id="29de1a9"
-                          data-element_type="widget"
-                          data-widget_type="heading.default"
-                        >
-                          <div class="elementor-widget-container">
-                            <h3
-                              class="elementor-heading-title elementor-size-default"
-                            >
-                              01.
-                            </h3>
-                          </div>
-                        </div>
-                        <div
-                          class="elementor-element elementor-element-2b1313f elementor-absolute elementor-hidden-tablet elementor-hidden-mobile elementor-widget-divider--view-line elementor-widget elementor-widget-divider"
-                          data-id="2b1313f"
-                          data-element_type="widget"
-                          data-settings='{"_position":"absolute"}'
-                          data-widget_type="divider.default"
-                        >
-                          <div class="elementor-widget-container">
-                            <style>
-                              /*! elementor - v3.17.0 - 08-11-2023 */
-                              .elementor-widget-divider {
-                                --divider-border-style: none;
-                                --divider-border-width: 1px;
-                                --divider-color: #0c0d0e;
-                                --divider-icon-size: 20px;
-                                --divider-element-spacing: 10px;
-                                --divider-pattern-height: 24px;
-                                --divider-pattern-size: 20px;
-                                --divider-pattern-url: none;
-                                --divider-pattern-repeat: repeat-x;
-                              }
-                              .elementor-widget-divider .elementor-divider {
-                                display: flex;
-                              }
-                              .elementor-widget-divider
-                                .elementor-divider__text {
-                                font-size: 15px;
-                                line-height: 1;
-                                max-width: 95%;
-                              }
-                              .elementor-widget-divider
-                                .elementor-divider__element {
-                                margin: 0 var(--divider-element-spacing);
-                                flex-shrink: 0;
-                              }
-                              .elementor-widget-divider .elementor-icon {
-                                font-size: var(--divider-icon-size);
-                              }
-                              .elementor-widget-divider
-                                .elementor-divider-separator {
-                                display: flex;
-                                margin: 0;
-                                direction: ltr;
-                              }
-                              .elementor-widget-divider--view-line_icon
-                                .elementor-divider-separator,
-                              .elementor-widget-divider--view-line_text
-                                .elementor-divider-separator {
-                                align-items: center;
-                              }
-                              .elementor-widget-divider--view-line_icon
-                                .elementor-divider-separator:after,
-                              .elementor-widget-divider--view-line_icon
-                                .elementor-divider-separator:before,
-                              .elementor-widget-divider--view-line_text
-                                .elementor-divider-separator:after,
-                              .elementor-widget-divider--view-line_text
-                                .elementor-divider-separator:before {
-                                display: block;
-                                content: "";
-                                border-bottom: 0;
-                                flex-grow: 1;
-                                border-top: var(--divider-border-width)
-                                  var(--divider-border-style)
-                                  var(--divider-color);
-                              }
-                              .elementor-widget-divider--element-align-left
-                                .elementor-divider
-                                .elementor-divider-separator
-                                > .elementor-divider__svg:first-of-type {
-                                flex-grow: 0;
-                                flex-shrink: 100;
-                              }
-                              .elementor-widget-divider--element-align-left
-                                .elementor-divider-separator:before {
-                                content: none;
-                              }
-                              .elementor-widget-divider--element-align-left
-                                .elementor-divider__element {
-                                margin-left: 0;
-                              }
-                              .elementor-widget-divider--element-align-right
-                                .elementor-divider
-                                .elementor-divider-separator
-                                > .elementor-divider__svg:last-of-type {
-                                flex-grow: 0;
-                                flex-shrink: 100;
-                              }
-                              .elementor-widget-divider--element-align-right
-                                .elementor-divider-separator:after {
-                                content: none;
-                              }
-                              .elementor-widget-divider--element-align-right
-                                .elementor-divider__element {
-                                margin-right: 0;
-                              }
-                              .elementor-widget-divider:not(
-                                  .elementor-widget-divider--view-line_text
-                                ):not(.elementor-widget-divider--view-line_icon)
-                                .elementor-divider-separator {
-                                border-top: var(--divider-border-width)
-                                  var(--divider-border-style)
-                                  var(--divider-color);
-                              }
-                              .elementor-widget-divider--separator-type-pattern {
-                                --divider-border-style: none;
-                              }
-                              .elementor-widget-divider--separator-type-pattern.elementor-widget-divider--view-line
-                                .elementor-divider-separator,
-                              .elementor-widget-divider--separator-type-pattern:not(
-                                  .elementor-widget-divider--view-line
-                                )
-                                .elementor-divider-separator:after,
-                              .elementor-widget-divider--separator-type-pattern:not(
-                                  .elementor-widget-divider--view-line
-                                )
-                                .elementor-divider-separator:before,
-                              .elementor-widget-divider--separator-type-pattern:not(
-                                  [class*="elementor-widget-divider--view"]
-                                )
-                                .elementor-divider-separator {
-                                width: 100%;
-                                min-height: var(--divider-pattern-height);
-                                -webkit-mask-size: var(--divider-pattern-size)
-                                  100%;
-                                mask-size: var(--divider-pattern-size) 100%;
-                                -webkit-mask-repeat: var(
-                                  --divider-pattern-repeat
-                                );
-                                mask-repeat: var(--divider-pattern-repeat);
-                                background-color: var(--divider-color);
-                                -webkit-mask-image: var(--divider-pattern-url);
-                                mask-image: var(--divider-pattern-url);
-                              }
-                              .elementor-widget-divider--no-spacing {
-                                --divider-pattern-size: auto;
-                              }
-                              .elementor-widget-divider--bg-round {
-                                --divider-pattern-repeat: round;
-                              }
-                              .rtl
-                                .elementor-widget-divider
-                                .elementor-divider__text {
-                                direction: rtl;
-                              }
-                              .e-con-inner > .elementor-widget-divider,
-                              .e-con > .elementor-widget-divider {
-                                width: var(--container-widget-width, 100%);
-                                --flex-grow: var(--container-widget-flex-grow);
-                              }
-                            </style>
-                            <div class="elementor-divider">
-                              <span class="elementor-divider-separator"> </span>
-                            </div>
-                          </div>
-                        </div>
-                        <div
-                          class="elementor-element elementor-element-b4de296 jkit-equal-height-disable elementor-widget elementor-widget-jkit_icon_box"
-                          data-id="b4de296"
-                          data-element_type="widget"
-                          data-widget_type="jkit_icon_box.default"
-                        >
-                          <div class="elementor-widget-container">
-                            <div
-                              class="jeg-elementor-kit jkit-icon-box icon-position- elementor-animation- jeg_module_50_33_67dfce77cffa5"
-                            >
-                              <div class="jkit-icon-box-wrapper hover-from-top">
-                                <div
-                                  class="icon-box icon-box-header elementor-animation-"
-                                >
-                                  <div class="icon style-color">
-                                    <i
-                                      aria-hidden="true"
-                                      class="jki jki-app-light"
-                                    ></i>
-                                  </div>
-                                </div>
-                                <div class="icon-box icon-box-body">
-                                  <h3 class="title">Make An Appointment</h3>
-                                  <p class="icon-box-description">
-                                    Lorem ipsum dolor sit amet, consectetu
-                                    adipiscing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua
-                                    quis nostrud exerci
-                                  </p>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div
-                      class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-1b2d910"
-                      data-id="1b2d910"
-                      data-element_type="column"
-                    >
-                      <div
-                        class="elementor-widget-wrap elementor-element-populated"
-                      >
-                        <div
-                          class="elementor-element elementor-element-b3a93e3 elementor-widget__width-auto elementor-widget elementor-widget-heading"
-                          data-id="b3a93e3"
-                          data-element_type="widget"
-                          data-widget_type="heading.default"
-                        >
-                          <div class="elementor-widget-container">
-                            <h2
-                              class="elementor-heading-title elementor-size-default"
-                            >
-                              02.
-                            </h2>
-                          </div>
-                        </div>
-                        <div
-                          class="elementor-element elementor-element-aaec69c jkit-equal-height-disable elementor-widget elementor-widget-jkit_icon_box"
-                          data-id="aaec69c"
-                          data-element_type="widget"
-                          data-widget_type="jkit_icon_box.default"
-                        >
-                          <div class="elementor-widget-container">
-                            <div
-                              class="jeg-elementor-kit jkit-icon-box icon-position- elementor-animation- jeg_module_50_34_67dfce77d159e"
-                            >
-                              <div class="jkit-icon-box-wrapper hover-from-top">
-                                <div
-                                  class="icon-box icon-box-header elementor-animation-"
-                                >
-                                  <div class="icon style-color">
-                                    <i
-                                      aria-hidden="true"
-                                      class="jki jki-communication-light"
-                                    ></i>
-                                  </div>
-                                </div>
-                                <div class="icon-box icon-box-body">
-                                  <h3 class="title">Get Consultation</h3>
-                                  <p class="icon-box-description">
-                                    Lorem ipsum dolor sit amet, consectetu
-                                    adipiscing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua
-                                    quis nostrud exerci
-                                  </p>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div
-                          class="elementor-element elementor-element-668d26a elementor-absolute elementor-hidden-tablet elementor-hidden-mobile elementor-widget-divider--view-line elementor-widget elementor-widget-divider"
-                          data-id="668d26a"
-                          data-element_type="widget"
-                          data-settings='{"_position":"absolute"}'
-                          data-widget_type="divider.default"
-                        >
-                          <div class="elementor-widget-container">
-                            <div class="elementor-divider">
-                              <span class="elementor-divider-separator"> </span>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div
-                      class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-b4bfeef"
-                      data-id="b4bfeef"
-                      data-element_type="column"
-                    >
-                      <div
-                        class="elementor-widget-wrap elementor-element-populated"
-                      >
-                        <div
-                          class="elementor-element elementor-element-d534120 elementor-widget__width-auto elementor-widget elementor-widget-heading"
-                          data-id="d534120"
-                          data-element_type="widget"
-                          data-widget_type="heading.default"
-                        >
-                          <div class="elementor-widget-container">
-                            <h2
-                              class="elementor-heading-title elementor-size-default"
-                            >
-                              03.
-                            </h2>
-                          </div>
-                        </div>
-                        <div
-                          class="elementor-element elementor-element-c8ccf95 jkit-equal-height-disable elementor-widget elementor-widget-jkit_icon_box"
-                          data-id="c8ccf95"
-                          data-element_type="widget"
-                          data-widget_type="jkit_icon_box.default"
-                        >
-                          <div class="elementor-widget-container">
-                            <div
-                              class="jeg-elementor-kit jkit-icon-box icon-position- elementor-animation- jeg_module_50_35_67dfce77d3380"
-                            >
-                              <div class="jkit-icon-box-wrapper hover-from-top">
-                                <div
-                                  class="icon-box icon-box-header elementor-animation-"
-                                >
-                                  <div class="icon style-color">
-                                    <i
-                                      aria-hidden="true"
-                                      class="jki jki-hand_shake-light"
-                                    ></i>
-                                  </div>
-                                </div>
-                                <div class="icon-box icon-box-body">
-                                  <h3 class="title">Your Problem Solved</h3>
-                                  <p class="icon-box-description">
-                                    Lorem ipsum dolor sit amet, consectetu
-                                    adipiscing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua
-                                    quis nostrud exerci
-                                  </p>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </section>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section
-          class="elementor-section elementor-top-section elementor-element elementor-element-4c4dbe3 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-          data-id="4c4dbe3"
-          data-element_type="section"
-          data-settings='{"background_background":"classic"}'
-        >
-          <div class="elementor-background-overlay"></div>
-          <div class="elementor-container elementor-column-gap-default">
-            <div
-              class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-315ada6"
-              data-id="315ada6"
-              data-element_type="column"
-            >
-              <div class="elementor-widget-wrap elementor-element-populated">
-                <div
-                  class="elementor-element elementor-element-8370b1f animated-slow elementor-invisible elementor-widget elementor-widget-jkit_video_button"
-                  data-id="8370b1f"
-                  data-element_type="widget"
-                  data-settings='{"_animation":"fadeInUp","_animation_delay":10}'
-                  data-widget_type="jkit_video_button.default"
-                >
-                  <div class="elementor-widget-container">
-                    <div
-                      class="jeg-elementor-kit jkit-video-button jeg_module_50_36_67dfce77d54a3"
-                      data-autoplay="0"
-                      data-loop="0"
-                      data-controls="0"
-                      data-type="youtube"
-                      data-mute="0"
-                      data-start="0"
-                      data-end="0"
-                    >
-                      <a
-                        href="https://www.youtube.com/watch?v=MLpWrANjFbI"
-                        class="jkit-video-popup-btn glow-enable"
-                        ><span class="icon-position-before"
-                          ><i
-                            aria-hidden="true"
-                            class="jki jki-play1-light"
-                          ></i></span
-                      ></a>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  class="elementor-element elementor-element-5478c5c elementor-widget elementor-widget-heading"
-                  data-id="5478c5c"
-                  data-element_type="widget"
-                  data-widget_type="heading.default"
-                >
-                  <div class="elementor-widget-container">
-                    <h2 class="elementor-heading-title elementor-size-default">
-                      Still Confused About Our Features? Get A Consultation
-                    </h2>
-                  </div>
-                </div>
-                <div
-                  class="elementor-element elementor-element-5355330 elementor-widget elementor-widget-text-editor"
-                  data-id="5355330"
-                  data-element_type="widget"
-                  data-widget_type="text-editor.default"
-                >
-                  <div class="elementor-widget-container">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor
-                  </div>
-                </div>
-                <div
-                  class="elementor-element elementor-element-b1b5996 elementor-align-center elementor-mobile-align-center elementor-widget elementor-widget-button"
-                  data-id="b1b5996"
-                  data-element_type="widget"
-                  data-widget_type="button.default"
-                >
-                  <div class="elementor-widget-container">
-                    <div class="elementor-button-wrapper">
-                      <a
-                        class="elementor-button elementor-size-sm elementor-animation-float"
-                        role="button"
-                      >
-                        <span class="elementor-button-content-wrapper">
-                          <span class="elementor-button-text">Contact Us</span>
-                        </span>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section
           class="elementor-section elementor-top-section elementor-element elementor-element-e7fd1e8 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
           data-id="e7fd1e8"
           data-element_type="section"
           data-settings='{"background_background":"classic"}'
         >
+          <style>
+            .jkit-posts {
+              -ms-overflow-style: none;
+              scrollbar-width: none;
+              display: flex !important; /* Use !important to override any existing styles */
+              flex-wrap: nowrap !important; /* Prevent wrapping to multiple rows */
+              overflow-x: auto;
+              gap: 20px;
+              padding-bottom: 15px;
+              -webkit-overflow-scrolling: touch;
+              width: 100%;
+            }
+
+            .jkit-post {
+              min-width: 300px;
+              max-width: 350px; /* Optional: limit maximum width */
+              flex: 0 0 auto;
+              margin-right: 0 !important; /* Override any existing margin */
+            }
+
+            .jkit-block-container .jkit-posts {
+              display: flex !important;
+              grid-template-columns: unset !important; /* Remove grid columns if set */
+            }
+
+            /* Container for the scrollable area and arrows */
+            .jkit-block-container {
+              width: 100%;
+              position: relative;
+              padding: 0 80px; /* Make space for the arrows */
+            }
+
+            /* Style for the scroll arrows */
+            .scroll-arrow {
+              position: absolute;
+              top: 50%;
+              transform: translateY(-50%);
+              width: 40px;
+              height: 40px;
+              background-color: rgba(255, 255, 255, 0.8);
+              border-radius: 50%;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              cursor: pointer;
+              box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+              z-index: 10;
+              transition: all 0.3s ease;
+            }
+
+            .scroll-arrow:hover {
+              background-color: rgba(255, 255, 255, 1);
+              box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            }
+
+            .scroll-left {
+              left: 5px;
+            }
+
+            .scroll-right {
+              right: 5px;
+            }
+
+            /* Hide arrows when not needed (optional) */
+            .scroll-arrow.disabled {
+              opacity: 0.3;
+              cursor: default;
+            }
+          </style>
           <div class="elementor-container elementor-column-gap-default">
             <div
               class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-b556f82"
@@ -5958,13 +4445,16 @@
                       data-settings='{"post_type":"post","number_post":{"unit":"px","size":3,"sizes":[]},"post_offset":0,"unique_content":"disable","include_post":"","exclude_post":"","include_category":"","exclude_category":"","include_author":"","include_tag":"","exclude_tag":"","sort_by":"latest","pagination_mode":"disable","pagination_loadmore_text":"Load More","pagination_loading_text":"Loading...","pagination_number_post":{"unit":"px","size":3,"sizes":[]},"pagination_scroll_limit":0,"pagination_icon":{"value":"","library":""},"pagination_icon_position":"before","st_category_position":"left","sg_content_postblock_type":"type-2","sg_content_element_order":"title,meta,excerpt,read","sg_content_breakpoint":"tablet","sg_content_title_html_tag":"h4","sg_content_category_enable":"","sg_content_excerpt_enable":"yes","sg_content_excerpt_length":{"unit":"px","size":19,"sizes":[]},"sg_content_excerpt_more":"...","sg_content_readmore_enable":"yes","sg_content_readmore_icon":{"value":"fas fa-arrow-right","library":"fa-solid"},"sg_content_readmore_icon_position":"after","sg_content_readmore_text":"Read More","sg_content_comment_enable":"","sg_content_comment_icon":{"value":"fas fa-comment","library":"fa-solid"},"sg_content_comment_icon_position":"before","sg_content_meta_enable":"yes","sg_content_meta_author_enable":"","sg_content_meta_author_by_text":"by","sg_content_meta_author_icon":{"value":"fas fa-user","library":"fa-solid"},"sg_content_meta_author_icon_position":"before","sg_content_meta_date_enable":"yes","sg_content_meta_date_type":"published","sg_content_meta_date_format":"default","sg_content_meta_date_format_custom":"F j, Y","sg_content_meta_date_icon":{"value":"","library":""},"sg_content_meta_date_icon_position":"before","sg_content_image_size_imagesize_size":"full","paged":1,"class":"jkit_post_block"}'
                     >
                       <div class="jkit-block-container">
+                        <div class="scroll-arrow scroll-left">
+                          <i class="fas fa-chevron-left"></i>
+                        </div>
                         <div class="jkit-posts jkit-ajax-flag">
                           <article
                             class="jkit-post post-168 post type-post status-publish format-standard has-post-thumbnail hentry category-strategy tag-growth"
                           >
                             <div class="jkit-thumb">
                               <a
-                                href="2021/11/25/how-your-firm-defines-cas-will-determine-your-growth-strategy/index.html"
+                                href="services/bookkeeping-services/index.html"
                                 ><div class="thumbnail-container">
                                   <img
                                     decoding="async"
@@ -5979,33 +4469,26 @@
                             <div class="jkit-postblock-content">
                               <h4 class="jkit-post-title">
                                 <a
-                                  href="2021/11/25/how-your-firm-defines-cas-will-determine-your-growth-strategy/index.html"
+                                  href="services/bookkeeping-services/index.html"
                                   >Bookkeeping Services</a
                                 >
                               </h4>
                               <div class="jkit-post-meta">
-                                <div
-                                  class="jkit-meta-date icon-position-before"
-                                >
-                                  Streamlined Financial Management
+                                <div class="jkit-meta-date icon-position-before">
+                                  Optimize Your Financial Record-Keeping
                                 </div>
                               </div>
                               <div class="jkit-post-excerpt">
                                 <p>
-                                  Running a small business is demanding, and bookkeeping can take up valuable time. We offer professional bookkeeping services to relieve the burden, ensuring your financial records are accurate and up to date.
+                                  Running a small business is demanding, and bookkeeping can take up valuable time that could be better spent growing your business. We offer professional bookkeeping services to relieve the burden, ensuring your financial records are accurate and up to date. From Xero migration to transaction reconciliation, expense management, payroll processing, and regular financial reporting.
                                 </p>
                               </div>
                               <div class="jkit-post-meta-bottom">
-                                <div
-                                  class="jkit-meta-readmore icon-position-after"
-                                >
+                                <div class="jkit-meta-readmore icon-position-after">
                                   <a
-                                    href="2021/11/25/how-your-firm-defines-cas-will-determine-your-growth-strategy/index.html"
+                                    href="services/bookkeeping-services/index.html"
                                     class="jkit-readmore"
-                                    >Learn More<i
-                                      aria-hidden="true"
-                                      class="fas fa-arrow-right"
-                                    ></i
+                                    >Learn More<i aria-hidden="true" class="fas fa-arrow-right"></i
                                   ></a>
                                 </div>
                               </div>
@@ -6016,7 +4499,7 @@
                           >
                             <div class="jkit-thumb">
                               <a
-                                href="2021/11/25/how-bookkeeping-fits-into-cas-why-you-should-set-it-to-autopilot/index.html"
+                                href="services/tax-accounting-services/index.html"
                                 ><div class="thumbnail-container">
                                   <img
                                     decoding="async"
@@ -6041,33 +4524,26 @@
                             <div class="jkit-postblock-content">
                               <h4 class="jkit-post-title">
                                 <a
-                                  href="2021/11/25/how-bookkeeping-fits-into-cas-why-you-should-set-it-to-autopilot/index.html"
+                                  href="services/tax-accounting-services/index.html"
                                   >Tax Accounting Services</a
                                 >
                               </h4>
                               <div class="jkit-post-meta">
-                                <div
-                                  class="jkit-meta-date icon-position-before"
-                                >
-                                  Minimize Tax Liabilities
+                                <div class="jkit-meta-date icon-position-before">
+                                  Minimize Tax Liabilities, Maximize Compliance
                                 </div>
                               </div>
                               <div class="jkit-post-excerpt">
                                 <p>
-                                  We help businesses structure their operations efficiently for tax purposes, stay ahead of regulatory changes, and plan for long-term financial success. We ensure that you never pay more tax than necessary while keeping your business compliant.                                
+                                  Navigating the complexities of tax laws can be overwhelming, but with expert guidance, you can minimize tax liabilities and ensure compliance. We help businesses structure their operations efficiently for tax purposes, stay ahead of regulatory changes, and plan for long-term financial success through tax planning, business tax compliance, CGT advice, and effective tax strategies.
                                 </p>
                               </div>
                               <div class="jkit-post-meta-bottom">
-                                <div
-                                  class="jkit-meta-readmore icon-position-after"
-                                >
+                                <div class="jkit-meta-readmore icon-position-after">
                                   <a
-                                    href="2021/11/25/how-bookkeeping-fits-into-cas-why-you-should-set-it-to-autopilot/index.html"
+                                    href="services/tax-accounting-services/index.html"
                                     class="jkit-readmore"
-                                    >Learn More<i
-                                      aria-hidden="true"
-                                      class="fas fa-arrow-right"
-                                    ></i
+                                    >Learn More<i aria-hidden="true" class="fas fa-arrow-right"></i
                                   ></a>
                                 </div>
                               </div>
@@ -6078,7 +4554,7 @@
                           >
                             <div class="jkit-thumb">
                               <a
-                                href="2021/11/25/want-happy-accounting-clients-these-strategies-will-help-you/index.html"
+                                href="services/itr-bas-preparation/index.html"
                                 ><div class="thumbnail-container">
                                   <img
                                     loading="lazy"
@@ -6094,38 +4570,264 @@
                             <div class="jkit-postblock-content">
                               <h4 class="jkit-post-title">
                                 <a
-                                  href="2021/11/25/want-happy-accounting-clients-these-strategies-will-help-you/index.html"
-                                  >Self-Managed Superannuation Fund Services</a
+                                  href="services/itr-bas-preparation/index.html"
+                                  >ITR & BAS Preparation</a
                                 >
                               </h4>
                               <div class="jkit-post-meta">
-                                <div
-                                  class="jkit-meta-date icon-position-before"
-                                >
-                                  Control Your Retirement
+                                <div class="jkit-meta-date icon-position-before">
+                                  Comprehensive Tax Reporting Solutions
                                 </div>
                               </div>
                               <div class="jkit-post-excerpt">
                                 <p>
-                                  We offer comprehensive SMSF setup, administration, tax compliance, and audit coordination services, ensuring your fund remains compliant while maximizing tax benefits and investment opportunities.
+                                  Staying compliant with tax obligations is crucial for both individuals and businesses. We provide comprehensive tax return and BAS preparation services to ensure accurate reporting, timely lodgment, and optimal tax outcomes. Our services include individual and business tax returns, maximizing deductions, handling specialized tax reporting, and managing all ATO communications.
                                 </p>
                               </div>
                               <div class="jkit-post-meta-bottom">
-                                <div
-                                  class="jkit-meta-readmore icon-position-after"
-                                >
+                                <div class="jkit-meta-readmore icon-position-after">
                                   <a
-                                    href="2021/11/25/want-happy-accounting-clients-these-strategies-will-help-you/index.html"
+                                    href="services/itr-bas-preparation/index.html"
                                     class="jkit-readmore"
-                                    >Learn More<i
-                                      aria-hidden="true"
-                                      class="fas fa-arrow-right"
-                                    ></i
+                                    >Learn More<i aria-hidden="true" class="fas fa-arrow-right"></i
                                   ></a>
                                 </div>
                               </div>
                             </div>
                           </article>
+                          <article
+                            class="jkit-post post-164 post type-post status-publish format-standard has-post-thumbnail hentry category-accounting tag-strategy"
+                          >
+                            <div class="jkit-thumb">
+                              <a
+                                href="services/self-managed-superannuation-fund-services/index.html"
+                                ><div class="thumbnail-container">
+                                  <img
+                                    loading="lazy"
+                                    decoding="async"
+                                    width="1920"
+                                    height="1280"
+                                    src="wp-content/uploads/sites/214/2021/11/managers-working-with-financial-chart-e1638180766443.jpg"
+                                    class="attachment-full size-full wp-post-image"
+                                    alt="Managers working with financial chart"
+                                  /></div
+                              ></a>
+                            </div>
+                            <div class="jkit-postblock-content">
+                              <h4 class="jkit-post-title">
+                                <a
+                                  href="services/self-managed-superannuation-fund-services/index.html"
+                                  >Self-Managed Superannuation Fund Services</a
+                                >
+                              </h4>
+                              <div class="jkit-post-meta">
+                                <div class="jkit-meta-date icon-position-before">
+                                  Control Your Retirement Future
+                                </div>
+                              </div>
+                              <div class="jkit-post-excerpt">
+                                <p>
+                                  Managing your own superannuation fund provides greater control over your retirement savings, but comes with complex regulatory requirements. We offer comprehensive SMSF setup, administration, tax compliance, and audit coordination services, ensuring your fund remains compliant while maximizing tax benefits and investment opportunities. From establishment to ongoing administration and compliance support.
+                                </p>
+                              </div>
+                              <div class="jkit-post-meta-bottom">
+                                <div class="jkit-meta-readmore icon-position-after">
+                                  <a
+                                    href="services/self-managed-superannuation-fund-services/index.html"
+                                    class="jkit-readmore"
+                                    >Learn More<i aria-hidden="true" class="fas fa-arrow-right"></i
+                                  ></a>
+                                </div>
+                              </div>
+                            </div>
+                          </article>
+                          <article
+                            class="jkit-post post-164 post type-post status-publish format-standard has-post-thumbnail hentry category-accounting tag-strategy"
+                          >
+                            <div class="jkit-thumb">
+                              <a
+                                href="services/xero-setup-training/index.html"
+                                ><div class="thumbnail-container">
+                                  <img
+                                    loading="lazy"
+                                    decoding="async"
+                                    width="1920"
+                                    height="1280"
+                                    src="wp-content/uploads/sites/214/2021/11/managers-working-with-financial-chart-e1638180766443.jpg"
+                                    class="attachment-full size-full wp-post-image"
+                                    alt="Managers working with financial chart"
+                                  /></div
+                              ></a>
+                            </div>
+                            <div class="jkit-postblock-content">
+                              <h4 class="jkit-post-title">
+                                <a
+                                  href="services/xero-setup-training/index.html"
+                                  >Xero Setup & Training</a
+                                >
+                              </h4>
+                              <div class="jkit-post-meta">
+                                <div class="jkit-meta-date icon-position-before">
+                                  Streamline Your Financial Management
+                                </div>
+                              </div>
+                              <div class="jkit-post-excerpt">
+                                <p>
+                                  Transition seamlessly to cloud accounting with our Xero setup and customization services. We help configure your chart of accounts, tax codes, and other critical settings for optimal functionality. Our services include data migration from previous systems, integration with third-party apps, process automation, and comprehensive training for your team to ensure they can take full advantage of Xero's features.
+                                </p>
+                              </div>
+                              <div class="jkit-post-meta-bottom">
+                                <div class="jkit-meta-readmore icon-position-after">
+                                  <a
+                                    href="services/xero-setup-training/index.html"
+                                    class="jkit-readmore"
+                                    >Learn More<i aria-hidden="true" class="fas fa-arrow-right"></i
+                                  ></a>
+                                </div>
+                              </div>
+                            </div>
+                          </article>
+                          <article
+                            class="jkit-post post-164 post type-post status-publish format-standard has-post-thumbnail hentry category-accounting tag-strategy"
+                          >
+                            <div class="jkit-thumb">
+                              <a
+                                href="services/entity-setup-services/index.html"
+                                ><div class="thumbnail-container">
+                                  <img
+                                    loading="lazy"
+                                    decoding="async"
+                                    width="1920"
+                                    height="1280"
+                                    src="wp-content/uploads/sites/214/2021/11/managers-working-with-financial-chart-e1638180766443.jpg"
+                                    class="attachment-full size-full wp-post-image"
+                                    alt="Managers working with financial chart"
+                                  /></div
+                              ></a>
+                            </div>
+                            <div class="jkit-postblock-content">
+                              <h4 class="jkit-post-title">
+                                <a
+                                  href="services/entity-setup-services/index.html"
+                                  >Entity Setup Services</a
+                                >
+                              </h4>
+                              <div class="jkit-post-meta">
+                                <div class="jkit-meta-date icon-position-before">
+                                  Establish the Right Business Structure
+                                </div>
+                              </div>
+                              <div class="jkit-post-excerpt">
+                                <p>
+                                  Selecting the correct legal entity can provide significant tax savings, liability protection, and growth opportunities. We provide expert guidance in setting up companies, trusts (family, unit, discretionary), partnerships, and SMSFs. Our comprehensive setup services include registration, compliance setup, governance documents, and ongoing structure advice tailored to your business goals.
+                                </p>
+                              </div>
+                              <div class="jkit-post-meta-bottom">
+                                <div class="jkit-meta-readmore icon-position-after">
+                                  <a
+                                    href="services/entity-setup-services/index.html"
+                                    class="jkit-readmore"
+                                    >Learn More<i aria-hidden="true" class="fas fa-arrow-right"></i
+                                  ></a>
+                                </div>
+                              </div>
+                            </div>
+                          </article>
+                          <article
+                            class="jkit-post post-164 post type-post status-publish format-standard has-post-thumbnail hentry category-accounting tag-strategy"
+                          >
+                            <div class="jkit-thumb">
+                              <a
+                                href="services/tax-business-advice/index.html"
+                                ><div class="thumbnail-container">
+                                  <img
+                                    loading="lazy"
+                                    decoding="async"
+                                    width="1920"
+                                    height="1280"
+                                    src="wp-content/uploads/sites/214/2021/11/managers-working-with-financial-chart-e1638180766443.jpg"
+                                    class="attachment-full size-full wp-post-image"
+                                    alt="Managers working with financial chart"
+                                  /></div
+                              ></a>
+                            </div>
+                            <div class="jkit-postblock-content">
+                              <h4 class="jkit-post-title">
+                                <a
+                                  href="services/tax-business-advice/index.html"
+                                  >Tax & Business Advice</a
+                                >
+                              </h4>
+                              <div class="jkit-post-meta">
+                                <div class="jkit-meta-date icon-position-before">
+                                  Strategic Financial Guidance
+                                </div>
+                              </div>
+                              <div class="jkit-post-excerpt">
+                                <p>
+                                  Our proactive tax and business advisory services help you make informed financial decisions for growth and stability. We offer year-round tax planning strategies, business structuring advice, GST and PAYG compliance guidance, cash flow management, profitability enhancement, and comprehensive performance reviews. Our goal is to help you optimize your tax position while building a stronger business.
+                                </p>
+                              </div>
+                              <div class="jkit-post-meta-bottom">
+                                <div class="jkit-meta-readmore icon-position-after">
+                                  <a
+                                    href="services/tax-business-advice/index.html"
+                                    class="jkit-readmore"
+                                    >Learn More<i aria-hidden="true" class="fas fa-arrow-right"></i
+                                  ></a>
+                                </div>
+                              </div>
+                            </div>
+                          </article>
+                          <article
+                            class="jkit-post post-164 post type-post status-publish format-standard has-post-thumbnail hentry category-accounting tag-strategy"
+                          >
+                            <div class="jkit-thumb">
+                              <a
+                                href="services/property-acquisition-assistance/index.html"
+                                ><div class="thumbnail-container">
+                                  <img
+                                    loading="lazy"
+                                    decoding="async"
+                                    width="1920"
+                                    height="1280"
+                                    src="wp-content/uploads/sites/214/2021/11/managers-working-with-financial-chart-e1638180766443.jpg"
+                                    class="attachment-full size-full wp-post-image"
+                                    alt="Managers working with financial chart"
+                                  /></div
+                              ></a>
+                            </div>
+                            <div class="jkit-postblock-content">
+                              <h4 class="jkit-post-title">
+                                <a
+                                  href="services/property-acquisition-assistance/index.html"
+                                  >Property Acquisition Assistance</a
+                                >
+                              </h4>
+                              <div class="jkit-post-meta">
+                                <div class="jkit-meta-date icon-position-before">
+                                  Streamline Your Property Investment Journey
+                                </div>
+                              </div>
+                              <div class="jkit-post-excerpt">
+                                <p>
+                                  The property acquisition process requires careful management of financial documentation. We assist with income verification, financial statements, BAS preparation, and specialized documentation for self-employed clients and investment properties. Working alongside mortgage brokers, we ensure you have all necessary documentation prepared professionally and accurately to support your property acquisition goals.
+                                </p>
+                              </div>
+                              <div class="jkit-post-meta-bottom">
+                                <div class="jkit-meta-readmore icon-position-after">
+                                  <a
+                                    href="services/property-acquisition-assistance/index.html"
+                                    class="jkit-readmore"
+                                    >Learn More<i aria-hidden="true" class="fas fa-arrow-right"></i
+                                  ></a>
+                                </div>
+                              </div>
+                            </div>
+                          </article>
+                        </div>
+                        <div class="scroll-arrow scroll-right">
+                          <i class="fas fa-chevron-right"></i>
                         </div>
                       </div>
                     </div>
@@ -7491,9 +6193,7 @@
                             data-widget_type="text-editor.default"
                           >
                             <div class="elementor-widget-container">
-                              Lorem ipsum dolor sit amet, consectetur adipiscing
-                              elit, sed do eiusmod tempor incididunt ut labore
-                              et dolore
+                              Join our newsletter for the latest tax updates, business tips, and financial advice, supported by our commitment to current expertise.
                             </div>
                           </div>
                         </div>
@@ -7610,8 +6310,7 @@
                             data-widget_type="text-editor.default"
                           >
                             <div class="elementor-widget-container">
-                              Lorem ipsum dolor sit amet, consectet adipiscing
-                              elit, sed do eiusmod
+                              Delivering expert tax and accounting services to people and companies in the Northern Beaches and beyond.
                             </div>
                           </div>
                           <div
@@ -7630,7 +6329,7 @@
                                     ></i>
                                   </span>
                                   <span class="elementor-icon-list-text"
-                                    >Jl. Raya Puputan No 142</span
+                                    >Northern Beaches, Sydney</span
                                   >
                                 </li>
                                 <li class="elementor-icon-list-item">
@@ -7641,7 +6340,7 @@
                                     ></i>
                                   </span>
                                   <span class="elementor-icon-list-text"
-                                    >support@domain.com</span
+                                    >andrea@aocaccounting.com.au</span
                                   >
                                 </li>
                                 <li class="elementor-icon-list-item">
@@ -7652,7 +6351,7 @@
                                     ></i>
                                   </span>
                                   <span class="elementor-icon-list-text"
-                                    >(021) 4582 - 3695</span
+                                    >405100436</span
                                   >
                                 </li>
                               </ul>
@@ -7890,8 +6589,7 @@
                             data-widget_type="text-editor.default"
                           >
                             <div class="elementor-widget-container">
-                              Lorem ipsum dolor sit amet, consectectur
-                              adipiscing elit, sed do eiusmod tempor
+                              We're available for consultations outside regular hours by appointment. Contact us to discuss your accounting and tax needs.
                             </div>
                           </div>
                           <div
@@ -7942,8 +6640,7 @@
                             data-widget_type="text-editor.default"
                           >
                             <div class="elementor-widget-container">
-                              Bookkeeping Service Company Template Kit by
-                              Jegtheme
+                              AOC Accounting & Tax Services
                             </div>
                           </div>
                         </div>
@@ -8161,6 +6858,34 @@
           featuredImage: false,
         },
       };
+      document.addEventListener('DOMContentLoaded', function() {
+  const postsContainer = document.querySelector('.jkit-posts');
+  const leftArrow = document.querySelector('.scroll-left');
+  const rightArrow = document.querySelector('.scroll-right');
+  
+  // Function to scroll left
+  leftArrow.addEventListener('click', function() {
+    postsContainer.scrollBy({ left: -300, behavior: 'smooth' });
+  });
+  
+  // Function to scroll right
+  rightArrow.addEventListener('click', function() {
+    postsContainer.scrollBy({ left: 300, behavior: 'smooth' });
+  });
+  
+  // Optional: Update arrow states based on scroll position
+  function updateArrowStates() {
+    const isAtStart = postsContainer.scrollLeft === 0;
+    const isAtEnd = postsContainer.scrollLeft + postsContainer.clientWidth >= postsContainer.scrollWidth - 5;
+    
+    leftArrow.classList.toggle('disabled', isAtStart);
+    rightArrow.classList.toggle('disabled', isAtEnd);
+  }
+  
+  // Check arrow states on scroll and on load
+  postsContainer.addEventListener('scroll', updateArrowStates);
+  updateArrowStates(); // Initial check
+});
     </script>
     <script
       src="wp-content/plugins/elementor/assets/js/frontend.min%EF%B9%96ver=3.17.3.js"
