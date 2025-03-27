@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Bookkeeping &#8211; Bizkeep</title>
+	<atom:link href="https://templatekit.jegtheme.com/bizkeep/category/bookkeeping/feed/" rel="self" type="application/rss+xml" />
+	<link>https://templatekit.jegtheme.com/bizkeep</link>
+	<description>Bookkeeping &#38; Accounting Service Elementor Template Kit by Jegtheme</description>
+	<lastBuildDate>Mon, 29 Nov 2021 09:34:46 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.4.1</generator>
+	<item>
+		<title>How Bookkeeping Fits Into CAS &#038; Why You Should Set it to Autopilot</title>
+		<link>https://templatekit.jegtheme.com/bizkeep/2021/11/25/how-bookkeeping-fits-into-cas-why-you-should-set-it-to-autopilot/</link>
+					<comments>https://templatekit.jegtheme.com/bizkeep/2021/11/25/how-bookkeeping-fits-into-cas-why-you-should-set-it-to-autopilot/#respond</comments>
+		
+		<dc:creator><![CDATA[John Doe]]></dc:creator>
+		<pubDate>Thu, 25 Nov 2021 04:01:17 +0000</pubDate>
+				<category><![CDATA[Bookkeeping]]></category>
+		<category><![CDATA[Insight]]></category>
+		<guid isPermaLink="false">https://templatekit.jegtheme.com/bizkeep/?p=166</guid>
+
+					<description><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.]]></description>
+										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="166" class="elementor elementor-166">
+									<section class="elementor-section elementor-top-section elementor-element elementor-element-3bf5ad16 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="3bf5ad16" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+							<div class="elementor-background-overlay"></div>
+							<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-60296e8f" data-id="60296e8f" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-586332b9 elementor-widget elementor-widget-jkit_post_title" data-id="586332b9" data-element_type="widget" data-widget_type="jkit_post_title.default">
+				<div class="elementor-widget-container">
+			<div  class="jeg-elementor-kit jkit-post-title jeg_module_166__67dfd2ee41d9d" ><h2 class="post-title style-color ">How Bookkeeping Fits Into CAS &#038; Why You Should Set it to Autopilot</h2></div>		</div>
+				</div>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-624e9680 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="624e9680" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-no">
+					<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-7a4adcde" data-id="7a4adcde" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-5d3e780a elementor-widget__width-auto elementor-view-default elementor-widget elementor-widget-icon" data-id="5d3e780a" data-element_type="widget" data-widget_type="icon.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-icon-wrapper">
+			<div class="elementor-icon">
+			<i aria-hidden="true" class="far fa-user-circle"></i>			</div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-58fa1e60 elementor-widget__width-auto elementor-widget elementor-widget-jkit_post_author" data-id="58fa1e60" data-element_type="widget" data-widget_type="jkit_post_author.default">
+				<div class="elementor-widget-container">
+			<div  class="jeg-elementor-kit jkit-post-author jeg_module_166_1_67dfd2ee42dc4" ><p class="post-author ">John Doe</p></div>		</div>
+				</div>
+				<div class="elementor-element elementor-element-76b01e85 elementor-widget__width-auto elementor-view-default elementor-widget elementor-widget-icon" data-id="76b01e85" data-element_type="widget" data-widget_type="icon.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-icon-wrapper">
+			<div class="elementor-icon">
+			<i aria-hidden="true" class="far fa-calendar-alt"></i>			</div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-15a54348 elementor-widget__width-auto elementor-widget elementor-widget-jkit_post_date" data-id="15a54348" data-element_type="widget" data-widget_type="jkit_post_date.default">
+				<div class="elementor-widget-container">
+			<div  class="jeg-elementor-kit jkit-post-date jeg_module_166_2_67dfd2ee4397b" ><p class="post-date ">November 25, 2021</p></div>		</div>
+				</div>
+				<div class="elementor-element elementor-element-30ad5c9e elementor-widget__width-auto elementor-view-default elementor-widget elementor-widget-icon" data-id="30ad5c9e" data-element_type="widget" data-widget_type="icon.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-icon-wrapper">
+			<div class="elementor-icon">
+			<i aria-hidden="true" class="far fa-folder-open"></i>			</div>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-6f40f22a elementor-widget__width-auto elementor-widget elementor-widget-jkit_post_terms" data-id="6f40f22a" data-element_type="widget" data-widget_type="jkit_post_terms.default">
+				<div class="elementor-widget-container">
+			<div  class="jeg-elementor-kit jkit-post-terms jeg_module_166_3_67dfd2ee4458a" ><span class="post-terms"><span class="term-list ">Bookkeeping</span></span></div>		</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-64c51d44 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="64c51d44" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-e7aafae" data-id="e7aafae" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-7e28fe71 elementor-widget elementor-widget-jkit_post_featured_image" data-id="7e28fe71" data-element_type="widget" data-widget_type="jkit_post_featured_image.default">
+				<div class="elementor-widget-container">
+			<div  class="jeg-elementor-kit jkit-post-featured-image jeg_module_166_4_67dfd2ee46eb8" ><div class="post-featured-image "><img fetchpriority="high" decoding="async" width="2000" height="1335" src="https://templatekit.jegtheme.com/bizkeep/wp-content/uploads/sites/214/2021/11/analyzing-financial-diagram.jpg" class="attachment-full size-full wp-post-image" alt="Analyzing financial diagram" srcset="https://templatekit.jegtheme.com/bizkeep/wp-content/uploads/sites/214/2021/11/analyzing-financial-diagram.jpg 2000w, https://templatekit.jegtheme.com/bizkeep/wp-content/uploads/sites/214/2021/11/analyzing-financial-diagram-300x200.jpg 300w, https://templatekit.jegtheme.com/bizkeep/wp-content/uploads/sites/214/2021/11/analyzing-financial-diagram-1024x684.jpg 1024w, https://templatekit.jegtheme.com/bizkeep/wp-content/uploads/sites/214/2021/11/analyzing-financial-diagram-768x513.jpg 768w, https://templatekit.jegtheme.com/bizkeep/wp-content/uploads/sites/214/2021/11/analyzing-financial-diagram-1536x1025.jpg 1536w, https://templatekit.jegtheme.com/bizkeep/wp-content/uploads/sites/214/2021/11/analyzing-financial-diagram-800x534.jpg 800w, https://templatekit.jegtheme.com/bizkeep/wp-content/uploads/sites/214/2021/11/analyzing-financial-diagram-1568x1047.jpg 1568w" sizes="(max-width: 2000px) 100vw, 2000px" /></div></div>		</div>
+				</div>
+				<div class="elementor-element elementor-element-53d11d85 elementor-widget elementor-widget-text-editor" data-id="53d11d85" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.17.0 - 08-11-2023 */
+.elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap{background-color:#69727d;color:#fff}.elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap{color:#69727d;border:3px solid;background-color:transparent}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap{margin-top:8px}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap-letter{width:1em;height:1em}.elementor-widget-text-editor .elementor-drop-cap{float:left;text-align:center;line-height:1;font-size:50px}.elementor-widget-text-editor .elementor-drop-cap-letter{display:inline-block}</style>				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.						</div>
+				</div>
+				<div class="elementor-element elementor-element-7de72142 elementor-widget elementor-widget-text-editor" data-id="7de72142" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 						</div>
+				</div>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-16e708fd elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="16e708fd" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-no">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-2033785f" data-id="2033785f" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-149405f4 elementor-widget elementor-widget-image" data-id="149405f4" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.17.0 - 08-11-2023 */
+.elementor-widget-image{text-align:center}.elementor-widget-image a{display:inline-block}.elementor-widget-image a img[src$=".svg"]{width:48px}.elementor-widget-image img{vertical-align:middle;display:inline-block}</style>													<a href="https://templatekit.jegtheme.com/bizkeep/wp-content/uploads/sites/214/2021/11/partner-meeting-of-business-team-colleagues-consultation-and-discussion-marketing-plan-meeting.jpg" data-elementor-open-lightbox="yes" data-elementor-lightbox-title="Partner meeting of business team colleagues consultation and discussion marketing plan meeting" data-elementor-lightbox-description="Partner meeting of business team colleagues consultation and discussion marketing plan meeting" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6NTQ2LCJ1cmwiOiJodHRwczpcL1wvdGVtcGxhdGVraXQuamVndGhlbWUuY29tXC9iaXprZWVwXC93cC1jb250ZW50XC91cGxvYWRzXC9zaXRlc1wvMjE0XC8yMDIxXC8xMVwvcGFydG5lci1tZWV0aW5nLW9mLWJ1c2luZXNzLXRlYW0tY29sbGVhZ3Vlcy1jb25zdWx0YXRpb24tYW5kLWRpc2N1c3Npb24tbWFya2V0aW5nLXBsYW4tbWVldGluZy1lMTYzODE4MTE3OTQ5My5qcGcifQ%3D%3D">
+							<img decoding="async" src="https://templatekit.jegtheme.com/bizkeep/wp-content/uploads/sites/214/elementor/thumbs/partner-meeting-of-business-team-colleagues-consultation-and-discussion-marketing-plan-meeting-e1638181179493-pgru1nm31qr89k4rldu7nlfiuybd175gl1bdlzd8us.jpg" title="Partner meeting of business team colleagues consultation and discussion marketing plan meeting" alt="Partner meeting of business team colleagues consultation and discussion marketing plan meeting" loading="lazy" />								</a>
+															</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-f70050c" data-id="f70050c" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-123c03f3 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="123c03f3" data-element_type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+			<link rel="stylesheet" href="https://templatekit.jegtheme.com/bizkeep/wp-content/plugins/elementor/assets/css/widget-icon-list.min.css">		<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-check"></i>						</span>
+										<span class="elementor-icon-list-text">Quisque aliquet nibh sit amet lectus </span>
+									</li>
+								<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-check"></i>						</span>
+										<span class="elementor-icon-list-text">Nulla at metus ultricies, placerat augue </span>
+									</li>
+								<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-check"></i>						</span>
+										<span class="elementor-icon-list-text">Curabitur mollis ex vestibulum </span>
+									</li>
+								<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-check"></i>						</span>
+										<span class="elementor-icon-list-text">Quisque aliquet nibh sit amet lectus auctor</span>
+									</li>
+						</ul>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-46ea9ff5 elementor-widget elementor-widget-text-editor" data-id="46ea9ff5" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.						</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<div class="elementor-element elementor-element-4250cf7a elementor-widget elementor-widget-text-editor" data-id="4250cf7a" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 						</div>
+				</div>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-346909fe elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="346909fe" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-no">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-24afc077" data-id="24afc077" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-58d9cc13 elementor-widget__width-initial elementor-widget-mobile__width-initial elementor-widget-tablet__width-initial elementor-widget elementor-widget-text-editor" data-id="58d9cc13" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							Tags : 						</div>
+				</div>
+				<div class="elementor-element elementor-element-2c2f1587 elementor-widget__width-auto elementor-widget elementor-widget-jkit_post_terms" data-id="2c2f1587" data-element_type="widget" data-widget_type="jkit_post_terms.default">
+				<div class="elementor-widget-container">
+			<div  class="jeg-elementor-kit jkit-post-terms jeg_module_166_5_67dfd2ee4b84b" ><span class="post-terms"><span class="term-list ">Insight</span></span></div>		</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-611191a9" data-id="611191a9" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-43f6c819 elementor-widget__width-auto elementor-widget-mobile__width-initial elementor-widget-tablet__width-auto elementor-widget elementor-widget-text-editor" data-id="43f6c819" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							Share This : 						</div>
+				</div>
+				<div class="elementor-element elementor-element-6180d9ff elementor-widget__width-auto jkit-social-shape shape-none elementor-widget elementor-widget-jkit_social_share" data-id="6180d9ff" data-element_type="widget" data-widget_type="jkit_social_share.default">
+				<div class="elementor-widget-container">
+			<div  class="jeg-elementor-kit jkit-social-share jeg_module_166_6_67dfd2ee4dda4" ><ul class="social-share-list"><li class="elementor-repeater-item-e461d32" data-social="facebook">
+				<a class="facebook social-icon"><i aria-hidden="true" class="fab fa-facebook-f"></i></a>
+			</li><li class="elementor-repeater-item-05e922a" data-social="twitter">
+				<a class="twitter social-icon"><i aria-hidden="true" class="fab fa-twitter"></i></a>
+			</li><li class="elementor-repeater-item-0bf393d" data-social="whatsapp">
+				<a class="whatsapp social-icon"><i aria-hidden="true" class="jki jki-whatsapp-1-light"></i></a>
+			</li></ul></div>		</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<div class="elementor-element elementor-element-2009d99f elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="2009d99f" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.17.0 - 08-11-2023 */
+.elementor-widget-divider{--divider-border-style:none;--divider-border-width:1px;--divider-color:#0c0d0e;--divider-icon-size:20px;--divider-element-spacing:10px;--divider-pattern-height:24px;--divider-pattern-size:20px;--divider-pattern-url:none;--divider-pattern-repeat:repeat-x}.elementor-widget-divider .elementor-divider{display:flex}.elementor-widget-divider .elementor-divider__text{font-size:15px;line-height:1;max-width:95%}.elementor-widget-divider .elementor-divider__element{margin:0 var(--divider-element-spacing);flex-shrink:0}.elementor-widget-divider .elementor-icon{font-size:var(--divider-icon-size)}.elementor-widget-divider .elementor-divider-separator{display:flex;margin:0;direction:ltr}.elementor-widget-divider--view-line_icon .elementor-divider-separator,.elementor-widget-divider--view-line_text .elementor-divider-separator{align-items:center}.elementor-widget-divider--view-line_icon .elementor-divider-separator:after,.elementor-widget-divider--view-line_icon .elementor-divider-separator:before,.elementor-widget-divider--view-line_text .elementor-divider-separator:after,.elementor-widget-divider--view-line_text .elementor-divider-separator:before{display:block;content:"";border-bottom:0;flex-grow:1;border-top:var(--divider-border-width) var(--divider-border-style) var(--divider-color)}.elementor-widget-divider--element-align-left .elementor-divider .elementor-divider-separator>.elementor-divider__svg:first-of-type{flex-grow:0;flex-shrink:100}.elementor-widget-divider--element-align-left .elementor-divider-separator:before{content:none}.elementor-widget-divider--element-align-left .elementor-divider__element{margin-left:0}.elementor-widget-divider--element-align-right .elementor-divider .elementor-divider-separator>.elementor-divider__svg:last-of-type{flex-grow:0;flex-shrink:100}.elementor-widget-divider--element-align-right .elementor-divider-separator:after{content:none}.elementor-widget-divider--element-align-right .elementor-divider__element{margin-right:0}.elementor-widget-divider:not(.elementor-widget-divider--view-line_text):not(.elementor-widget-divider--view-line_icon) .elementor-divider-separator{border-top:var(--divider-border-width) var(--divider-border-style) var(--divider-color)}.elementor-widget-divider--separator-type-pattern{--divider-border-style:none}.elementor-widget-divider--separator-type-pattern.elementor-widget-divider--view-line .elementor-divider-separator,.elementor-widget-divider--separator-type-pattern:not(.elementor-widget-divider--view-line) .elementor-divider-separator:after,.elementor-widget-divider--separator-type-pattern:not(.elementor-widget-divider--view-line) .elementor-divider-separator:before,.elementor-widget-divider--separator-type-pattern:not([class*=elementor-widget-divider--view]) .elementor-divider-separator{width:100%;min-height:var(--divider-pattern-height);-webkit-mask-size:var(--divider-pattern-size) 100%;mask-size:var(--divider-pattern-size) 100%;-webkit-mask-repeat:var(--divider-pattern-repeat);mask-repeat:var(--divider-pattern-repeat);background-color:var(--divider-color);-webkit-mask-image:var(--divider-pattern-url);mask-image:var(--divider-pattern-url)}.elementor-widget-divider--no-spacing{--divider-pattern-size:auto}.elementor-widget-divider--bg-round{--divider-pattern-repeat:round}.rtl .elementor-widget-divider .elementor-divider__text{direction:rtl}.e-con-inner>.elementor-widget-divider,.e-con>.elementor-widget-divider{width:var(--container-widget-width,100%);--flex-grow:var(--container-widget-flex-grow)}</style>		<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-55fbcddb elementor-widget elementor-widget-jkit_post_comment" data-id="55fbcddb" data-element_type="widget" data-widget_type="jkit_post_comment.default">
+				<div class="elementor-widget-container">
+			<div  class="jeg-elementor-kit jkit-post-comment jeg_module_166_7_67dfd2ee5051e" ></div>		</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-1446d2e9" data-id="1446d2e9" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<section class="elementor-section elementor-inner-section elementor-element elementor-element-51170770 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="51170770" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-no">
+					<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-15fa52c9" data-id="15fa52c9" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-784438c9 elementor-widget elementor-widget-heading" data-id="784438c9" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.17.0 - 08-11-2023 */
+.elementor-heading-title{padding:0;margin:0;line-height:1}.elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a{color:inherit;font-size:inherit;line-height:inherit}.elementor-widget-heading .elementor-heading-title.elementor-size-small{font-size:15px}.elementor-widget-heading .elementor-heading-title.elementor-size-medium{font-size:19px}.elementor-widget-heading .elementor-heading-title.elementor-size-large{font-size:29px}.elementor-widget-heading .elementor-heading-title.elementor-size-xl{font-size:39px}.elementor-widget-heading .elementor-heading-title.elementor-size-xxl{font-size:59px}</style><h3 class="elementor-heading-title elementor-size-default">Recent Posts</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-4240ff44 elementor-widget elementor-widget-jkit_post_list" data-id="4240ff44" data-element_type="widget" data-widget_type="jkit_post_list.default">
+				<div class="elementor-widget-container">
+			<div  class="jeg-elementor-kit jkit-postlist layout-horizontal post-element jkit-pagination-disable jeg_module_166_8_67dfd2ee55c27"  data-id="jeg_module_166_8_67dfd2ee55c27" data-settings="{&quot;post_type&quot;:&quot;post&quot;,&quot;number_post&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:3,&quot;sizes&quot;:[]},&quot;post_offset&quot;:0,&quot;unique_content&quot;:&quot;disable&quot;,&quot;include_post&quot;:&quot;&quot;,&quot;exclude_post&quot;:&quot;&quot;,&quot;include_category&quot;:&quot;&quot;,&quot;exclude_category&quot;:&quot;&quot;,&quot;include_author&quot;:&quot;&quot;,&quot;include_tag&quot;:&quot;&quot;,&quot;exclude_tag&quot;:&quot;&quot;,&quot;sort_by&quot;:&quot;latest&quot;,&quot;pagination_mode&quot;:&quot;disable&quot;,&quot;pagination_loadmore_text&quot;:&quot;Load More&quot;,&quot;pagination_loading_text&quot;:&quot;Loading...&quot;,&quot;pagination_number_post&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:3,&quot;sizes&quot;:[]},&quot;pagination_scroll_limit&quot;:0,&quot;pagination_icon&quot;:{&quot;value&quot;:&quot;&quot;,&quot;library&quot;:&quot;&quot;},&quot;pagination_icon_position&quot;:&quot;before&quot;,&quot;sg_content_layout&quot;:&quot;horizontal&quot;,&quot;sg_content_image_enable&quot;:&quot;&quot;,&quot;sg_content_background_image_enable&quot;:&quot;&quot;,&quot;sg_content_icon_enable&quot;:&quot;&quot;,&quot;sg_content_icon&quot;:{&quot;value&quot;:&quot;fas fa-circle&quot;,&quot;library&quot;:&quot;fa-solid&quot;},&quot;sg_content_meta_enable&quot;:&quot;yes&quot;,&quot;sg_content_meta_date_enable&quot;:&quot;yes&quot;,&quot;sg_content_meta_date_type&quot;:&quot;published&quot;,&quot;sg_content_meta_date_format&quot;:&quot;default&quot;,&quot;sg_content_meta_date_format_custom&quot;:&quot;F j, Y&quot;,&quot;sg_content_meta_date_icon&quot;:{&quot;value&quot;:&quot;fas fa-clock&quot;,&quot;library&quot;:&quot;fa-solid&quot;},&quot;sg_content_meta_category_enable&quot;:&quot;&quot;,&quot;sg_content_meta_category_icon&quot;:{&quot;value&quot;:&quot;fas fa-tag&quot;,&quot;library&quot;:&quot;fa-solid&quot;},&quot;sg_content_meta_position&quot;:&quot;bottom&quot;,&quot;sg_content_image_size_imagesize_size&quot;:&quot;medium&quot;,&quot;paged&quot;:1,&quot;class&quot;:&quot;jkit_post_list&quot;}"><div class="jkit-block-container"><div class="jkit-posts jkit-ajax-flag">
+            <article class="jkit-post post-list-item">
+                <a href="https://templatekit.jegtheme.com/bizkeep/2021/11/25/how-your-firm-defines-cas-will-determine-your-growth-strategy/" >
+                    
+                    <div class="jkit-postlist-content"><span class="jkit-postlist-title">How Your Firm Defines CAS Will Determine Your Growth Strategy</span><div class="meta-lists"><span class="meta-date"><i aria-hidden="true" class="fas fa-clock"></i>November 25, 2021</span> </div></div>
+                </a>
+            </article><article class="jkit-post post-list-item">
+                <a href="https://templatekit.jegtheme.com/bizkeep/2021/11/25/how-bookkeeping-fits-into-cas-why-you-should-set-it-to-autopilot/" >
+                    
+                    <div class="jkit-postlist-content"><span class="jkit-postlist-title">How Bookkeeping Fits Into CAS &#038; Why You Should Set it to Autopilot</span><div class="meta-lists"><span class="meta-date"><i aria-hidden="true" class="fas fa-clock"></i>November 25, 2021</span> </div></div>
+                </a>
+            </article><article class="jkit-post post-list-item">
+                <a href="https://templatekit.jegtheme.com/bizkeep/2021/11/25/want-happy-accounting-clients-these-strategies-will-help-you/" >
+                    
+                    <div class="jkit-postlist-content"><span class="jkit-postlist-title">Want Happy Accounting Clients? These Strategies Will Help You</span><div class="meta-lists"><span class="meta-date"><i aria-hidden="true" class="fas fa-clock"></i>November 25, 2021</span> </div></div>
+                </a>
+            </article>
+        </div></div></div>		</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-5603dbad elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="5603dbad" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+							<div class="elementor-background-overlay"></div>
+							<div class="elementor-container elementor-column-gap-no">
+					<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-28ff92bb" data-id="28ff92bb" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-15e8712 elementor-widget elementor-widget-heading" data-id="15e8712" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">Have Any Question?</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-13524ee3 elementor-widget elementor-widget-text-editor" data-id="13524ee3" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							Lorem ipsum dolor sit amet, consecte adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore						</div>
+				</div>
+				<div class="elementor-element elementor-element-61703c1c elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="61703c1c" data-element_type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+					<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-phone-alt"></i>						</span>
+										<span class="elementor-icon-list-text">(021) 4582 - 3695</span>
+									</li>
+								<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-envelope"></i>						</span>
+										<span class="elementor-icon-list-text">support@domain.com</span>
+									</li>
+						</ul>
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-498153f9 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="498153f9" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-no">
+					<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-1b2db6d8" data-id="1b2db6d8" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-c9bd5c1 elementor-widget elementor-widget-heading" data-id="c9bd5c1" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h3 class="elementor-heading-title elementor-size-default">Categories</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-12abc79a elementor-widget elementor-widget-jkit_category_list" data-id="12abc79a" data-element_type="widget" data-widget_type="jkit_category_list.default">
+				<div class="elementor-widget-container">
+			<div  class="jeg-elementor-kit jkit-categorylist layout-vertical jeg_module_166_9_67dfd2ee5bdf4" ><div class="jkit-category category-list-item">
+                <a href="https://templatekit.jegtheme.com/bizkeep/category/strategy/">
+                    <span class="icon-list"><i aria-hidden="true" class="fas fa-chevron-right"></i></span>
+                    <div class="jkit-categorylist-content">Strategy</div>
+                </a>
+            </div><div class="jkit-category category-list-item">
+                <a href="https://templatekit.jegtheme.com/bizkeep/category/financial/">
+                    <span class="icon-list"><i aria-hidden="true" class="fas fa-chevron-right"></i></span>
+                    <div class="jkit-categorylist-content">Financial</div>
+                </a>
+            </div><div class="jkit-category category-list-item">
+                <a href="https://templatekit.jegtheme.com/bizkeep/category/bookkeeping/">
+                    <span class="icon-list"><i aria-hidden="true" class="fas fa-chevron-right"></i></span>
+                    <div class="jkit-categorylist-content">Bookkeeping</div>
+                </a>
+            </div><div class="jkit-category category-list-item">
+                <a href="https://templatekit.jegtheme.com/bizkeep/category/accounting/">
+                    <span class="icon-list"><i aria-hidden="true" class="fas fa-chevron-right"></i></span>
+                    <div class="jkit-categorylist-content">Accounting</div>
+                </a>
+            </div></div>		</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+					</div>
+		</div>
+							</div>
+		</section>
+							</div>
+		]]></content:encoded>
+					
+					<wfw:commentRss>https://templatekit.jegtheme.com/bizkeep/2021/11/25/how-bookkeeping-fits-into-cas-why-you-should-set-it-to-autopilot/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
